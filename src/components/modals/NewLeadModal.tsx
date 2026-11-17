@@ -77,7 +77,7 @@ export const NewLeadModal: React.FC<NewLeadModalProps> = ({
           />
         </div>
 
-        <div className="grid grid-cols-2 gap-3">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
           <div>
             <label className="block text-xs font-semibold text-gray-300 mb-1">Nicho / Categoria</label>
             <input
@@ -112,7 +112,7 @@ export const NewLeadModal: React.FC<NewLeadModalProps> = ({
           />
         </div>
 
-        <div className="grid grid-cols-2 gap-3">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
           <div>
             <label className="block text-xs font-semibold text-gray-300 mb-1">Etapa Inicial do CRM</label>
             <select

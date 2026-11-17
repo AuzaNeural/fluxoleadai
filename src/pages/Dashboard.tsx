@@ -135,7 +135,7 @@ export const Dashboard: React.FC<DashboardProps> = ({ onNavigate }) => {
                 </span>
               </div>
 
-              <p className="mt-3 font-display text-[24px] leading-none text-white tabular-nums sm:text-[30px] font-bold">
+              <p className="mt-3 font-display text-[20px] sm:text-[24px] xl:text-[30px] leading-none text-white tabular-nums font-bold">
                 {card.value}
               </p>
 

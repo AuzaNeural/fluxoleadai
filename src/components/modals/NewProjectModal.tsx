@@ -129,7 +129,7 @@ export const NewProjectModal: React.FC<NewProjectModalProps> = ({
         </div>
       ) : (
         <form onSubmit={handleGenerate} className="space-y-4">
-          <div className="grid grid-cols-2 gap-3">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             <div>
               <label className="block text-xs font-semibold text-gray-300 mb-1">WhatsApp para Botão</label>
               <input

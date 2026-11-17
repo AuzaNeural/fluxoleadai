@@ -120,7 +120,7 @@ export const Configuracoes: React.FC = () => {
                     id="email"
                     disabled
                     className="h-10 w-full rounded-[12px] border border-line bg-surface-2 px-3.5 text-sm text-fg placeholder:text-fg-3/70 transition-colors hover:border-line-strong focus:border-accent-soft/70 focus:outline-none focus:ring-2 focus:ring-accent/20 disabled:opacity-60"
-                    value="juliasouzamartins71@gmail.com"
+                    value={currentUser.email || ''}
                   />
                   <span className="inline-flex items-center gap-1 whitespace-nowrap rounded-full border px-2 py-0.5 text-[11.5px] font-medium border-success/30 bg-success/10 text-success">
                     Confirmado

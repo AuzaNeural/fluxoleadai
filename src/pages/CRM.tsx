@@ -791,8 +791,8 @@ export const CRM: React.FC = () => {
           7. MODAL: SEU WHATSAPP PARA LIGAÇÕES
           ========================================================================= */}
       {isCallsModalOpen && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/70 backdrop-blur-sm animate-fade-in">
-          <div className="fx-card m-auto w-[calc(100vw-2rem)] max-w-xl bg-surface p-6 text-fg rounded-2xl border border-line relative animate-scale-up space-y-4">
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-4 bg-black/70 backdrop-blur-sm animate-fade-in">
+          <div className="fx-card m-auto w-[calc(100vw-2rem)] max-w-xl max-h-[92vh] overflow-y-auto bg-surface p-5 sm:p-6 text-fg rounded-2xl border border-line relative animate-scale-up space-y-4">
             <div className="flex items-start justify-between">
               <div>
                 <h3 className="font-display text-lg font-medium text-fg">Seu WhatsApp para ligações</h3>
@@ -918,8 +918,8 @@ export const CRM: React.FC = () => {
           8. MODAL: LIGAR PARA LEAD ESPECÍFICO
           ========================================================================= */}
       {callLeadModalTarget && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/70 backdrop-blur-sm animate-fade-in">
-          <div className="fx-card m-auto w-[calc(100vw-2rem)] max-w-xl bg-surface p-6 text-fg rounded-2xl border border-line relative animate-scale-up space-y-4">
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-4 bg-black/70 backdrop-blur-sm animate-fade-in">
+          <div className="fx-card m-auto w-[calc(100vw-2rem)] max-w-xl max-h-[92vh] overflow-y-auto bg-surface p-5 sm:p-6 text-fg rounded-2xl border border-line relative animate-scale-up space-y-4">
             <div className="flex items-start justify-between">
               <div>
                 <h3 className="font-display text-lg font-medium text-fg">
@@ -979,8 +979,8 @@ export const CRM: React.FC = () => {
           9. MODAL: NOVO LEMBRETE
           ========================================================================= */}
       {isNewReminderModalOpen && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/70 backdrop-blur-sm animate-fade-in">
-          <div className="fx-card m-auto w-[calc(100vw-2rem)] max-w-md bg-surface p-6 text-fg rounded-2xl border border-line relative animate-scale-up space-y-4">
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-4 bg-black/70 backdrop-blur-sm animate-fade-in">
+          <div className="fx-card m-auto w-[calc(100vw-2rem)] max-w-md max-h-[92vh] overflow-y-auto bg-surface p-5 sm:p-6 text-fg rounded-2xl border border-line relative animate-scale-up space-y-4">
             <div className="flex items-start justify-between">
               <h3 className="font-display text-lg font-medium text-fg">Novo lembrete</h3>
               <button
@@ -1045,8 +1045,8 @@ export const CRM: React.FC = () => {
           10. MODAL: NOVO MODELO / EDITAR MODELO
           ========================================================================= */}
       {editingTemplate && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/70 backdrop-blur-sm animate-fade-in">
-          <div className="fx-card m-auto w-[calc(100vw-2rem)] max-w-xl bg-surface p-6 text-fg rounded-2xl border border-line relative animate-scale-up space-y-4">
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-4 bg-black/70 backdrop-blur-sm animate-fade-in">
+          <div className="fx-card m-auto w-[calc(100vw-2rem)] max-w-xl max-h-[92vh] overflow-y-auto bg-surface p-5 sm:p-6 text-fg rounded-2xl border border-line relative animate-scale-up space-y-4">
             <div className="flex items-start justify-between">
               <h3 className="font-display text-lg font-medium text-fg">
                 {editingTemplate.id ? 'Editar modelo' : 'Novo modelo'}

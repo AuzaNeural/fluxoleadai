@@ -266,10 +266,10 @@ export const BuscarEmpresas: React.FC<BuscarEmpresasProps> = ({ onNavigate }) =>
           {/* Card Principal do Formulário */}
           <form
             onSubmit={handleSearch}
-            className="relative z-30 bg-[#0e1014] border border-[#1e222b] rounded-2xl p-6 sm:p-7 shadow-2xl space-y-5"
+            className="relative z-30 bg-[#0e1014] border border-[#1e222b] rounded-2xl p-4 sm:p-6 lg:p-7 shadow-2xl space-y-5"
           >
             {/* Linha 1: Nicho, País, Estado, Cidade */}
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
               {/* Nicho ou palavra-chave (Combobox Livre) */}
               <div>
                 <label className="block text-xs font-semibold text-gray-300 mb-1.5">
@@ -361,7 +361,7 @@ export const BuscarEmpresas: React.FC<BuscarEmpresasProps> = ({ onNavigate }) =>
             </div>
 
             {/* Linha 2: Bairro, Palavras-chave, Quantidade e Fonte */}
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 items-start">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 items-start">
               {/* Bairro */}
               <div>
                 <label className="block text-xs font-semibold text-gray-300 mb-1.5">
@@ -428,13 +428,13 @@ export const BuscarEmpresas: React.FC<BuscarEmpresasProps> = ({ onNavigate }) =>
               </div>
 
               {/* Fonte: Google Maps */}
-              <div className="pt-7 text-xs text-gray-400">
+              <div className="pt-2 sm:pt-7 text-xs text-gray-400">
                 Fonte: <span className="font-semibold text-white">Google Maps</span>
               </div>
             </div>
 
             {/* Linha 3: Filtros em Pills e Botão Buscar Empresas */}
-            <div className="pt-2 flex flex-col lg:flex-row items-start lg:items-end justify-between gap-5">
+            <div className="pt-2 flex flex-col lg:flex-row items-stretch lg:items-end justify-between gap-5">
               <div className="space-y-2.5">
                 <span className="block text-xs text-gray-400 font-medium">
                   Mostrar nos resultados só empresas...
@@ -464,7 +464,7 @@ export const BuscarEmpresas: React.FC<BuscarEmpresasProps> = ({ onNavigate }) =>
               {/* Botão Buscar Empresas */}
               <button
                 type="submit"
-                className="px-7 py-3 rounded-full bg-gradient-to-r from-[#fa2600] to-[#ff5500] hover:from-[#e02200] hover:to-[#ea4e00] text-white font-bold text-xs tracking-wider uppercase shadow-[0_4px_24px_rgba(250,38,0,0.5)] transition-all flex items-center justify-center gap-2 shrink-0 self-end lg:self-auto cursor-pointer"
+                className="w-full sm:w-auto px-7 py-3 rounded-full bg-gradient-to-r from-[#fa2600] to-[#ff5500] hover:from-[#e02200] hover:to-[#ea4e00] text-white font-bold text-xs tracking-wider uppercase shadow-[0_4px_24px_rgba(250,38,0,0.5)] transition-all flex items-center justify-center gap-2 shrink-0 self-stretch sm:self-end lg:self-auto cursor-pointer"
               >
                 <Search className="w-4 h-4" />
                 <span>BUSCAR EMPRESAS</span>

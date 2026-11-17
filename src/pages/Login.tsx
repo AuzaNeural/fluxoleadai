@@ -8,8 +8,8 @@ export const Login: React.FC = () => {
   const { login } = useAuth();
   const { showToast } = useToast();
 
-  const [email, setEmail] = useState('juliasouzamartins71@gmail.com');
-  const [password, setPassword] = useState('Araujo89@');
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
   const [showPassword, setShowPassword] = useState(false);
   const [loading, setLoading] = useState(false);
 
