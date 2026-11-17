@@ -1,9 +1,11 @@
 import React from 'react';
-import { ChevronRight } from 'lucide-react';
-import historicoData from '../data/historico.json';
+import { ChevronRight, Search, Activity } from 'lucide-react';
+import { storage } from '../services/storage';
 
 export const Historico: React.FC = () => {
-  const { buscas, atividades } = historicoData;
+  const history = storage.getHistory();
+  const buscas = history.filter((h) => h.category === 'Busca');
+  const atividades = history.filter((h) => h.category !== 'Busca');
 
   return (
     <div className="animate-fade-in">
@@ -26,23 +28,30 @@ export const Historico: React.FC = () => {
             <h2 className="font-display text-[15px] text-fg">Buscas</h2>
           </header>
           <div>
-            <ul className="divide-y divide-line">
-              {buscas.map((item, idx) => (
-                <li key={idx}>
-                  <div className="flex flex-wrap items-center gap-x-4 gap-y-1 px-5 py-3.5 hover:bg-white/[0.02] transition-colors cursor-pointer">
-                    <div className="min-w-0 flex-1">
-                      <p className="truncate text-sm text-fg">{item.term}</p>
-                      <p className="text-xs text-fg-3">{item.dateInfo}</p>
-                      <p className="text-xs text-fg-3">{item.stats}</p>
+            {buscas.length === 0 ? (
+              <div className="p-8 text-center text-sm text-fg-3">
+                <Search className="size-6 mx-auto mb-2 opacity-40" />
+                Nenhuma busca realizada no histórico.
+              </div>
+            ) : (
+              <ul className="divide-y divide-line">
+                {buscas.map((item, idx) => (
+                  <li key={item.id || idx}>
+                    <div className="flex flex-wrap items-center gap-x-4 gap-y-1 px-5 py-3.5 hover:bg-white/[0.02] transition-colors cursor-pointer">
+                      <div className="min-w-0 flex-1">
+                        <p className="truncate text-sm text-fg">{item.action}</p>
+                        <p className="text-xs text-fg-3">{item.details}</p>
+                        <p className="text-xs text-fg-3">{item.timestamp}</p>
+                      </div>
+                      <span className="inline-flex items-center gap-1 whitespace-nowrap rounded-full border px-2 py-0.5 text-[11.5px] font-medium border-success/30 bg-success/10 text-success">
+                        Concluída
+                      </span>
+                      <ChevronRight className="size-4 text-fg-3" />
                     </div>
-                    <span className="inline-flex items-center gap-1 whitespace-nowrap rounded-full border px-2 py-0.5 text-[11.5px] font-medium border-success/30 bg-success/10 text-success">
-                      {item.status}
-                    </span>
-                    <ChevronRight className="size-4 text-fg-3" />
-                  </div>
-                </li>
-              ))}
-            </ul>
+                  </li>
+                ))}
+              </ul>
+            )}
           </div>
         </section>
 
@@ -52,14 +61,21 @@ export const Historico: React.FC = () => {
             <h2 className="font-display text-[15px] text-fg">Atividade da conta</h2>
           </header>
           <div>
-            <ul className="divide-y divide-line">
-              {atividades.map((item, idx) => (
-                <li key={idx} className="px-5 py-3">
-                  <p className="text-sm text-fg-2">{item.title}</p>
-                  <p className="text-xs text-fg-3">{item.date}</p>
-                </li>
-              ))}
-            </ul>
+            {atividades.length === 0 ? (
+              <div className="p-8 text-center text-sm text-fg-3">
+                <Activity className="size-6 mx-auto mb-2 opacity-40" />
+                Nenhuma atividade registrada na conta.
+              </div>
+            ) : (
+              <ul className="divide-y divide-line">
+                {atividades.map((item, idx) => (
+                  <li key={item.id || idx} className="px-5 py-3">
+                    <p className="text-sm text-fg-2">{item.action}: {item.details}</p>
+                    <p className="text-xs text-fg-3">{item.timestamp}</p>
+                  </li>
+                ))}
+              </ul>
+            )}
           </div>
         </section>
       </div>

@@ -19,142 +19,19 @@ export const defaultUser: User = {
   email: 'juliasouzamartins71@gmail.com',
   company: 'Auza Neural Growth',
   plan_type: 'Fluxo Lead Anual',
-  searches_used: 142,
+  searches_used: 0,
   searches_limit: 1000,
-  leads_count: 14,
+  leads_count: 0,
   avatar_initial: 'A',
   renewal_date: '14 de Novembro de 2027',
   confirmed_email: true
 };
 
 export const defaultSessions: ActiveSession[] = [
-  { id: 'sess_1', browser: 'Chrome 128 (Windows 11)', ip: '189.40.12.89', last_active: 'Agora (Sessão atual)', is_current: true },
-  { id: 'sess_2', browser: 'Safari 17 (iPhone 15)', ip: '177.18.204.14', last_active: 'Há 2 dias', is_current: false }
+  { id: 'sess_1', browser: 'Navegador Web', ip: 'Sessão atual', last_active: 'Agora', is_current: true }
 ];
 
-export const defaultLeads: Lead[] = [
-  {
-    id: 'lead_1',
-    company_name: 'Haroldo Azevedo Construções',
-    niche: 'Construção Civil',
-    neighborhood: 'Candelária',
-    city: 'Natal',
-    state: 'RN',
-    source: 'Google Maps',
-    phone: '(84) 3231-0094',
-    whatsapp: '558432310094',
-    whatsapp_confirmed: true,
-    status: 'Não contatado',
-    has_website: true,
-    website: 'https://haroldoazevedo.com.br',
-    website_status: 'Site funcionando',
-    next_contact: '—',
-    updated_at: 'há 10 horas',
-    created_at: 'há 10 horas',
-    contacted: false,
-    tags: ['Site funcionando', 'Google Maps']
-  },
-  {
-    id: 'lead_2',
-    company_name: 'Lanchonete Dica',
-    niche: 'Lanchonetes',
-    neighborhood: 'Liberdade',
-    city: 'São Paulo',
-    state: 'SP',
-    source: 'Google Maps',
-    phone: '(11) 94600-7129',
-    whatsapp: '5511946007129',
-    whatsapp_confirmed: false,
-    status: 'Respondeu',
-    has_website: false,
-    website_status: 'Site não informado',
-    next_contact: '—',
-    updated_at: 'há 5 dias',
-    created_at: 'há 5 dias',
-    contacted: true,
-    tags: ['Sem site', 'Google Maps']
-  },
-  {
-    id: 'lead_3',
-    company_name: 'Consultório Odontológico Dra. Lorena Rocha',
-    niche: 'Odontologia',
-    neighborhood: 'Vila Telma',
-    city: 'Montes Claros',
-    state: 'MG',
-    source: 'Google Maps',
-    phone: '(38) 99197-4844',
-    whatsapp: '5538991974844',
-    whatsapp_confirmed: false,
-    status: 'Novo lead',
-    has_website: false,
-    website_status: 'Site não informado',
-    next_contact: '—',
-    updated_at: 'há 7 dias',
-    created_at: 'há 7 dias',
-    contacted: true,
-    tags: ['Sem site', 'Google Maps']
-  },
-  {
-    id: 'lead_4',
-    company_name: 'Papillon Odontologia',
-    niche: 'Odontologia',
-    neighborhood: 'Osvaldo Rezende',
-    city: 'Uberlândia',
-    state: 'MG',
-    source: 'Google Maps',
-    phone: '(34) 98437-9948',
-    whatsapp: '5534984379948',
-    whatsapp_confirmed: false,
-    status: 'Novo lead',
-    has_website: false,
-    website_status: 'Site não informado',
-    next_contact: '—',
-    updated_at: 'há 11 dias',
-    created_at: 'há 11 dias',
-    contacted: false,
-    tags: ['Sem site', 'Google Maps']
-  },
-  {
-    id: 'lead_5',
-    company_name: 'D odontologia dr',
-    niche: 'Odontologia',
-    neighborhood: 'Liberdade',
-    city: 'São Paulo',
-    state: 'SP',
-    source: 'Google Maps',
-    phone: '(11) 95314-7989',
-    whatsapp: '5511953147989',
-    whatsapp_confirmed: false,
-    status: 'Novo lead',
-    has_website: true,
-    website_status: 'Problema confirmado',
-    next_contact: '—',
-    updated_at: 'há 12 dias',
-    created_at: 'há 12 dias',
-    contacted: false,
-    tags: ['Problema confirmado', 'Google Maps']
-  },
-  {
-    id: 'lead_6',
-    company_name: 'Ratatui',
-    niche: 'Restaurantes',
-    neighborhood: 'Bela Vista',
-    city: 'São Paulo',
-    state: 'SP',
-    source: 'Google Maps',
-    phone: '(11) 91338-3340',
-    whatsapp: '5511913383340',
-    whatsapp_confirmed: true,
-    status: 'Novo lead',
-    has_website: false,
-    website_status: 'Site não informado',
-    next_contact: '—',
-    updated_at: 'há 28 dias',
-    created_at: 'há 28 dias',
-    contacted: false,
-    tags: ['Sem site', 'Google Maps']
-  }
-];
+export const defaultLeads: Lead[] = [];
 
 export const defaultTemplates: Template[] = [
   {
@@ -335,44 +212,18 @@ export const defaultTemplates: Template[] = [
   }
 ];
 
-export const defaultProjects: Project[] = [
-  {
-    id: 'proj_1',
-    name: 'Site — Haroldo Azevedo Construções',
-    template_id: 'tmpl_const_1',
-    status: 'Draft',
-    created_at: 'Há 3 dias',
-    updated_at: 'há 3 dias',
-    category: 'Construção — Construc',
-    thumbnail: 'https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=600&auto=format&fit=crop&q=80'
-  },
-  {
-    id: 'proj_2',
-    name: 'Site — Lanchonete Dica',
-    template_id: 'tmpl_caf_1',
-    status: 'Draft',
-    created_at: 'Há 4 dias',
-    updated_at: 'há 4 dias',
-    category: 'Cafeteria — Coffee',
-    thumbnail: 'https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=600&auto=format&fit=crop&q=80'
-  }
-];
+export const defaultProjects: Project[] = [];
 
 export const defaultWhatsApp: WhatsAppInstance = {
   id: 'wa_1',
   name: 'WhatsApp Vendas Comercial',
-  phone: '+55 11 98845-9012',
+  phone: '',
   status: 'Disconnected',
   ai_status: 'Paused',
   contacts_count: 0
 };
 
-export const defaultHistory: HistoryItem[] = [
-  { id: 'h_1', action: 'Busca de Empresas', details: 'Busca por "Dentistas" em São Paulo / SP - 50 resultados', timestamp: 'Hoje às 14:15', category: 'Busca' },
-  { id: 'h_2', action: 'Lead Adicionado ao CRM', details: 'Empresa "Dr. Lucas Odontologia" adicionada na etapa Novo lead', timestamp: 'Hoje às 14:22', category: 'CRM' },
-  { id: 'h_3', action: 'Projeto Criado', details: 'Novo site criado com template "Clínica & Consultório Médico"', timestamp: '10/11/2026', category: 'Projeto' },
-  { id: 'h_4', action: 'Login Efetuado', details: 'Acesso autenticado via Chrome Windows', timestamp: 'Hoje às 12:00', category: 'Conta' }
-];
+export const defaultHistory: HistoryItem[] = [];
 
 export const storage = {
   getUser: (): User => {
@@ -384,16 +235,19 @@ export const storage = {
   },
   getLeads: (): Lead[] => {
     const data = localStorage.getItem(STORAGE_KEYS.LEADS);
-    if (!data) return defaultLeads;
+    if (!data) return [];
     try {
       const parsed = JSON.parse(data);
-      if (Array.isArray(parsed) && parsed.length > 0 && (parsed[0].updated_at === 'há 3 dias' || parsed[0].status === 'Novo lead')) {
-        localStorage.setItem(STORAGE_KEYS.LEADS, JSON.stringify(defaultLeads));
-        return defaultLeads;
+      if (Array.isArray(parsed)) {
+        // Filtra possíveis resíduos de mocks anteriores caso o usuário já tenha carregado no browser
+        const filtered = parsed.filter(
+          (l) => !l.company_name?.includes('Haroldo Azevedo') && !l.company_name?.includes('Lanchonete Dica')
+        );
+        return filtered;
       }
-      return parsed;
+      return [];
     } catch {
-      return defaultLeads;
+      return [];
     }
   },
   setLeads: (leads: Lead[]) => {
@@ -401,16 +255,18 @@ export const storage = {
   },
   getProjects: (): Project[] => {
     const data = localStorage.getItem(STORAGE_KEYS.PROJECTS);
-    if (!data) return defaultProjects;
+    if (!data) return [];
     try {
       const parsed = JSON.parse(data);
-      if (Array.isArray(parsed) && parsed.length > 0 && parsed[0].name.includes('Dr. Lucas')) {
-        localStorage.setItem(STORAGE_KEYS.PROJECTS, JSON.stringify(defaultProjects));
-        return defaultProjects;
+      if (Array.isArray(parsed)) {
+        const filtered = parsed.filter(
+          (p) => !p.name?.includes('Haroldo Azevedo') && !p.name?.includes('Lanchonete Dica') && !p.name?.includes('Dr. Lucas')
+        );
+        return filtered;
       }
-      return parsed;
+      return [];
     } catch {
-      return defaultProjects;
+      return [];
     }
   },
   setProjects: (projects: Project[]) => {
@@ -439,7 +295,16 @@ export const storage = {
   },
   getHistory: (): HistoryItem[] => {
     const data = localStorage.getItem(STORAGE_KEYS.HISTORY);
-    return data ? JSON.parse(data) : defaultHistory;
+    if (!data) return [];
+    try {
+      const parsed = JSON.parse(data);
+      if (Array.isArray(parsed)) {
+        return parsed.filter((h) => !h.details?.includes('Dr. Lucas Odontologia'));
+      }
+      return [];
+    } catch {
+      return [];
+    }
   },
   addHistory: (item: Omit<HistoryItem, 'id' | 'timestamp'>) => {
     const history = storage.getHistory();

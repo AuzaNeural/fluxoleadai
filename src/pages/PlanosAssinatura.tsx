@@ -1,9 +1,12 @@
 import React from 'react';
 import { Check, CreditCard } from 'lucide-react';
 import { useToast } from '../context/ToastContext';
+import { storage } from '../services/storage';
 
 export const PlanosAssinatura: React.FC = () => {
   const { showToast } = useToast();
+  const user = storage.getUser();
+  const leads = storage.getLeads();
 
   return (
     <div className="animate-fade-in">
@@ -48,13 +51,13 @@ export const PlanosAssinatura: React.FC = () => {
               <div>
                 <p className="text-xs text-fg-3">Buscas</p>
                 <p className="mt-1 font-display text-2xl text-fg tabular-nums">
-                  15<span className="text-sm text-fg-3"> / ∞</span>
+                  {user.searches_used}<span className="text-sm text-fg-3"> / ∞</span>
                 </p>
               </div>
               <div>
                 <p className="text-xs text-fg-3">Leads salvos</p>
                 <p className="mt-1 font-display text-2xl text-fg tabular-nums">
-                  6<span className="text-sm text-fg-3"> / ∞</span>
+                  {leads.length}<span className="text-sm text-fg-3"> / ∞</span>
                 </p>
               </div>
               <div>

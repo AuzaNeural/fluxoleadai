@@ -12,6 +12,7 @@ import {
 } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
 import { useLeads } from '../context/LeadContext';
+import { storage } from '../services/storage';
 import { PageId } from '../components/layout/Sidebar';
 
 interface DashboardProps {
@@ -22,15 +23,18 @@ export const Dashboard: React.FC<DashboardProps> = ({ onNavigate }) => {
   const { user } = useAuth();
   const { leads, projects } = useLeads();
 
-  const leadsSalvosCount = leads.length > 0 ? leads.length : 6;
-  const noSiteCount = leads.filter((l) => !l.has_website || l.website_status === 'Site não informado').length || 4;
-  const withSiteCount = leads.filter((l) => l.has_website && l.website_status !== 'Site não informado').length || 2;
-  const contactedCount = leads.filter((l) => l.contacted).length || 2;
+  const leadsSalvosCount = leads.length;
+  const noSiteCount = leads.filter((l) => !l.has_website || l.website_status === 'Site não informado').length;
+  const withSiteCount = leads.filter((l) => l.has_website && l.website_status !== 'Site não informado').length;
+  const contactedCount = leads.filter((l) => l.contacted).length;
+  const inNegotiationCount = leads.filter((l) =>
+    ['Primeiro contato', 'Respondeu', 'Interessado', 'Reunião marcada', 'Proposta enviada', 'Negociação'].includes(l.status)
+  ).length;
 
   const metricCards = [
     {
       title: 'Empresas encontradas',
-      value: '396',
+      value: user.searches_used > 0 ? String(user.searches_used * 12) : '0',
       subtext: 'Em todas as suas buscas',
       icon: Building2,
       hasGlow: true,
@@ -50,7 +54,7 @@ export const Dashboard: React.FC<DashboardProps> = ({ onNavigate }) => {
     {
       title: 'Com site',
       value: String(withSiteCount),
-      subtext: '1 com falha verificada',
+      subtext: withSiteCount > 0 ? 'Sites verificados' : '',
       icon: Globe,
     },
     {
@@ -61,13 +65,13 @@ export const Dashboard: React.FC<DashboardProps> = ({ onNavigate }) => {
     },
     {
       title: 'Negociações em andamento',
-      value: '0',
+      value: String(inNegotiationCount),
       subtext: 'Interessado, reunião, proposta e negociação',
       icon: Handshake,
     },
     {
       title: 'Projetos criados',
-      value: String(projects.length > 0 ? projects.length : 2),
+      value: String(projects.length),
       subtext: '',
       icon: FolderKanban,
     },
@@ -79,24 +83,7 @@ export const Dashboard: React.FC<DashboardProps> = ({ onNavigate }) => {
     },
   ];
 
-  const recentSearches = [
-    {
-      title: 'Restaurantes · Acrelândia, Acre',
-      details: 'há 3 dias · Google Maps · 18 empresa(s)',
-    },
-    {
-      title: 'Restaurantes · Acrelândia, Acre',
-      details: 'há 3 dias · Google Maps · 7 empresa(s)',
-    },
-    {
-      title: 'Restaurantes · Acrelândia, Acre',
-      details: 'há 3 dias · Google Maps · 7 empresa(s)',
-    },
-    {
-      title: 'Restaurantes · Alexandria, Rio Grande do Norte',
-      details: 'há 3 dias · Google Maps · 3 empresa(s)',
-    },
-  ];
+  const recentSearches = storage.getHistory().filter((h) => h.category === 'Busca');
 
   return (
     <div className="relative space-y-6 animate-fade-in select-none">
@@ -180,31 +167,37 @@ export const Dashboard: React.FC<DashboardProps> = ({ onNavigate }) => {
           </header>
 
           <div>
-            <ul className="divide-y divide-[#1e222b]">
-              {recentSearches.map((item, idx) => (
-                <li key={idx}>
-                  <div
-                    onClick={() => onNavigate('buscar-empresas')}
-                    className="flex items-center gap-4 px-5 py-3.5 transition-colors hover:bg-white/[0.02] cursor-pointer"
-                  >
-                    <div className="min-w-0 flex-1">
-                      <p className="truncate text-sm text-white font-medium">
-                        {item.title}
-                      </p>
-                      <p className="mt-0.5 text-xs text-[#929292]">
-                        {item.details}
-                      </p>
+            {recentSearches.length === 0 ? (
+              <div className="p-8 text-center">
+                <p className="text-sm text-[#929292]">Nenhuma busca recente realizada.</p>
+              </div>
+            ) : (
+              <ul className="divide-y divide-[#1e222b]">
+                {recentSearches.map((item, idx) => (
+                  <li key={item.id || idx}>
+                    <div
+                      onClick={() => onNavigate('buscar-empresas')}
+                      className="flex items-center gap-4 px-5 py-3.5 transition-colors hover:bg-white/[0.02] cursor-pointer"
+                    >
+                      <div className="min-w-0 flex-1">
+                        <p className="truncate text-sm text-white font-medium">
+                          {item.action}
+                        </p>
+                        <p className="mt-0.5 text-xs text-[#929292]">
+                          {item.details} · {item.timestamp}
+                        </p>
+                      </div>
+
+                      <span className="inline-flex items-center gap-1 whitespace-nowrap rounded-full border px-2 py-0.5 text-[11.5px] font-medium border-emerald-500/30 bg-emerald-500/10 text-emerald-400">
+                        Concluída
+                      </span>
+
+                      <ArrowRight className="w-4 h-4 text-[#929292]" />
                     </div>
-
-                    <span className="inline-flex items-center gap-1 whitespace-nowrap rounded-full border px-2 py-0.5 text-[11.5px] font-medium border-emerald-500/30 bg-emerald-500/10 text-emerald-400">
-                      Concluída
-                    </span>
-
-                    <ArrowRight className="w-4 h-4 text-[#929292]" />
-                  </div>
-                </li>
-              ))}
-            </ul>
+                  </li>
+                ))}
+              </ul>
+            )}
           </div>
         </section>
 

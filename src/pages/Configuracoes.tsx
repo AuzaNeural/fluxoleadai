@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Laptop, X } from 'lucide-react';
 import { useToast } from '../context/ToastContext';
+import { storage } from '../services/storage';
 
 interface ActiveSessionItem {
   id: string;
@@ -13,9 +14,10 @@ interface ActiveSessionItem {
 
 export const Configuracoes: React.FC = () => {
   const { showToast } = useToast();
+  const currentUser = storage.getUser();
 
-  const [nome, setNome] = useState('Anderson');
-  const [empresa, setEmpresa] = useState('fluxo');
+  const [nome, setNome] = useState(currentUser.name || 'Anderson');
+  const [empresa, setEmpresa] = useState(currentUser.company || 'Auza Neural Growth');
   const [senhaAtual, setSenhaAtual] = useState('');
   const [novaSenha, setNovaSenha] = useState('');
   const [repitaSenha, setRepitaSenha] = useState('');
@@ -23,25 +25,11 @@ export const Configuracoes: React.FC = () => {
   const [sessions, setSessions] = useState<ActiveSessionItem[]>([
     {
       id: 's1',
-      device: 'Navegador · Windows',
-      ip: '104.28.235.105',
-      activeTime: 'há 2 minutos',
-      loginTime: 'há 3 dias',
+      device: 'Navegador Web · Windows',
+      ip: 'Sessão atual',
+      activeTime: 'Agora',
+      loginTime: 'Hoje',
       isCurrent: true
-    },
-    {
-      id: 's2',
-      device: 'Chrome · Windows',
-      ip: '104.28.235.105',
-      activeTime: 'há 5 minutos',
-      loginTime: 'há 4 dias'
-    },
-    {
-      id: 's3',
-      device: 'Chrome · Windows',
-      ip: '45.226.73.87',
-      activeTime: 'há 4 dias',
-      loginTime: 'há 28 dias'
     }
   ]);
 

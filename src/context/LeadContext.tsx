@@ -31,7 +31,7 @@ export const LeadProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
   useEffect(() => {
     if (isSupabaseConfigured) {
       supabaseService.getLeads().then((data) => {
-        if (data && data.length > 0) {
+        if (data) {
           setLeads(data as Lead[]);
           storage.setLeads(data as Lead[]);
         }

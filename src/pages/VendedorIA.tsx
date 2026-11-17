@@ -60,13 +60,7 @@ export const VendedorIA: React.FC = () => {
 
   // Chat simulation state
   const [selectedChatId, setSelectedChatId] = useState<string | null>(null);
-  const [chatMessages, setChatMessages] = useState<Record<string, Array<{ from: 'bot' | 'client'; text: string; time: string }>>>({
-    demo: [
-      { from: 'bot', text: 'Olá! Sou consultor da Fluxo Lead. Notei que a sua empresa no Google Maps possui ótimas avaliações, mas ainda não tem um site oficial cadastrado. Posso te enviar uma prévia de como ficaria?', time: '14:20' },
-      { from: 'client', text: 'Boa tarde! Qual é o valor e quanto tempo demora?', time: '14:24' },
-      { from: 'bot', text: 'Nossa inteligência artificial cria o site em minutos, com design responsivo e botão direto para o seu WhatsApp! Temos planos a partir de R$ 97/mês com domínio incluso.', time: '14:25' }
-    ]
-  });
+  const [chatMessages, setChatMessages] = useState<Record<string, Array<{ from: 'bot' | 'client'; text: string; time: string }>>>({});
   const [newMessage, setNewMessage] = useState<string>('');
   const [connecting, setConnecting] = useState<boolean>(false);
   const [showQrCode, setShowQrCode] = useState<boolean>(true);
@@ -78,7 +72,7 @@ export const VendedorIA: React.FC = () => {
 
   const handleSimulateScan = async () => {
     setConnecting(true);
-    await connectWhatsApp('+55 84 99931-1856');
+    await connectWhatsApp('+55 11 99999-8888');
     setConnecting(false);
     showToast('WhatsApp conectado com sucesso!', 'success');
   };
@@ -95,7 +89,7 @@ export const VendedorIA: React.FC = () => {
       showToast('Informe a senha do painel anterior.', 'error');
       return;
     }
-    await connectWhatsApp('+55 84 99931-1856');
+    await connectWhatsApp('+55 11 99999-8888');
     showToast('Conexão existente vinculada com sucesso!', 'success');
     setSenhaPainelAnterior('');
   };
@@ -502,23 +496,29 @@ export const VendedorIA: React.FC = () => {
 
                   {/* Messages list */}
                   <div className="space-y-3 overflow-y-auto flex-1 pr-2 max-h-[300px]">
-                    {(chatMessages[selectedChatId] || chatMessages['demo']).map((msg, idx) => (
-                      <div
-                        key={idx}
-                        className={`flex flex-col ${msg.from === 'bot' ? 'items-end' : 'items-start'}`}
-                      >
+                    {chatMessages[selectedChatId] && chatMessages[selectedChatId].length > 0 ? (
+                      chatMessages[selectedChatId].map((msg, idx) => (
                         <div
-                          className={`max-w-md p-3 rounded-2xl text-xs leading-relaxed ${
-                            msg.from === 'bot'
-                              ? 'bg-gradient-to-r from-[#fa2600] to-[#e02200] text-white rounded-br-none shadow-md'
-                              : 'bg-[#161922] border border-[#262a34] text-gray-200 rounded-bl-none'
-                          }`}
+                          key={idx}
+                          className={`flex flex-col ${msg.from === 'bot' ? 'items-end' : 'items-start'}`}
                         >
-                          {msg.text}
+                          <div
+                            className={`max-w-md p-3 rounded-2xl text-xs leading-relaxed ${
+                              msg.from === 'bot'
+                                ? 'bg-gradient-to-r from-[#fa2600] to-[#e02200] text-white rounded-br-none shadow-md'
+                                : 'bg-[#161922] border border-[#262a34] text-gray-200 rounded-bl-none'
+                            }`}
+                          >
+                            {msg.text}
+                          </div>
+                          <span className="text-[10px] text-gray-500 mt-1 px-1">{msg.time}</span>
                         </div>
-                        <span className="text-[10px] text-gray-500 mt-1 px-1">{msg.time}</span>
+                      ))
+                    ) : (
+                      <div className="flex-1 flex items-center justify-center py-10 text-center">
+                        <p className="text-xs text-fg-3">Nenhuma mensagem trocada ainda com este lead.</p>
                       </div>
-                    ))}
+                    )}
                   </div>
 
                   {/* Input form */}
