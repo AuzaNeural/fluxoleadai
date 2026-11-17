@@ -1,5 +1,5 @@
 -- ==============================================================================
--- FLUXO LEAD AI - ESQUEMA DE BANCO DE DADOS SUPABASE (POSTGRESQL)
+-- FLUXO LEAD AI - ESQUEMA DE BANCO DE DADOS SUPABASE (POSTGRESQL IDEMPOTENTE)
 -- ==============================================================================
 
 -- 1. Tabela de Leads
@@ -46,7 +46,7 @@ CREATE TABLE IF NOT EXISTS public.message_templates (
     created_at TIMESTAMP WITH TIME ZONE DEFAULT timezone('utc'::text, now()) NOT NULL
 );
 
--- Inserir os modelos de mensagens padrão
+-- 4. Inserir os modelos de mensagens padrão (sem conflitos)
 INSERT INTO public.message_templates (id, name, body, is_default)
 VALUES 
 (
@@ -67,19 +67,21 @@ VALUES
     'Oi! Voltando ao nosso papo sobre o site da {empresa}. Conseguiu ver o modelo que te mandei? Fico à disposição. — {meu_nome}',
     false
 )
-ON CONFLICT (id) DO NOTHING;
+ON CONFLICT (id) DO UPDATE SET
+    name = EXCLUDED.name,
+    body = EXCLUDED.body;
 
--- 4. Habilitar Row Level Security (RLS)
+-- 5. Habilitar Row Level Security (RLS)
 ALTER TABLE public.leads ENABLE ROW LEVEL SECURITY;
 ALTER TABLE public.reminders ENABLE ROW LEVEL SECURITY;
 ALTER TABLE public.message_templates ENABLE ROW LEVEL SECURITY;
 
--- Políticas de acesso (DROP IF EXISTS para permitir reexecução segura sem erros)
+-- 6. Políticas de acesso 100% seguras (DROP IF EXISTS garante que nunca dará erro 42710)
 DROP POLICY IF EXISTS "Acesso público aos leads" ON public.leads;
-CREATE POLICY "Acesso público aos leads" ON public.leads FOR ALL USING (true);
+CREATE POLICY "Acesso público aos leads" ON public.leads FOR ALL USING (true) WITH CHECK (true);
 
 DROP POLICY IF EXISTS "Acesso público aos lembretes" ON public.reminders;
-CREATE POLICY "Acesso público aos lembretes" ON public.reminders FOR ALL USING (true);
+CREATE POLICY "Acesso público aos lembretes" ON public.reminders FOR ALL USING (true) WITH CHECK (true);
 
 DROP POLICY IF EXISTS "Acesso público aos modelos" ON public.message_templates;
-CREATE POLICY "Acesso público aos modelos" ON public.message_templates FOR ALL USING (true);
+CREATE POLICY "Acesso público aos modelos" ON public.message_templates FOR ALL USING (true) WITH CHECK (true);

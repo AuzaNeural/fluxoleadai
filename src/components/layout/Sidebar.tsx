@@ -81,78 +81,76 @@ export const Sidebar: React.FC<SidebarProps> = ({
       )}
 
       <aside
-        className={`fixed top-0 left-0 h-screen bg-[#000000] border-r border-[#1a1c23] flex flex-col justify-between transition-transform lg:transition-[width] duration-300 z-50 select-none ${
+        className={`fixed top-0 left-0 h-screen bg-[#000000] border-r border-[#1a1c23] flex flex-col transition-transform lg:transition-[width] duration-300 z-50 select-none ${
           mobileOpen ? 'translate-x-0 w-[270px] max-w-[85vw] shadow-2xl' : '-translate-x-full lg:translate-x-0'
         } ${collapsed ? 'lg:w-20' : 'lg:w-[230px]'}`}
       >
         {/* Topo: Logo Oficial e Botão Fechar no Mobile */}
-        <div>
+        <div
+          className={`h-16 shrink-0 flex items-center px-5 transition-all ${
+            collapsed ? 'lg:justify-center justify-between' : 'justify-between'
+          }`}
+        >
           <div
-            className={`h-16 flex items-center px-5 transition-all ${
-              collapsed ? 'lg:justify-center justify-between' : 'justify-between'
-            }`}
+            onClick={() => {
+              onNavigate('dashboard');
+              onCloseMobile();
+            }}
+            className="flex items-center cursor-pointer"
           >
-            <div
-              onClick={() => {
-                onNavigate('dashboard');
-                onCloseMobile();
-              }}
-              className="flex items-center cursor-pointer"
-            >
-              <img
-                src="/brand/logo-fluxo-lead.png"
-                alt="Fluxo Lead"
-                className={collapsed ? 'lg:h-6 lg:w-6 h-6 w-auto object-contain' : 'h-6 w-auto object-contain'}
-              />
-            </div>
-
-            {/* Botão fechar apenas no Mobile/Tablet */}
-            <button
-              type="button"
-              onClick={onCloseMobile}
-              className="lg:hidden p-1.5 text-gray-400 hover:text-white rounded-lg hover:bg-white/[0.08] transition-colors cursor-pointer"
-              aria-label="Fechar menu"
-            >
-              <X className="w-5 h-5" />
-            </button>
+            <img
+              src="/brand/logo-fluxo-lead.png"
+              alt="Fluxo Lead"
+              className={collapsed ? 'lg:h-6 lg:w-6 h-6 w-auto object-contain' : 'h-6 w-auto object-contain'}
+            />
           </div>
 
-          {/* Links de Navegação */}
-          <nav className="px-3 py-2 space-y-1 overflow-y-auto max-h-[calc(100vh-220px)]">
-            {menuItems.map((item) => {
-              const Icon = item.icon;
-              const isActive = currentPage === item.id;
-
-              return (
-                <button
-                  key={item.id}
-                  onClick={() => {
-                    onNavigate(item.id);
-                    onCloseMobile();
-                  }}
-                  title={collapsed ? item.label : undefined}
-                  className={`w-full flex items-center gap-3 px-3.5 py-2.5 rounded-xl text-xs transition-all duration-150 cursor-pointer ${
-                    isActive
-                      ? 'bg-gradient-to-r from-[#fa2600] to-[#ff5500] text-white font-semibold shadow-[0_4px_20px_rgba(250,38,0,0.45)]'
-                      : 'text-gray-400 hover:text-gray-200 hover:bg-[#12141a] font-normal'
-                  } ${collapsed ? 'lg:justify-center lg:px-0' : 'justify-start'}`}
-                >
-                  <Icon
-                    className={`w-4 h-4 shrink-0 ${
-                      isActive ? 'text-white' : 'text-gray-400'
-                    }`}
-                  />
-                  {(!collapsed || mobileOpen) && (
-                    <span className="truncate">{item.label}</span>
-                  )}
-                </button>
-              );
-            })}
-          </nav>
+          {/* Botão fechar apenas no Mobile/Tablet */}
+          <button
+            type="button"
+            onClick={onCloseMobile}
+            className="lg:hidden p-1.5 text-gray-400 hover:text-white rounded-lg hover:bg-white/[0.08] transition-colors cursor-pointer"
+            aria-label="Fechar menu"
+          >
+            <X className="w-5 h-5" />
+          </button>
         </div>
 
+        {/* Links de Navegação (Flex-1 com min-h-0 para nunca cortar items no rodapé) */}
+        <nav className="flex-1 min-h-0 overflow-y-auto px-3 py-2 space-y-1 pb-4 overscroll-contain">
+          {menuItems.map((item) => {
+            const Icon = item.icon;
+            const isActive = currentPage === item.id;
+
+            return (
+              <button
+                key={item.id}
+                onClick={() => {
+                  onNavigate(item.id);
+                  onCloseMobile();
+                }}
+                title={collapsed ? item.label : undefined}
+                className={`w-full flex items-center gap-3 px-3.5 py-2.5 rounded-xl text-xs transition-all duration-150 cursor-pointer ${
+                  isActive
+                    ? 'bg-gradient-to-r from-[#fa2600] to-[#ff5500] text-white font-semibold shadow-[0_4px_20px_rgba(250,38,0,0.45)]'
+                    : 'text-gray-400 hover:text-gray-200 hover:bg-[#12141a] font-normal'
+                } ${collapsed ? 'lg:justify-center lg:px-0' : 'justify-start'}`}
+              >
+                <Icon
+                  className={`w-4 h-4 shrink-0 ${
+                    isActive ? 'text-white' : 'text-gray-400'
+                  }`}
+                />
+                {(!collapsed || mobileOpen) && (
+                  <span className="truncate">{item.label}</span>
+                )}
+              </button>
+            );
+          })}
+        </nav>
+
         {/* Rodapé da Sidebar */}
-        <div className="p-3 border-t border-[#181a20] bg-[#000000]">
+        <div className="shrink-0 p-3 border-t border-[#181a20] bg-[#000000]">
           {/* Badge de Plano Verde */}
           {(!collapsed || mobileOpen) && (
             <div className="mb-3">

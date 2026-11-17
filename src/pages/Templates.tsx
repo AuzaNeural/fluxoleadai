@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { ExternalLink, X, Eye } from 'lucide-react';
+import React, { useState, useEffect, useRef } from 'react';
+import { ExternalLink, X, Eye, Sparkles, Play, Pause, Smartphone, Monitor } from 'lucide-react';
 import { Template } from '../types';
 import { NewProjectModal } from '../components/modals/NewProjectModal';
 import { Modal } from '../components/common/Modal';
@@ -21,6 +21,24 @@ interface RawTemplate {
 }
 
 const templatesData: RawTemplate[] = rawTemplates as RawTemplate[];
+
+const isAnimatedTemplate = (tmpl: RawTemplate) => {
+  const text = (tmpl.description + ' ' + tmpl.name).toLowerCase();
+  return (
+    text.includes('vídeo') ||
+    text.includes('video') ||
+    text.includes('animad') ||
+    text.includes('slideshow') ||
+    text.includes('carrossel') ||
+    text.includes('slides') ||
+    text.includes('dinâmic') ||
+    text.includes('dinamic') ||
+    text.includes('interativ') ||
+    text.includes('flutuante') ||
+    text.includes('lupa') ||
+    text.includes('transiç')
+  );
+};
 
 const getCategoryFallback = (cat: string) => {
   const map: Record<string, string> = {
@@ -47,6 +65,7 @@ const getCategoryFallback = (cat: string) => {
 
 const categories = [
   'Todos',
+  '✨ Animados',
   'Tecnologia',
   'Educação',
   'Academias e esportes',
@@ -71,16 +90,41 @@ export const Templates: React.FC<TemplatesProps> = ({ onNavigate }) => {
   const [selectedCategory, setSelectedCategory] = useState<string>('Todos');
   const [activeTemplateForModal, setActiveTemplateForModal] = useState<Template | null>(null);
   const [previewTemplate, setPreviewTemplate] = useState<RawTemplate | null>(null);
+  const [previewDevice, setPreviewDevice] = useState<'desktop' | 'mobile'>('desktop');
+  const [isAutoScrolling, setIsAutoScrolling] = useState<boolean>(true);
+
+  const scrollContainerRef = useRef<HTMLDivElement>(null);
+
+  // Auto-scroll simulation for interactive preview
+  useEffect(() => {
+    if (!previewTemplate || !isAutoScrolling) return;
+
+    const interval = setInterval(() => {
+      if (scrollContainerRef.current) {
+        const el = scrollContainerRef.current;
+        if (el.scrollTop + el.clientHeight >= el.scrollHeight - 5) {
+          el.scrollTo({ top: 0, behavior: 'smooth' });
+        } else {
+          el.scrollBy({ top: 1.5, behavior: 'auto' });
+        }
+      }
+    }, 40);
+
+    return () => clearInterval(interval);
+  }, [previewTemplate, isAutoScrolling]);
 
   const filteredTemplates = templatesData.filter((tmpl) => {
     const matchesSearch =
       tmpl.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
       tmpl.description.toLowerCase().includes(searchTerm.toLowerCase()) ||
       tmpl.category.toLowerCase().includes(searchTerm.toLowerCase());
-    const matchesCat =
-      selectedCategory === 'Todos' ||
-      tmpl.category.toLowerCase().trim() === selectedCategory.toLowerCase().trim();
-    return matchesSearch && matchesCat;
+
+    if (!matchesSearch) return false;
+
+    if (selectedCategory === 'Todos') return true;
+    if (selectedCategory === '✨ Animados') return isAnimatedTemplate(tmpl);
+
+    return tmpl.category.toLowerCase().trim() === selectedCategory.toLowerCase().trim();
   });
 
   const handleUseTemplate = (tmpl: RawTemplate) => {
@@ -94,12 +138,12 @@ export const Templates: React.FC<TemplatesProps> = ({ onNavigate }) => {
   };
 
   return (
-    <div className="animate-fade-in">
+    <div className="animate-fade-in select-none">
       <header className="mb-7">
         <p className="fx-eyebrow mb-3 inline-block rounded-full border border-accent/30 px-3 py-1 !text-[10.5px]">
           Escolha um modelo
         </p>
-        <h1 className="font-display text-[30px] leading-tight text-fg sm:text-[40px]">
+        <h1 className="font-display text-[30px] leading-tight text-fg sm:text-[40px] font-bold">
           Escolha um modelo e crie em minutos
         </h1>
         <p className="mt-2 max-w-2xl text-sm leading-relaxed text-fg-3">
@@ -116,7 +160,7 @@ export const Templates: React.FC<TemplatesProps> = ({ onNavigate }) => {
         <input
           type="search"
           aria-label="Buscar templates"
-          placeholder="Buscar modelos"
+          placeholder="Buscar modelos ou animações (ex.: vídeo, carrossel, slider...)"
           className="min-w-0 flex-1 rounded-full border border-line bg-surface-2 px-4 py-2 text-sm text-fg placeholder:text-fg-3 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
@@ -129,18 +173,23 @@ export const Templates: React.FC<TemplatesProps> = ({ onNavigate }) => {
         </button>
       </form>
 
-      {/* Categorias */}
+      {/* Categorias com destaque para ✨ Animados */}
       <nav className="mb-7 flex flex-wrap gap-2" aria-label="Categorias">
         {categories.map((cat) => {
           const isActive = selectedCategory === cat;
+          const isSpecialAnim = cat === '✨ Animados';
           return (
             <button
               key={cat}
               type="button"
               onClick={() => setSelectedCategory(cat)}
-              className={`inline-flex h-8 items-center rounded-full border px-3.5 text-[10.5px] font-semibold uppercase tracking-[0.12em] transition-colors ${
+              className={`inline-flex h-8 items-center rounded-full border px-3.5 text-[10.5px] font-semibold uppercase tracking-[0.12em] transition-all cursor-pointer ${
                 isActive
-                  ? 'border-transparent bg-fg-2 text-black'
+                  ? isSpecialAnim
+                    ? 'border-transparent bg-gradient-to-r from-[#fa2600] to-[#ff5500] text-white shadow-[0_2px_12px_rgba(250,38,0,0.5)]'
+                    : 'border-transparent bg-fg-2 text-black'
+                  : isSpecialAnim
+                  ? 'border-[#fa2600]/40 bg-[#fa2600]/10 text-[#ff7f5f] hover:bg-[#fa2600]/20'
                   : 'border-line bg-surface-2 text-fg-3 hover:border-line-strong hover:text-fg-2'
               }`}
             >
@@ -150,54 +199,82 @@ export const Templates: React.FC<TemplatesProps> = ({ onNavigate }) => {
         })}
       </nav>
 
-      {/* Grid de Templates */}
+      {/* Grid de Templates Responsivo */}
       <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
-        {filteredTemplates.map((tmpl) => (
-          <article
-            key={tmpl.id}
-            data-catalogue-card="true"
-            className="group relative flex flex-col rounded-[18px] border bg-surface p-3 transition-colors border-line hover:border-line-strong"
-          >
-            <div className="relative aspect-[16/10] overflow-hidden rounded-[12px] bg-surface-3">
-              <img
-                src={tmpl.thumbnail || getCategoryFallback(tmpl.category)}
-                onError={(e) => {
-                  e.currentTarget.src = getCategoryFallback(tmpl.category);
-                }}
-                alt={`Prévia do modelo ${tmpl.name}`}
-                loading="lazy"
-                className="size-full object-cover object-top transition-transform duration-500 group-hover:scale-[1.04]"
-              />
-            </div>
-            <div className="flex flex-1 flex-col px-1.5 pb-1 pt-4">
-              <p className="text-[10.5px] font-semibold uppercase tracking-[0.14em] text-accent">
-                [ {tmpl.category} ]
-              </p>
-              <h3 className="mt-1.5 font-display text-[22px] leading-tight text-fg">
-                {tmpl.name}
-              </h3>
-              <p className="mt-1.5 line-clamp-3 text-[13px] leading-relaxed text-fg-3">
-                {tmpl.description}
-              </p>
-              <div className="mt-auto flex gap-2 pt-4">
-                <button
-                  type="button"
-                  onClick={() => handleUseTemplate(tmpl)}
-                  className="fx-btn-primary inline-flex h-8 flex-1 items-center justify-center whitespace-nowrap rounded-full px-2.5 text-[10.5px] font-semibold uppercase tracking-[0.1em] text-white"
-                >
-                  Usar modelo
-                </button>
-                <button
-                  type="button"
-                  onClick={() => setPreviewTemplate(tmpl)}
-                  className="inline-flex h-8 flex-1 items-center justify-center rounded-full bg-fg-2 px-3 text-[10.5px] font-semibold uppercase tracking-[0.12em] text-black transition-colors hover:bg-fg"
-                >
-                  Visualizar
-                </button>
+        {filteredTemplates.map((tmpl) => {
+          const isAnim = isAnimatedTemplate(tmpl);
+          return (
+            <article
+              key={tmpl.id}
+              data-catalogue-card="true"
+              className="group relative flex flex-col rounded-[18px] border bg-surface p-3 transition-all duration-300 border-line hover:border-line-strong hover:shadow-xl hover:shadow-black/60"
+            >
+              <div className="relative aspect-[16/10] overflow-hidden rounded-[12px] bg-surface-3">
+                {/* Selo Animado para Modelos com Efeitos */}
+                {isAnim && (
+                  <span className="absolute top-2.5 right-2.5 z-10 flex items-center gap-1.5 rounded-full bg-black/80 backdrop-blur-md border border-[#fa2600]/60 px-2.5 py-0.5 text-[10px] font-semibold text-[#ff7f5f] shadow-lg">
+                    <span className="relative flex h-2 w-2">
+                      <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#fa2600] opacity-75"></span>
+                      <span className="relative inline-flex rounded-full h-2 w-2 bg-[#fa2600]"></span>
+                    </span>
+                    <span>Animado</span>
+                  </span>
+                )}
+
+                <img
+                  src={tmpl.thumbnail || getCategoryFallback(tmpl.category)}
+                  onError={(e) => {
+                    e.currentTarget.src = getCategoryFallback(tmpl.category);
+                  }}
+                  alt={`Prévia do modelo ${tmpl.name}`}
+                  loading="lazy"
+                  className="size-full object-cover object-top transition-transform duration-700 ease-out group-hover:scale-[1.05]"
+                />
               </div>
-            </div>
-          </article>
-        ))}
+
+              <div className="flex flex-1 flex-col px-1.5 pb-1 pt-4">
+                <div className="flex items-center justify-between gap-2">
+                  <p className="text-[10.5px] font-semibold uppercase tracking-[0.14em] text-accent">
+                    [ {tmpl.category} ]
+                  </p>
+                  {isAnim && (
+                    <span className="text-[10px] text-gray-500 font-medium flex items-center gap-1">
+                      <Sparkles className="w-3 h-3 text-orange-400" />
+                      Interativo
+                    </span>
+                  )}
+                </div>
+
+                <h3 className="mt-1.5 font-display text-[22px] leading-tight text-fg font-semibold">
+                  {tmpl.name}
+                </h3>
+                <p className="mt-1.5 line-clamp-3 text-[13px] leading-relaxed text-fg-3">
+                  {tmpl.description}
+                </p>
+                <div className="mt-auto flex gap-2 pt-4">
+                  <button
+                    type="button"
+                    onClick={() => handleUseTemplate(tmpl)}
+                    className="fx-btn-primary inline-flex h-8 flex-1 items-center justify-center whitespace-nowrap rounded-full px-2.5 text-[10.5px] font-semibold uppercase tracking-[0.1em] text-white cursor-pointer"
+                  >
+                    Usar modelo
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setPreviewTemplate(tmpl);
+                      setIsAutoScrolling(true);
+                      setPreviewDevice('desktop');
+                    }}
+                    className="inline-flex h-8 flex-1 items-center justify-center rounded-full bg-fg-2 px-3 text-[10.5px] font-semibold uppercase tracking-[0.12em] text-black transition-colors hover:bg-fg cursor-pointer"
+                  >
+                    Visualizar
+                  </button>
+                </div>
+              </div>
+            </article>
+          );
+        })}
       </div>
 
       {/* Modal de Criação de Projeto */}
@@ -213,7 +290,7 @@ export const Templates: React.FC<TemplatesProps> = ({ onNavigate }) => {
         />
       )}
 
-      {/* Modal de Preview do Template */}
+      {/* Modal Interativo com Simulação de Scroll e Efeitos Animados */}
       {previewTemplate && (
         <Modal
           isOpen={!!previewTemplate}
@@ -221,24 +298,126 @@ export const Templates: React.FC<TemplatesProps> = ({ onNavigate }) => {
           title={previewTemplate.name}
         >
           <div className="space-y-4">
-            <div className="relative aspect-[16/10] overflow-hidden rounded-[14px] border border-line bg-surface-3">
-              <img
-                src={previewTemplate.thumbnail || getCategoryFallback(previewTemplate.category)}
-                onError={(e) => {
-                  e.currentTarget.src = getCategoryFallback(previewTemplate.category);
-                }}
-                alt={previewTemplate.name}
-                className="size-full object-cover object-top"
-              />
+            {/* Controles de Visualização: Dispositivo e Scroll Animado */}
+            <div className="flex flex-wrap items-center justify-between gap-3 px-1 py-1 bg-[#14161d] border border-[#232733] rounded-xl text-xs">
+              <div className="flex items-center gap-1.5">
+                <button
+                  type="button"
+                  onClick={() => setPreviewDevice('desktop')}
+                  className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg transition-colors cursor-pointer ${
+                    previewDevice === 'desktop'
+                      ? 'bg-[#252936] text-white font-semibold shadow-sm'
+                      : 'text-gray-400 hover:text-white'
+                  }`}
+                >
+                  <Monitor className="w-3.5 h-3.5" />
+                  <span>Desktop</span>
+                </button>
+                <button
+                  type="button"
+                  onClick={() => setPreviewDevice('mobile')}
+                  className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg transition-colors cursor-pointer ${
+                    previewDevice === 'mobile'
+                      ? 'bg-[#252936] text-white font-semibold shadow-sm'
+                      : 'text-gray-400 hover:text-white'
+                  }`}
+                >
+                  <Smartphone className="w-3.5 h-3.5" />
+                  <span>Mobile</span>
+                </button>
+              </div>
+
+              <button
+                type="button"
+                onClick={() => setIsAutoScrolling(!isAutoScrolling)}
+                className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg border text-xs font-medium transition-all cursor-pointer ${
+                  isAutoScrolling
+                    ? 'border-[#fa2600]/50 bg-[#fa2600]/15 text-[#ff7f5f]'
+                    : 'border-[#2d3240] text-gray-400 hover:text-white'
+                }`}
+              >
+                {isAutoScrolling ? (
+                  <>
+                    <Pause className="w-3.5 h-3.5" />
+                    <span>Pausar scroll</span>
+                  </>
+                ) : (
+                  <>
+                    <Play className="w-3.5 h-3.5" />
+                    <span>Animar navegação</span>
+                  </>
+                )}
+              </button>
             </div>
-            <div>
-              <span className="text-[11px] font-semibold uppercase tracking-wider text-accent">
-                [ {previewTemplate.category} ]
-              </span>
-              <p className="mt-2 text-sm text-fg-3 leading-relaxed">
+
+            {/* Frame de Simulação de Preview */}
+            <div
+              className={`relative mx-auto overflow-hidden rounded-xl border border-line bg-surface-3 transition-all ${
+                previewDevice === 'mobile'
+                  ? 'max-w-[280px] h-[380px] border-4 border-[#2b303c] rounded-[24px]'
+                  : 'w-full aspect-[16/10] max-h-[360px]'
+              }`}
+            >
+              <div
+                ref={scrollContainerRef}
+                className="w-full h-full overflow-y-auto scrollbar-none"
+              >
+                <img
+                  src={previewTemplate.thumbnail || getCategoryFallback(previewTemplate.category)}
+                  onError={(e) => {
+                    e.currentTarget.src = getCategoryFallback(previewTemplate.category);
+                  }}
+                  alt={previewTemplate.name}
+                  className="w-full h-auto object-cover object-top"
+                />
+              </div>
+
+              {/* Botão de WhatsApp Flutuante com Pulso Animado (demonstrativo) */}
+              <div className="absolute bottom-3 right-3 z-20 flex items-center gap-2">
+                <span className="relative flex h-3 w-3">
+                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#25D366] opacity-75"></span>
+                  <span className="relative inline-flex rounded-full h-3 w-3 bg-[#25D366]"></span>
+                </span>
+                <span className="px-2 py-1 rounded-full bg-[#25D366] text-white text-[10px] font-bold shadow-lg">
+                  WhatsApp
+                </span>
+              </div>
+            </div>
+
+            {/* Informações e Recursos Animados Inclusos */}
+            <div className="space-y-2">
+              <div className="flex items-center justify-between">
+                <span className="text-[11px] font-semibold uppercase tracking-wider text-accent">
+                  [ {previewTemplate.category} ]
+                </span>
+                {isAnimatedTemplate(previewTemplate) && (
+                  <span className="inline-flex items-center gap-1 text-[11px] font-medium text-emerald-400 bg-emerald-950/40 border border-emerald-800/40 px-2 py-0.5 rounded-full">
+                    ✨ Template com Animações Ativas
+                  </span>
+                )}
+              </div>
+              <p className="text-xs text-fg-3 leading-relaxed">
                 {previewTemplate.description}
               </p>
+
+              {/* Badges de recursos animados */}
+              <div className="flex flex-wrap gap-1.5 pt-1">
+                <span className="px-2 py-0.5 rounded-md bg-[#161820] border border-[#262a36] text-[10px] text-gray-400">
+                  🎬 Hero dinâmico
+                </span>
+                <span className="px-2 py-0.5 rounded-md bg-[#161820] border border-[#262a36] text-[10px] text-gray-400">
+                  ⚡ Carrossel & Transições
+                </span>
+                <span className="px-2 py-0.5 rounded-md bg-[#161820] border border-[#262a36] text-[10px] text-gray-400">
+                  📱 Mobile First & Fluido
+                </span>
+                <span className="px-2 py-0.5 rounded-md bg-[#161820] border border-[#262a36] text-[10px] text-gray-400">
+                  💬 WhatsApp Integrado com pulso
+                </span>
+              </div>
             </div>
+
+            {/* Ações */}
             <div className="flex gap-3 pt-3 border-t border-line">
               <button
                 type="button"
@@ -247,14 +426,14 @@ export const Templates: React.FC<TemplatesProps> = ({ onNavigate }) => {
                   setPreviewTemplate(null);
                   handleUseTemplate(tmpl);
                 }}
-                className="fx-btn-primary flex-1 h-10 rounded-full text-xs font-semibold uppercase tracking-wider text-white"
+                className="fx-btn-primary flex-1 h-10 rounded-full text-xs font-semibold uppercase tracking-wider text-white cursor-pointer"
               >
                 Usar este modelo agora
               </button>
               <button
                 type="button"
                 onClick={() => setPreviewTemplate(null)}
-                className="px-5 h-10 rounded-full border border-line bg-surface-2 text-xs font-medium text-fg hover:border-line-strong"
+                className="px-5 h-10 rounded-full border border-line bg-surface-2 text-xs font-medium text-fg hover:border-line-strong cursor-pointer"
               >
                 Fechar
               </button>
