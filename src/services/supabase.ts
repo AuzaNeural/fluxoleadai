@@ -1,8 +1,7 @@
 import { createClient } from '@supabase/supabase-js';
 
-const metaEnv = (import.meta as any).env || {};
-const supabaseUrl = metaEnv.VITE_SUPABASE_URL || '';
-const supabaseAnonKey = metaEnv.VITE_SUPABASE_ANON_KEY || '';
+const supabaseUrl = import.meta.env.VITE_SUPABASE_URL || '';
+const supabaseAnonKey = import.meta.env.VITE_SUPABASE_ANON_KEY || '';
 
 export const isSupabaseConfigured = Boolean(
   supabaseUrl &&
@@ -67,6 +66,36 @@ export const supabaseService = {
     return data;
   },
 
+  async insertReminder(reminder: any) {
+    if (!supabase) return null;
+    const { data, error } = await supabase.from('reminders').insert([reminder]).select().single();
+    if (error) {
+      console.error('Erro ao inserir lembrete no Supabase:', error.message);
+      return null;
+    }
+    return data;
+  },
+
+  async updateReminder(id: string, updates: any) {
+    if (!supabase) return null;
+    const { data, error } = await supabase.from('reminders').update(updates).eq('id', id).select().single();
+    if (error) {
+      console.error('Erro ao atualizar lembrete no Supabase:', error.message);
+      return null;
+    }
+    return data;
+  },
+
+  async deleteReminder(id: string) {
+    if (!supabase) return null;
+    const { error } = await supabase.from('reminders').delete().eq('id', id);
+    if (error) {
+      console.error('Erro ao excluir lembrete no Supabase:', error.message);
+      return false;
+    }
+    return true;
+  },
+
   async getMessageTemplates() {
     if (!supabase) return null;
     const { data, error } = await supabase.from('message_templates').select('*').order('name', { ascending: true });
@@ -75,5 +104,25 @@ export const supabaseService = {
       return null;
     }
     return data;
+  },
+
+  async upsertMessageTemplate(template: any) {
+    if (!supabase) return null;
+    const { data, error } = await supabase.from('message_templates').upsert([template]).select().single();
+    if (error) {
+      console.error('Erro ao salvar template no Supabase:', error.message);
+      return null;
+    }
+    return data;
+  },
+
+  async deleteMessageTemplate(id: string) {
+    if (!supabase) return null;
+    const { error } = await supabase.from('message_templates').delete().eq('id', id);
+    if (error) {
+      console.error('Erro ao excluir template no Supabase:', error.message);
+      return false;
+    }
+    return true;
   }
 };

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import {
   Phone,
   MessageCircle,
@@ -13,6 +13,7 @@ import {
 import { useLeads } from '../context/LeadContext';
 import { useToast } from '../context/ToastContext';
 import { KanbanStatus, Lead } from '../types';
+import { isSupabaseConfigured, supabaseService } from '../services/supabase';
 
 interface Reminder {
   id: string;
@@ -201,6 +202,14 @@ export const CRM: React.FC = () => {
     };
 
     saveRemindersToStorage([...reminders, newRem]);
+    if (isSupabaseConfigured) {
+      supabaseService.insertReminder({
+        id: newRem.id,
+        title: newRem.title,
+        due_at: newRem.dueAt,
+        done: false
+      });
+    }
     showToast('Lembrete criado.', 'success');
     setIsNewReminderModalOpen(false);
     setNewReminderTitle('');
@@ -208,21 +217,60 @@ export const CRM: React.FC = () => {
   };
 
   const handleToggleReminder = (id: string) => {
+    const target = reminders.find((r) => r.id === id);
     const updated = reminders.map((r) =>
       r.id === id ? { ...r, done: !r.done } : r
     );
     saveRemindersToStorage(updated);
+    if (isSupabaseConfigured && target) {
+      supabaseService.updateReminder(id, { done: !target.done });
+    }
   };
 
   const handleDeleteReminder = (id: string) => {
     const updated = reminders.filter((r) => r.id !== id);
     saveRemindersToStorage(updated);
+    if (isSupabaseConfigured) {
+      supabaseService.deleteReminder(id);
+    }
     showToast('Lembrete excluído.', 'info');
   };
 
   const pendingReminders = reminders.filter((r) => !r.done);
   const completedReminders = reminders.filter((r) => r.done);
   const displayedReminders = reminderFilter === 'pendentes' ? pendingReminders : completedReminders;
+
+  // Supabase Initial Sync for CRM
+  useEffect(() => {
+    if (isSupabaseConfigured) {
+      supabaseService.getReminders().then((data) => {
+        if (data && data.length > 0) {
+          const mapped: Reminder[] = data.map((d: any) => ({
+            id: d.id,
+            title: d.title,
+            dueAt: d.due_at,
+            done: d.done,
+            leadId: d.lead_id,
+            leadName: d.lead_name
+          }));
+          setReminders(mapped);
+          localStorage.setItem('fluxo_crm_reminders', JSON.stringify(mapped));
+        }
+      });
+
+      supabaseService.getMessageTemplates().then((data) => {
+        if (data && data.length > 0) {
+          const mapped: MessageTemplate[] = data.map((d: any) => ({
+            id: d.id,
+            name: d.name,
+            body: d.body
+          }));
+          setMessageTemplates(mapped);
+          localStorage.setItem('fluxo_crm_message_templates', JSON.stringify(mapped));
+        }
+      });
+    }
+  }, []);
 
   // Message Templates (Modelos de Mensagens) State
   const [messageTemplates, setMessageTemplates] = useState<MessageTemplate[]>(() => {
@@ -257,6 +305,13 @@ export const CRM: React.FC = () => {
           : t
       );
       saveTemplatesToStorage(updated);
+      if (isSupabaseConfigured) {
+        supabaseService.upsertMessageTemplate({
+          id: editingTemplate.id,
+          name: editingTemplate.name.trim(),
+          body: editingTemplate.body.trim()
+        });
+      }
       showToast('Modelo salvo e definido como padrão da sua conta.', 'success');
     } else {
       // Create new
@@ -266,6 +321,13 @@ export const CRM: React.FC = () => {
         body: editingTemplate.body.trim()
       };
       saveTemplatesToStorage([...messageTemplates, newTpl]);
+      if (isSupabaseConfigured) {
+        supabaseService.upsertMessageTemplate({
+          id: newTpl.id,
+          name: newTpl.name,
+          body: newTpl.body
+        });
+      }
       showToast('Modelo salvo e definido como padrão da sua conta.', 'success');
     }
 
@@ -275,6 +337,9 @@ export const CRM: React.FC = () => {
   const handleDeleteTemplate = (id: string) => {
     const updated = messageTemplates.filter((t) => t.id !== id);
     saveTemplatesToStorage(updated);
+    if (isSupabaseConfigured) {
+      supabaseService.deleteMessageTemplate(id);
+    }
     showToast('Modelo excluído.', 'info');
   };
 
