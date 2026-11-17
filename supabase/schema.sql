@@ -74,7 +74,12 @@ ALTER TABLE public.leads ENABLE ROW LEVEL SECURITY;
 ALTER TABLE public.reminders ENABLE ROW LEVEL SECURITY;
 ALTER TABLE public.message_templates ENABLE ROW LEVEL SECURITY;
 
--- Políticas de acesso anônimo/autenticado para uso com chave anon
+-- Políticas de acesso (DROP IF EXISTS para permitir reexecução segura sem erros)
+DROP POLICY IF EXISTS "Acesso público aos leads" ON public.leads;
 CREATE POLICY "Acesso público aos leads" ON public.leads FOR ALL USING (true);
+
+DROP POLICY IF EXISTS "Acesso público aos lembretes" ON public.reminders;
 CREATE POLICY "Acesso público aos lembretes" ON public.reminders FOR ALL USING (true);
+
+DROP POLICY IF EXISTS "Acesso público aos modelos" ON public.message_templates;
 CREATE POLICY "Acesso público aos modelos" ON public.message_templates FOR ALL USING (true);
