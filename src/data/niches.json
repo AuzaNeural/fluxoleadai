@@ -1,0 +1,336 @@
+[
+  {
+    "grupo": "Alimentação",
+    "itens": [
+      "Restaurantes",
+      "Pizzarias",
+      "Hamburguerias",
+      "Lanchonetes",
+      "Padarias",
+      "Confeitarias",
+      "Cafeterias",
+      "Sorveterias",
+      "Açaiterias",
+      "Restaurantes japoneses",
+      "Churrascarias",
+      "Pastelarias",
+      "Docerias",
+      "Bares",
+      "Choperias",
+      "Adegas",
+      "Restaurantes self-service",
+      "Marmitarias",
+      "Food trucks",
+      "Comida árabe",
+      "Comida italiana",
+      "Comida mexicana",
+      "Comida chinesa",
+      "Restaurantes veganos",
+      "Casas de sucos",
+      "Empórios",
+      "Hortifrútis",
+      "Açougues",
+      "Peixarias",
+      "Distribuidoras de bebidas"
+    ]
+  },
+  {
+    "grupo": "Beleza e bem-estar",
+    "itens": [
+      "Salões de beleza",
+      "Barbearias",
+      "Clínicas de estética",
+      "Manicure e pedicure",
+      "Design de sobrancelhas",
+      "Extensão de cílios",
+      "Depilação",
+      "Spas",
+      "Massoterapia",
+      "Estúdios de tatuagem",
+      "Maquiadores"
+    ]
+  },
+  {
+    "grupo": "Saúde",
+    "itens": [
+      "Clínicas odontológicas",
+      "Dentistas",
+      "Ortodontistas",
+      "Clínicas médicas",
+      "Pediatras",
+      "Ginecologistas",
+      "Dermatologistas",
+      "Cardiologistas",
+      "Oftalmologistas",
+      "Ortopedistas",
+      "Psicólogos",
+      "Psiquiatras",
+      "Nutricionistas",
+      "Fisioterapia",
+      "Fonoaudiólogos",
+      "Laboratórios de análises clínicas",
+      "Clínicas de imagem",
+      "Clínicas de vacinação",
+      "Farmácias",
+      "Farmácias de manipulação",
+      "Óticas",
+      "Aparelhos auditivos",
+      "Clínicas populares",
+      "Home care",
+      "Casas de repouso",
+      "Podólogos",
+      "Quiropraxia",
+      "Acupuntura"
+    ]
+  },
+  {
+    "grupo": "Pets",
+    "itens": [
+      "Pet shops",
+      "Clínicas veterinárias",
+      "Banho e tosa",
+      "Hotel para cães",
+      "Adestradores",
+      "Creche para cães",
+      "Agropecuárias"
+    ]
+  },
+  {
+    "grupo": "Esporte e fitness",
+    "itens": [
+      "Academias",
+      "Estúdios de pilates",
+      "Crossfit",
+      "Escolas de natação",
+      "Artes marciais",
+      "Escolas de dança",
+      "Personal trainers",
+      "Quadras esportivas",
+      "Lojas de artigos esportivos"
+    ]
+  },
+  {
+    "grupo": "Varejo",
+    "itens": [
+      "Lojas de roupas",
+      "Lojas de roupas femininas",
+      "Lojas de roupas masculinas",
+      "Lojas de roupas infantis",
+      "Moda praia",
+      "Moda íntima",
+      "Lojas de paletó e ternos",
+      "Lojas de noivas",
+      "Lojas de calçados",
+      "Lojas de bolsas",
+      "Joalherias",
+      "Relojoarias",
+      "Bijuterias",
+      "Perfumarias",
+      "Lojas de cosméticos",
+      "Lojas de presentes",
+      "Papelarias",
+      "Livrarias",
+      "Lojas de brinquedos",
+      "Lojas de celulares",
+      "Lojas de informática",
+      "Lojas de eletrônicos",
+      "Lojas de eletrodomésticos",
+      "Lojas de móveis",
+      "Lojas de colchões",
+      "Lojas de decoração",
+      "Lojas de cama, mesa e banho",
+      "Lojas de utilidades domésticas",
+      "Floriculturas",
+      "Lojas de artigos para festas",
+      "Lojas de produtos naturais",
+      "Suplementos",
+      "Tabacarias",
+      "Lojas de instrumentos musicais",
+      "Lojas de bicicletas",
+      "Lojas de artesanato",
+      "Armarinhos",
+      "Lojas de tecidos",
+      "Brechós",
+      "Lojas de departamento",
+      "Supermercados",
+      "Mercados",
+      "Lojas de conveniência",
+      "Lojas de importados",
+      "Lojas de material de pesca",
+      "Sex shops"
+    ]
+  },
+  {
+    "grupo": "Automotivo",
+    "itens": [
+      "Oficinas mecânicas",
+      "Autopeças",
+      "Concessionárias",
+      "Lojas de carros usados",
+      "Lava-rápidos",
+      "Estética automotiva",
+      "Funilaria e pintura",
+      "Borracharias",
+      "Auto elétricas",
+      "Centros automotivos",
+      "Som automotivo",
+      "Insulfilm",
+      "Autoescolas",
+      "Despachantes",
+      "Oficinas de motos"
+    ]
+  },
+  {
+    "grupo": "Serviços profissionais",
+    "itens": [
+      "Advogados",
+      "Escritórios de advocacia",
+      "Contabilidade",
+      "Consultorias",
+      "Imobiliárias",
+      "Corretores de imóveis",
+      "Corretoras de seguros",
+      "Arquitetos",
+      "Engenheiros",
+      "Designers de interiores",
+      "Cartórios",
+      "Agências de emprego",
+      "Tradutores",
+      "Recursos humanos",
+      "Correspondentes bancários",
+      "Assessoria de investimentos",
+      "Topógrafos",
+      "Detetives particulares",
+      "Coworkings",
+      "Escritórios virtuais"
+    ]
+  },
+  {
+    "grupo": "Educação",
+    "itens": [
+      "Escolas",
+      "Escolas infantis",
+      "Creches",
+      "Escolas de idiomas",
+      "Cursos profissionalizantes",
+      "Cursos preparatórios",
+      "Faculdades",
+      "Escolas de música",
+      "Aulas particulares",
+      "Escolas de informática",
+      "Escolas de reforço",
+      "Escolas de teatro"
+    ]
+  },
+  {
+    "grupo": "Turismo e hospedagem",
+    "itens": [
+      "Hotéis",
+      "Pousadas",
+      "Hostels",
+      "Motéis",
+      "Agências de viagem",
+      "Casas de temporada",
+      "Campings",
+      "Locadoras de veículos",
+      "Passeios turísticos"
+    ]
+  },
+  {
+    "grupo": "Serviços locais",
+    "itens": [
+      "Assistência técnica",
+      "Assistência técnica de celular",
+      "Chaveiros",
+      "Lavanderias",
+      "Costureiras",
+      "Sapatarias",
+      "Gráficas",
+      "Copiadoras",
+      "Fotógrafos",
+      "Estúdios fotográficos",
+      "Dedetizadoras",
+      "Limpeza",
+      "Diaristas",
+      "Jardinagem",
+      "Piscinas",
+      "Marido de aluguel",
+      "Mudanças",
+      "Transportadoras",
+      "Motoboys",
+      "Encanadores",
+      "Eletricistas",
+      "Vidraçarias",
+      "Serralherias",
+      "Funerárias"
+    ]
+  },
+  {
+    "grupo": "Construção e reformas",
+    "itens": [
+      "Material de construção",
+      "Construtoras",
+      "Empreiteiras",
+      "Pintores",
+      "Marcenarias",
+      "Marmorarias",
+      "Gesso e drywall",
+      "Energia solar",
+      "Ar condicionado"
+    ]
+  },
+  {
+    "grupo": "Tecnologia e marketing",
+    "itens": [
+      "Agências de marketing",
+      "Agências de publicidade",
+      "Desenvolvimento de sites",
+      "Empresas de software",
+      "Provedores de internet",
+      "Segurança eletrônica",
+      "Gráficas rápidas",
+      "Comunicação visual",
+      "Produtoras de vídeo"
+    ]
+  },
+  {
+    "grupo": "Festas e eventos",
+    "itens": [
+      "Buffets",
+      "Casas de festas",
+      "Salões de festas",
+      "Cerimonialistas",
+      "Decoração de festas",
+      "Aluguel de brinquedos",
+      "DJs",
+      "Bandas",
+      "Bolos de festa",
+      "Doces para festas",
+      "Aluguel de roupas"
+    ]
+  },
+  {
+    "grupo": "Indústria e atacado",
+    "itens": [
+      "Indústrias",
+      "Fábricas",
+      "Distribuidoras",
+      "Atacadistas",
+      "Confecções",
+      "Metalúrgicas",
+      "Embalagens",
+      "Gráficas industriais",
+      "Ferros-velhos"
+    ]
+  },
+  {
+    "grupo": "Religião e comunidade",
+    "itens": [
+      "Igrejas",
+      "Igrejas evangélicas",
+      "Centros espíritas",
+      "ONGs",
+      "Associações"
+    ]
+  }
+]

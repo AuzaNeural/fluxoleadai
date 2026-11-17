@@ -1,0 +1,59 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependencies
+node_modules
+dist
+dist-ssr
+*.local
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Temporary / video dumps & frames
+scripts/crm_frames/
+scripts/video_frames/
+scripts/crm_chunks/
+scripts/live_dumps/
+*.mkv
+*.mp4
+*.raw
+*.rgba
+scripts/temp_quad_*.raw
+
+# Scraped dumps & temporary research chunks in root
+/*.html
+!index.html
+/*.css
+/chunk_*.js
+/alexandria_*.js
+/beautified_*.js
+/maplibre_*.js
+/search_*.js
+/entrar_*.js
+/0tp0_*.js
+/*.txt
+/cookies.json
+/login_response.txt
+/locais_*.json
+/niches_groups.json
+/states_list.json

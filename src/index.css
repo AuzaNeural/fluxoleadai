@@ -1,0 +1,487 @@
+@import 'maplibre-gl/dist/maplibre-gl.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+  --bg: #000000;
+  --surface: #0d0d0d;
+  --surface-2: #141313;
+  --surface-3: #1a1818;
+  --border: #2a2a2a;
+  --border-strong: #3b3b3b;
+  --line: #2a2a2a;
+  --line-strong: #3b3b3b;
+  --fg: #fafafa;
+  --fg-2: #b9b9b9;
+  --fg-3: #929292;
+  --accent: #fa2600;
+  --accent-2: #ff4d01;
+  --accent-glow: #ff3911;
+  --accent-soft: #ff7f5f;
+  --accent-tint: #ffc6ae;
+  --success: #3ccf7a;
+  --warning: #f5b544;
+  --danger: #ff4d5e;
+  --info: #6aa7ff;
+  --radius-sm: 10px;
+  --radius: 15px;
+  --radius-lg: 20px;
+  --radius-xl: 25px;
+}
+
+body {
+  margin: 0;
+  background-color: #000000;
+  color: #fafafa;
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  overflow-x: hidden;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+::-webkit-scrollbar-thumb {
+  background: #23272f;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #fa2600;
+}
+
+/* Exact Original Classes */
+.fx-glow {
+  background: radial-gradient(60% 50% at 50% -10%, rgba(250, 38, 0, 0.22), transparent 70%),
+              radial-gradient(35% 40% at 0 0, rgba(255, 77, 1, 0.12), transparent 70%);
+}
+
+.fx-card {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.035), rgba(255, 255, 255, 0.012)), #0d0d0d;
+  border: 1px solid #2a2a2a;
+  border-radius: 20px;
+  box-shadow: inset 0 1px rgba(255, 255, 255, 0.04), 0 20px 40px -24px rgba(0, 0, 0, 0.8);
+}
+
+.fx-btn-primary {
+  background: linear-gradient(180deg, #ff6a2b 0%, #fa2600 55%, #d81f00 100%);
+  box-shadow: 0 10px 30px -10px rgba(255, 57, 17, 0.7), inset 0 1px rgba(255, 255, 255, 0.35);
+  transition: all 0.2s ease-in-out;
+}
+.fx-btn-primary:hover {
+  box-shadow: 0 14px 40px -10px rgba(255, 57, 17, 0.9), inset 0 1px rgba(255, 255, 255, 0.45);
+  transform: translateY(-1px);
+}
+.fx-btn-primary:active {
+  transform: translateY(0);
+}
+
+.fx-btn-shiny {
+  background: linear-gradient(#0b0a0a, #0b0a0a) padding-box padding-box, linear-gradient(#2f2f2f, #1a1818 60%, rgba(255, 57, 17, 0.7)) border-box;
+  border: 1px solid transparent;
+  box-shadow: 0 12px 24px -16px rgba(255, 57, 17, 0.6);
+  transition: all 0.2s ease-in-out;
+}
+.fx-btn-shiny:hover {
+  background: linear-gradient(#141212, #141212) padding-box padding-box, linear-gradient(#3b3b3b, #1a1818 50%, rgba(255, 57, 17, 0.95)) border-box;
+}
+
+.fx-eyebrow {
+  letter-spacing: .35em;
+  text-transform: uppercase;
+  color: #fa2600;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+/* Palette utility classes guaranteed to render */
+.border-line { border-color: #2a2a2a; }
+.border-line-strong { border-color: #3b3b3b; }
+.bg-surface { background-color: #0d0d0d; }
+.bg-surface-2 { background-color: #141313; }
+.bg-surface-3 { background-color: #1a1818; }
+.text-fg { color: #fafafa; }
+.text-fg-2 { color: #b9b9b9; }
+.text-fg-3 { color: #929292; }
+
+.border-accent\/30 { border-color: rgba(250, 38, 0, 0.3); }
+.bg-accent\/10 { background-color: rgba(250, 38, 0, 0.1); }
+.text-accent-soft { color: #ff7f5f; }
+.text-accent { color: #fa2600; }
+
+.border-success\/30 { border-color: rgba(60, 207, 122, 0.3); }
+.bg-success\/10 { background-color: rgba(60, 207, 122, 0.1); }
+.text-success { color: #3ccf7a; }
+
+.border-danger\/30 { border-color: rgba(255, 77, 94, 0.3); }
+.bg-danger\/10 { background-color: rgba(255, 77, 94, 0.1); }
+.text-danger { color: #ff4d5e; }
+
+.fx-input {
+  height: 42px;
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid #282e3b;
+  background-color: #1a1f29;
+  padding: 0 14px;
+  font-size: 14px;
+  color: #ffffff;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+.fx-input:focus {
+  outline: none;
+  border-color: #fa2600;
+  box-shadow: 0 0 0 2px rgba(250, 38, 0, 0.2);
+}
+.fx-input::placeholder {
+  color: #6b7280;
+}
+
+/* ========================================================
+   Cookie Consent (FLC) 100% Idêntico ao Original Fluxo Lead
+   ======================================================== */
+.flc-fab {
+  position: fixed;
+  z-index: 2147482999;
+  right: 14px;
+  bottom: 14px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  background: rgba(14, 14, 14, 0.9);
+  color: #cfcfcf;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  opacity: 0.75;
+  transition: opacity 0.2s, border-color 0.2s, color 0.2s;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.6);
+}
+.flc-fab:hover {
+  opacity: 1;
+  border-color: rgba(255, 255, 255, 0.35);
+  color: #ffffff;
+}
+.flc-fab svg {
+  display: block;
+}
+
+.flc {
+  position: fixed;
+  z-index: 2147483000;
+  left: auto;
+  right: 16px;
+  bottom: 16px;
+  width: min(560px, calc(100vw - 32px));
+  margin: 0;
+  font-family: inherit;
+  color: #e9e9e9;
+  background: rgba(14, 14, 14, 0.97);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 20px;
+  box-shadow: 0 30px 80px -20px rgba(0, 0, 0, 0.9), 0 0 0 1px rgba(250, 38, 0, 0.08);
+  padding: 20px 22px;
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  font-size: 14px;
+  line-height: 1.5;
+  animation: flc-fade-in 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@keyframes flc-fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(12px) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.flc h2 {
+  margin: 0 0 6px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+}
+.flc p {
+  margin: 0;
+  color: #b9b9b9;
+  font-size: 13.5px;
+  line-height: 1.5;
+}
+.flc a {
+  color: #ff6a3d;
+  text-decoration: underline;
+}
+.flc__txt {
+  flex: 1 1 auto;
+}
+.flc__cats {
+  margin: 14px 0 16px;
+  display: grid;
+  gap: 10px;
+}
+.flc__cat {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  padding: 12px 14px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.02);
+  cursor: pointer;
+  transition: border-color 0.2s;
+}
+.flc__cat:hover {
+  border-color: rgba(255, 255, 255, 0.18);
+}
+.flc__cat b {
+  display: block;
+  color: #fff;
+  font-weight: 600;
+  font-size: 13.5px;
+}
+.flc__cat small {
+  display: block;
+  color: #9a9a9a;
+  font-size: 12px;
+  line-height: 1.4;
+  margin-top: 2px;
+}
+.flc__cat input {
+  appearance: none;
+  -webkit-appearance: none;
+  flex: none;
+  margin-top: 2px;
+  width: 40px;
+  height: 24px;
+  border-radius: 999px;
+  background: #333;
+  position: relative;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.flc__cat input:before {
+  content: '';
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #fff;
+  transition: transform 0.2s;
+}
+.flc__cat input:checked {
+  background: #fa2600;
+}
+.flc__cat input:checked:before {
+  transform: translateX(16px);
+}
+.flc__cat input:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.flc__btns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.flc__btns button {
+  flex: 1 1 0;
+  padding: 0 14px;
+  white-space: nowrap;
+  font: inherit;
+  font-weight: 600;
+  font-size: 13.5px;
+  min-height: 42px;
+  border-radius: 999px;
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  background: #1c1c1c;
+  color: #fff;
+  transition: background 0.2s, border-color 0.2s;
+}
+.flc__btns button:hover {
+  background: #262626;
+  border-color: rgba(255, 255, 255, 0.4);
+}
+.flc .flc__pri {
+  background: #f2f2f2;
+  color: #111;
+  border-color: #f2f2f2;
+}
+.flc .flc__pri:hover {
+  background: #fff;
+  border-color: #fff;
+}
+
+/* ==========================================================================
+   FLUXO LEAD - RADAR SEARCH & MAP SCANNING STYLES (EXACT ORIGINAL)
+   ========================================================================== */
+.fl-orbe {
+  pointer-events: none;
+  width: 22px;
+  height: 22px;
+  position: relative;
+}
+.fl-orbe-nucleo {
+  background: radial-gradient(circle at 35% 30%, #ffd2b8 0%, #ff6a2b 35%, #fa2600 75%);
+  border-radius: 999px;
+  position: absolute;
+  inset: 4px;
+  box-shadow: 0 0 14px 4px #ff4d01b3, 0 0 34px 10px #fa260047;
+}
+.fl-orbe-anel {
+  border: 1.5px solid #ff7f5fd9;
+  border-color: #ff7f5fd9 #ff7f5fd9 transparent transparent;
+  border-radius: 999px;
+  animation: 1.6s linear infinite fl-gira;
+  position: absolute;
+  inset: -6px;
+}
+.fl-orbe-anel2 {
+  border-width: 1px;
+  border-color: transparent transparent #fa26008c #fa26008c;
+  animation-duration: 2.4s;
+  animation-direction: reverse;
+  inset: -11px;
+}
+.fl-orbe-pulso {
+  border: 1.5px solid #ff4d01bf;
+  border-radius: 999px;
+  animation: 2.2s cubic-bezier(0.2, 0.6, 0.3, 1) infinite fl-pulso;
+  position: absolute;
+  inset: 0;
+}
+.fl-orbe-pulso2 {
+  animation-delay: 1.1s;
+}
+.fl-orbe-parado .fl-orbe-anel,
+.fl-orbe-parado .fl-orbe-pulso {
+  animation: none;
+}
+.fl-orbe-parado .fl-orbe-pulso {
+  opacity: 0;
+}
+.fl-marcador {
+  width: 14px;
+  height: 14px;
+  animation: 0.55s cubic-bezier(0.2, 0.9, 0.3, 1.25) both fl-surge;
+  display: block;
+  position: relative;
+}
+.fl-marcador-ponto {
+  background: #ff4d01;
+  border-radius: 999px;
+  position: absolute;
+  inset: 3px;
+  box-shadow: 0 0 0 2px #0a0a0ae6, 0 0 12px 3px #ff4d01a6;
+}
+.fl-marcador-halo {
+  background: radial-gradient(circle, #ff4d0159, transparent 70%);
+  border-radius: 999px;
+  position: absolute;
+  inset: -6px;
+}
+.fl-ponto-vivo {
+  background: #ff4d01;
+  border-radius: 999px;
+  width: 8px;
+  height: 8px;
+  animation: 1.6s ease-in-out infinite fl-vivo;
+  box-shadow: 0 0 10px #ff4d01;
+}
+.fl-card-entra {
+  animation: 0.5s cubic-bezier(0.2, 0.8, 0.2, 1) both fl-card;
+}
+.fl-malha-wrap {
+  perspective: 900px;
+  position: absolute;
+  inset: -20% -10% -10%;
+}
+.fl-malha {
+  transform-origin: 50% 60%;
+  background: linear-gradient(#ffffff0d 1px, transparent 1px) 0 0 / 46px 46px,
+              linear-gradient(90deg, #ffffff0d 1px, transparent 1px) 0 0 / 46px 46px,
+              linear-gradient(#ffffff17 2px, transparent 2px) 0 0 / 230px 230px,
+              linear-gradient(90deg, #ffffff17 2px, transparent 2px) 0 0 / 230px 230px,
+              radial-gradient(at 50% 55%, #121216 0%, #070708 70%);
+  position: absolute;
+  inset: 0;
+  transform: rotateX(58deg) rotate(-18deg);
+}
+.fl-malha-anda {
+  animation: 40s linear infinite fl-malha;
+}
+.fl-marcador-2d {
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+.fl-orbita {
+  width: 0;
+  height: 0;
+  animation: 7s linear infinite fl-orbita;
+  position: absolute;
+  top: 56%;
+  left: 50%;
+}
+.fl-orbita > .fl-orbe {
+  position: absolute;
+  top: -11px;
+  left: -11px;
+  transform: translate(min(26vw, 210px));
+}
+.fl-orbita-parada {
+  animation-play-state: paused;
+}
+
+@keyframes fl-gira {
+  to { transform: rotate(360deg); }
+}
+@keyframes fl-pulso {
+  0% { opacity: 0.85; transform: scale(1); }
+  to { opacity: 0; transform: scale(4.2); }
+}
+@keyframes fl-surge {
+  0% { opacity: 0; transform: scale(0.2); }
+  to { opacity: 1; transform: scale(1); }
+}
+@keyframes fl-vivo {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.35; }
+}
+@keyframes fl-card {
+  0% { opacity: 0; filter: blur(4px); transform: translateY(10px); }
+  to { opacity: 1; filter: none; transform: none; }
+}
+@keyframes fl-malha {
+  to { transform: rotateX(58deg) rotate(342deg); }
+}
+@keyframes fl-orbita {
+  to { transform: rotate(360deg); }
+}
+
+.maplibregl-ctrl-attrib.maplibregl-compact {
+  color: #8a8a8a;
+  background: #0a0a0ab8 !important;
+}
+.maplibregl-ctrl-attrib.maplibregl-compact a {
+  color: #a3a3a3 !important;
+}
+.maplibregl-ctrl-attrib-button {
+  filter: invert() opacity(0.6);
+  background-color: transparent !important;
+}
+.maplibregl-ctrl-bottom-right {
+  z-index: 3;
+}
