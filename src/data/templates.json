@@ -1,7 +1,7 @@
 [
   {
     "id": "template-1",
-    "thumbnail": "/api/templates/948193e4-c852-458c-9942-acb6f22d90e0/media/thumbnail",
+    "thumbnail": "/templates/template-1.jpg",
     "alt": "Prévia do modelo Advocacia Premium — Direito Bancário",
     "category": "Advocacia",
     "name": "Advocacia Premium — Direito Bancário",
@@ -10,7 +10,7 @@
   },
   {
     "id": "template-2",
-    "thumbnail": "/api/templates/d9b34e5c-74dd-4802-bb5d-4c02fdc5a3d0/media/thumbnail",
+    "thumbnail": "/templates/template-2.jpg",
     "alt": "Prévia do modelo Barbearia VIP",
     "category": "Barbearias",
     "name": "Barbearia VIP",
@@ -19,7 +19,7 @@
   },
   {
     "id": "template-3",
-    "thumbnail": "/api/templates/35a8f015-d38a-4683-9d45-9c5ad4739659/media/thumbnail",
+    "thumbnail": "/templates/template-3.jpg",
     "alt": "Prévia do modelo Churrascaria Premium",
     "category": "Restaurantes",
     "name": "Churrascaria Premium",
@@ -28,7 +28,7 @@
   },
   {
     "id": "template-4",
-    "thumbnail": "/api/templates/342696ad-c2a0-440d-8a0f-54f1b4dd1ef9/media/thumbnail",
+    "thumbnail": "/templates/template-4.jpg",
     "alt": "Prévia do modelo Cafeteria",
     "category": "Restaurantes",
     "name": "Cafeteria",
@@ -37,7 +37,7 @@
   },
   {
     "id": "template-5",
-    "thumbnail": "/api/templates/26c831ba-d5d0-4a08-803b-0d04afb3431a/media/thumbnail",
+    "thumbnail": "/templates/template-5.jpg",
     "alt": "Prévia do modelo Tattoo Studio Clássico",
     "category": "Estúdios de tatuagem",
     "name": "Tattoo Studio Clássico",
@@ -46,7 +46,7 @@
   },
   {
     "id": "template-6",
-    "thumbnail": "/api/templates/0332f831-5cfa-4d50-b4a9-505e2ea9a84f/media/thumbnail",
+    "thumbnail": "/templates/template-6.jpg",
     "alt": "Prévia do modelo Pet Shop",
     "category": "Pet shops",
     "name": "Pet Shop",
@@ -55,7 +55,7 @@
   },
   {
     "id": "template-7",
-    "thumbnail": "/api/templates/96a18cbd-32d6-4c6c-a730-50a0f59fe804/media/thumbnail",
+    "thumbnail": "/templates/template-7.jpg",
     "alt": "Prévia do modelo Tattoo Studio Urbano",
     "category": "Estúdios de tatuagem",
     "name": "Tattoo Studio Urbano",
@@ -64,7 +64,7 @@
   },
   {
     "id": "template-8",
-    "thumbnail": "/api/templates/f683649a-2214-4b07-8e17-4261ce4d006d/media/thumbnail",
+    "thumbnail": "/templates/template-8.jpg",
     "alt": "Prévia do modelo Colégio",
     "category": "Educação",
     "name": "Colégio",
@@ -73,7 +73,7 @@
   },
   {
     "id": "template-9",
-    "thumbnail": "/api/templates/d5e76db4-246d-4880-b07c-198308454829/media/thumbnail",
+    "thumbnail": "/templates/template-9.jpg",
     "alt": "Prévia do modelo Clínica Odontológica",
     "category": "Saúde &amp; Bem-estar",
     "name": "Clínica Odontológica",
@@ -82,7 +82,7 @@
   },
   {
     "id": "template-10",
-    "thumbnail": "/api/templates/93b26324-0e1e-4253-ad92-15c62c8cc67d/media/thumbnail",
+    "thumbnail": "/templates/template-10.jpg",
     "alt": "Prévia do modelo Estética Automotiva",
     "category": "Serviços profissionais",
     "name": "Estética Automotiva",
@@ -91,7 +91,7 @@
   },
   {
     "id": "template-11",
-    "thumbnail": "/api/templates/4558283a-2306-42e6-86cd-7b9e789e64fa/media/thumbnail",
+    "thumbnail": "/templates/template-11.jpg",
     "alt": "Prévia do modelo Academia",
     "category": "Academias e esportes",
     "name": "Academia",
@@ -100,7 +100,7 @@
   },
   {
     "id": "template-12",
-    "thumbnail": "/api/templates/874fceda-0f16-4bb7-8891-9362a2de12c8/media/thumbnail",
+    "thumbnail": "/templates/template-12.jpg",
     "alt": "Prévia do modelo Academia Gymfito",
     "category": "Academias e esportes",
     "name": "Academia Gymfito",
@@ -109,7 +109,7 @@
   },
   {
     "id": "template-13",
-    "thumbnail": "/api/templates/d107137d-23e4-4b38-8099-3cde79932e22/media/thumbnail",
+    "thumbnail": "/templates/template-13.jpg",
     "alt": "Prévia do modelo Advocacia — Lawgne",
     "category": "Advocacia",
     "name": "Advocacia — Lawgne",
@@ -118,7 +118,7 @@
   },
   {
     "id": "template-14",
-    "thumbnail": "/api/templates/206971d8-5b2b-4d19-aad2-664dfd3538e5/media/thumbnail",
+    "thumbnail": "/templates/template-14.jpg",
     "alt": "Prévia do modelo Advocacia — Lawgne [NOVO]",
     "category": "Advocacia",
     "name": "Advocacia — Lawgne [NOVO]",
@@ -127,7 +127,7 @@
   },
   {
     "id": "template-15",
-    "thumbnail": "/api/templates/26f9bf27-742b-42d9-8ad7-6301b4558435/media/thumbnail",
+    "thumbnail": "/templates/template-15.jpg",
     "alt": "Prévia do modelo Advocacia — Qualacoat",
     "category": "Advocacia",
     "name": "Advocacia — Qualacoat",
@@ -136,7 +136,7 @@
   },
   {
     "id": "template-16",
-    "thumbnail": "/api/templates/ec1e3263-c232-4d67-af98-e8ac911783f5/media/thumbnail",
+    "thumbnail": "/templates/template-16.jpg",
     "alt": "Prévia do modelo Advocacia — Solven",
     "category": "Advocacia",
     "name": "Advocacia — Solven",
@@ -145,7 +145,7 @@
   },
   {
     "id": "template-17",
-    "thumbnail": "/api/templates/7dcf3251-38a4-40c6-bc08-7e274685c4c0/media/thumbnail",
+    "thumbnail": "/templates/template-17.jpg",
     "alt": "Prévia do modelo Arquitetura — Axisbuilt",
     "category": "Imobiliário &amp; Reforma",
     "name": "Arquitetura — Axisbuilt",
@@ -154,7 +154,7 @@
   },
   {
     "id": "template-18",
-    "thumbnail": "/api/templates/840273f2-0f20-4af4-81c4-269436295a5e/media/thumbnail",
+    "thumbnail": "/templates/template-18.jpg",
     "alt": "Prévia do modelo Automotivo — Automec",
     "category": "Serviços profissionais",
     "name": "Automotivo — Automec",
@@ -163,7 +163,7 @@
   },
   {
     "id": "template-19",
-    "thumbnail": "/api/templates/f5a2a7d6-a797-4830-a047-cd231ab8035f/media/thumbnail",
+    "thumbnail": "/templates/template-19.jpg",
     "alt": "Prévia do modelo Automotivo — Autovent",
     "category": "Serviços profissionais",
     "name": "Automotivo — Autovent",
@@ -172,7 +172,7 @@
   },
   {
     "id": "template-20",
-    "thumbnail": "/api/templates/0cfab682-f71c-4dce-add0-7ba4d6006939/media/thumbnail",
+    "thumbnail": "/templates/template-20.jpg",
     "alt": "Prévia do modelo Automotivo — Carlink",
     "category": "Serviços profissionais",
     "name": "Automotivo — Carlink",
@@ -181,7 +181,7 @@
   },
   {
     "id": "template-21",
-    "thumbnail": "/api/templates/57efdb63-f247-41fa-8060-0d596d6c1731/media/thumbnail",
+    "thumbnail": "/templates/template-21.jpg",
     "alt": "Prévia do modelo Automotivo — Kars",
     "category": "Serviços profissionais",
     "name": "Automotivo — Kars",
@@ -190,7 +190,7 @@
   },
   {
     "id": "template-22",
-    "thumbnail": "/api/templates/ceee5526-c958-4f90-bcc7-5ccc5c795e06/media/thumbnail",
+    "thumbnail": "/templates/template-22.jpg",
     "alt": "Prévia do modelo Barbearia — Barberon",
     "category": "Barbearias",
     "name": "Barbearia — Barberon",
@@ -199,7 +199,7 @@
   },
   {
     "id": "template-23",
-    "thumbnail": "/api/templates/44c3b418-6ef7-4115-b5df-7684929fa5a9/media/thumbnail",
+    "thumbnail": "/templates/template-23.jpg",
     "alt": "Prévia do modelo Barbearia — Hairbarber",
     "category": "Barbearias",
     "name": "Barbearia — Hairbarber",
@@ -208,7 +208,7 @@
   },
   {
     "id": "template-24",
-    "thumbnail": "/api/templates/b38f0607-ec23-4a43-a619-7397a415433a/media/thumbnail",
+    "thumbnail": "/templates/template-24.jpg",
     "alt": "Prévia do modelo Barbearia — Qutter",
     "category": "Barbearias",
     "name": "Barbearia — Qutter",
@@ -217,7 +217,7 @@
   },
   {
     "id": "template-25",
-    "thumbnail": "/api/templates/92ac38e5-f497-4922-a234-12b472e2fcb4/media/thumbnail",
+    "thumbnail": "/templates/template-25.jpg",
     "alt": "Prévia do modelo Barbearia — Trimly",
     "category": "Barbearias",
     "name": "Barbearia — Trimly",
@@ -226,7 +226,7 @@
   },
   {
     "id": "template-26",
-    "thumbnail": "/api/templates/2be7c24d-ddfd-4340-9629-f5d5d78ef826/media/thumbnail",
+    "thumbnail": "/templates/template-26.jpg",
     "alt": "Prévia do modelo Cinema — Movflx",
     "category": "Serviços profissionais",
     "name": "Cinema — Movflx",
@@ -235,7 +235,7 @@
   },
   {
     "id": "template-27",
-    "thumbnail": "/api/templates/3a734739-6574-4290-bebd-c9d520e3c1a8/media/thumbnail",
+    "thumbnail": "/templates/template-27.jpg",
     "alt": "Prévia do modelo Climatização — Coolair",
     "category": "Serviços profissionais",
     "name": "Climatização — Coolair",
@@ -244,7 +244,7 @@
   },
   {
     "id": "template-28",
-    "thumbnail": "/api/templates/949e7cac-5794-49ba-8677-b2472e974fef/media/thumbnail",
+    "thumbnail": "/templates/template-28.jpg",
     "alt": "Prévia do modelo Climatização — Oyoxo",
     "category": "Serviços profissionais",
     "name": "Climatização — Oyoxo",
@@ -253,7 +253,7 @@
   },
   {
     "id": "template-29",
-    "thumbnail": "/api/templates/7caf425c-5ed2-42b8-aa94-c7daebe6249e/media/thumbnail",
+    "thumbnail": "/templates/template-29.jpg",
     "alt": "Prévia do modelo Construção — Construc",
     "category": "Imobiliário &amp; Reforma",
     "name": "Construção — Construc",
@@ -262,7 +262,7 @@
   },
   {
     "id": "template-30",
-    "thumbnail": "/api/templates/f0d549d5-d84a-46b1-ad98-4b45aab3e175/media/thumbnail",
+    "thumbnail": "/templates/template-30.jpg",
     "alt": "Prévia do modelo Construção — Renova",
     "category": "Imobiliário &amp; Reforma",
     "name": "Construção — Renova",
@@ -271,7 +271,7 @@
   },
   {
     "id": "template-31",
-    "thumbnail": "/api/templates/78889f65-967f-4f13-88f0-66d7b2bb15cd/media/thumbnail",
+    "thumbnail": "/templates/template-31.jpg",
     "alt": "Prévia do modelo Estética — Haircare",
     "category": "Salões de beleza",
     "name": "Estética — Haircare",
@@ -280,7 +280,7 @@
   },
   {
     "id": "template-32",
-    "thumbnail": "/api/templates/2d87eaea-4e10-4d70-a218-937f0d116331/media/thumbnail",
+    "thumbnail": "/templates/template-32.jpg",
     "alt": "Prévia do modelo Estética — Spamagic",
     "category": "Salões de beleza",
     "name": "Estética — Spamagic",
@@ -289,7 +289,7 @@
   },
   {
     "id": "template-33",
-    "thumbnail": "/api/templates/815d55e6-a2cb-4695-a68d-7a5f535c0a4d/media/thumbnail",
+    "thumbnail": "/templates/template-33.jpg",
     "alt": "Prévia do modelo Hospedagem — Boostay",
     "category": "Serviços profissionais",
     "name": "Hospedagem — Boostay",
@@ -298,7 +298,7 @@
   },
   {
     "id": "template-34",
-    "thumbnail": "/api/templates/f5322f14-d38e-4afa-936d-0a3478a2247d/media/thumbnail",
+    "thumbnail": "/templates/template-34.jpg",
     "alt": "Prévia do modelo Hospedagem — Hotelmaster",
     "category": "Serviços profissionais",
     "name": "Hospedagem — Hotelmaster",
@@ -307,7 +307,7 @@
   },
   {
     "id": "template-35",
-    "thumbnail": "/api/templates/18e950ec-0af6-4b3f-8143-2e4ebc0efcfa/media/thumbnail",
+    "thumbnail": "/templates/template-35.jpg",
     "alt": "Prévia do modelo Hospedagem — Leluxe",
     "category": "Serviços profissionais",
     "name": "Hospedagem — Leluxe",
@@ -316,7 +316,7 @@
   },
   {
     "id": "template-36",
-    "thumbnail": "/api/templates/e52ad08e-711f-4801-b366-1656a3076394/media/thumbnail",
+    "thumbnail": "/templates/template-36.jpg",
     "alt": "Prévia do modelo Hospedagem — Qomfort",
     "category": "Serviços profissionais",
     "name": "Hospedagem — Qomfort",
@@ -325,7 +325,7 @@
   },
   {
     "id": "template-37",
-    "thumbnail": "/api/templates/cbcbc1cc-2ec7-4660-a28e-6108d0c58e59/media/thumbnail",
+    "thumbnail": "/templates/template-37.jpg",
     "alt": "Prévia do modelo Imóveis — Domira",
     "category": "Imobiliário &amp; Reforma",
     "name": "Imóveis — Domira",
@@ -334,7 +334,7 @@
   },
   {
     "id": "template-38",
-    "thumbnail": "/api/templates/37f46e19-ac5a-4fb5-a682-2502bbd64a9e/media/thumbnail",
+    "thumbnail": "/templates/template-38.jpg",
     "alt": "Prévia do modelo Imóveis — Lemanhouse",
     "category": "Imobiliário &amp; Reforma",
     "name": "Imóveis — Lemanhouse",
@@ -343,7 +343,7 @@
   },
   {
     "id": "template-39",
-    "thumbnail": "/api/templates/94801da4-2eee-4078-8591-4fcc0cf39558/media/thumbnail",
+    "thumbnail": "/templates/template-39.jpg",
     "alt": "Prévia do modelo Imóveis — Quicksale",
     "category": "Imobiliário &amp; Reforma",
     "name": "Imóveis — Quicksale",
@@ -352,7 +352,7 @@
   },
   {
     "id": "template-40",
-    "thumbnail": "/api/templates/1b5f26cb-5102-45d9-918c-c7a45c644be3/media/thumbnail",
+    "thumbnail": "/templates/template-40.jpg",
     "alt": "Prévia do modelo Limpeza — Laun",
     "category": "Serviços profissionais",
     "name": "Limpeza — Laun",
@@ -361,7 +361,7 @@
   },
   {
     "id": "template-41",
-    "thumbnail": "/api/templates/f7307bc4-03ef-458c-ac74-6e6c3f6f43ab/media/thumbnail",
+    "thumbnail": "/templates/template-41.jpg",
     "alt": "Prévia do modelo Lojas",
     "category": "Lojas",
     "name": "Lojas",
@@ -370,7 +370,7 @@
   },
   {
     "id": "template-42",
-    "thumbnail": "/api/templates/e068a7d3-ffa0-4fbf-80ef-e2307d12add2/media/thumbnail",
+    "thumbnail": "/templates/template-42.jpg",
     "alt": "Prévia do modelo Manutenção — Handify",
     "category": "Serviços profissionais",
     "name": "Manutenção — Handify",
@@ -379,7 +379,7 @@
   },
   {
     "id": "template-43",
-    "thumbnail": "/api/templates/fbb1a266-5e4d-418a-89a7-30c66c69e235/media/thumbnail",
+    "thumbnail": "/templates/template-43.jpg",
     "alt": "Prévia do modelo Manutenção — Qlinest",
     "category": "Serviços profissionais",
     "name": "Manutenção — Qlinest",
@@ -388,7 +388,7 @@
   },
   {
     "id": "template-44",
-    "thumbnail": "/api/templates/b2f43cdc-4897-43c5-830d-be0aa4a36e32/media/thumbnail",
+    "thumbnail": "/templates/template-44.jpg",
     "alt": "Prévia do modelo Odontologia — Decare",
     "category": "Saúde &amp; Bem-estar",
     "name": "Odontologia — Decare",
@@ -397,7 +397,7 @@
   },
   {
     "id": "template-45",
-    "thumbnail": "/api/templates/14c13a5d-09d0-4c4e-8448-b0e3ee6e19f7/media/thumbnail",
+    "thumbnail": "/templates/template-45.jpg",
     "alt": "Prévia do modelo Odontologia — Dentia Next",
     "category": "Saúde &amp; Bem-estar",
     "name": "Odontologia — Dentia Next",
@@ -406,7 +406,7 @@
   },
   {
     "id": "template-46",
-    "thumbnail": "/api/templates/57d648c0-2a79-42e1-9041-56a1386bf5f1/media/thumbnail",
+    "thumbnail": "/templates/template-46.jpg",
     "alt": "Prévia do modelo Odontologia — Dentia Php",
     "category": "Saúde &amp; Bem-estar",
     "name": "Odontologia — Dentia Php",
@@ -415,7 +415,7 @@
   },
   {
     "id": "template-47",
-    "thumbnail": "/api/templates/d845fe4a-f6b5-46ce-9b83-5de9ee4baf37/media/thumbnail",
+    "thumbnail": "/templates/template-47.jpg",
     "alt": "Prévia do modelo Odontologia — Dentisto",
     "category": "Saúde &amp; Bem-estar",
     "name": "Odontologia — Dentisto",
@@ -424,7 +424,7 @@
   },
   {
     "id": "template-48",
-    "thumbnail": "/api/templates/c4c7922b-af8f-45a5-917e-3b2af81ba1e0/media/thumbnail",
+    "thumbnail": "/templates/template-48.jpg",
     "alt": "Prévia do modelo Personal Trainer — Fitmas",
     "category": "Academias e esportes",
     "name": "Personal Trainer — Fitmas",
@@ -433,7 +433,7 @@
   },
   {
     "id": "template-49",
-    "thumbnail": "/api/templates/52d7b428-9581-44df-bb83-b91e64a86af8/media/thumbnail",
+    "thumbnail": "/templates/template-49.jpg",
     "alt": "Prévia do modelo Personal Trainer — Progym",
     "category": "Academias e esportes",
     "name": "Personal Trainer — Progym",
@@ -442,7 +442,7 @@
   },
   {
     "id": "template-50",
-    "thumbnail": "/api/templates/de461ab0-8ff5-4678-b797-512d909e6b97/media/thumbnail",
+    "thumbnail": "/templates/template-50.jpg",
     "alt": "Prévia do modelo Personal Trainer — Samantha",
     "category": "Academias e esportes",
     "name": "Personal Trainer — Samantha",
@@ -451,7 +451,7 @@
   },
   {
     "id": "template-51",
-    "thumbnail": "/api/templates/a017fcb1-5077-4e18-adf3-6d034ca5a244/media/thumbnail",
+    "thumbnail": "/templates/template-51.jpg",
     "alt": "Prévia do modelo Pizzaria — Onepage",
     "category": "Restaurantes",
     "name": "Pizzaria — Onepage",
@@ -460,7 +460,7 @@
   },
   {
     "id": "template-52",
-    "thumbnail": "/api/templates/53e15bd6-1c41-4973-b5ea-ded7b218ba17/media/thumbnail",
+    "thumbnail": "/templates/template-52.jpg",
     "alt": "Prévia do modelo Restaurante — Duas Casas",
     "category": "Restaurantes",
     "name": "Restaurante — Duas Casas",
@@ -469,7 +469,7 @@
   },
   {
     "id": "template-53",
-    "thumbnail": "/api/templates/22ebc82b-0f25-43e3-94ab-37e88be44cd1/media/thumbnail",
+    "thumbnail": "/templates/template-53.jpg",
     "alt": "Prévia do modelo Restaurante — Elegencia",
     "category": "Restaurantes",
     "name": "Restaurante — Elegencia",
@@ -478,7 +478,7 @@
   },
   {
     "id": "template-54",
-    "thumbnail": "/api/templates/8a56c96b-d2d0-4f85-bebc-2da9df2541b4/media/thumbnail",
+    "thumbnail": "/templates/template-54.jpg",
     "alt": "Prévia do modelo Restaurante — Foodio",
     "category": "Restaurantes",
     "name": "Restaurante — Foodio",
@@ -487,7 +487,7 @@
   },
   {
     "id": "template-55",
-    "thumbnail": "/api/templates/91a5ac49-adb4-4f4c-a424-ad37416b77fd/media/thumbnail",
+    "thumbnail": "/templates/template-55.jpg",
     "alt": "Prévia do modelo Restaurante — Foodu",
     "category": "Restaurantes",
     "name": "Restaurante — Foodu",
@@ -496,7 +496,7 @@
   },
   {
     "id": "template-56",
-    "thumbnail": "/api/templates/33ab1ff9-e344-4f0a-88e3-069a3c969c98/media/thumbnail",
+    "thumbnail": "/templates/template-56.jpg",
     "alt": "Prévia do modelo Restaurante — Fresheat",
     "category": "Restaurantes",
     "name": "Restaurante — Fresheat",
@@ -505,7 +505,7 @@
   },
   {
     "id": "template-57",
-    "thumbnail": "/api/templates/41383f1b-f3fe-4053-a2b8-f40ab220bff7/media/thumbnail",
+    "thumbnail": "/templates/template-57.jpg",
     "alt": "Prévia do modelo Restaurante — Grillino",
     "category": "Restaurantes",
     "name": "Restaurante — Grillino",
@@ -514,7 +514,7 @@
   },
   {
     "id": "template-58",
-    "thumbnail": "/api/templates/19e826c6-83b0-43d5-98c1-2402fdcb76bf/media/thumbnail",
+    "thumbnail": "/templates/template-58.jpg",
     "alt": "Prévia do modelo Restaurante — Royate",
     "category": "Restaurantes",
     "name": "Restaurante — Royate",
@@ -523,7 +523,7 @@
   },
   {
     "id": "template-59",
-    "thumbnail": "/api/templates/8910aff4-cb92-4a44-af45-81d1d8231e0b/media/thumbnail",
+    "thumbnail": "/templates/template-59.jpg",
     "alt": "Prévia do modelo Restaurante — Thesignature",
     "category": "Restaurantes",
     "name": "Restaurante — Thesignature",
@@ -532,7 +532,7 @@
   },
   {
     "id": "template-60",
-    "thumbnail": "/api/templates/6e9f5f47-453f-4c08-b1c9-f8c86637ce7f/media/thumbnail",
+    "thumbnail": "/templates/template-60.jpg",
     "alt": "Prévia do modelo Saúde — Clinicmaster",
     "category": "Saúde &amp; Bem-estar",
     "name": "Saúde — Clinicmaster",
@@ -541,7 +541,7 @@
   },
   {
     "id": "template-61",
-    "thumbnail": "/api/templates/eb5451e7-0693-469b-bbc6-5fa3a2f06d97/media/thumbnail",
+    "thumbnail": "/templates/template-61.jpg",
     "alt": "Prévia do modelo Saúde — Counseling",
     "category": "Saúde &amp; Bem-estar",
     "name": "Saúde — Counseling",
@@ -550,7 +550,7 @@
   },
   {
     "id": "template-62",
-    "thumbnail": "/api/templates/e34db5a4-34d5-4c54-82ee-b758c780b299/media/thumbnail",
+    "thumbnail": "/templates/template-62.jpg",
     "alt": "Prévia do modelo Saúde — Mentalpress",
     "category": "Saúde &amp; Bem-estar",
     "name": "Saúde — Mentalpress",
@@ -559,7 +559,7 @@
   },
   {
     "id": "template-63",
-    "thumbnail": "/api/templates/745042b5-8193-4590-b67a-41095866e28c/media/thumbnail",
+    "thumbnail": "/templates/template-63.jpg",
     "alt": "Prévia do modelo Tecnologia — Luminex",
     "category": "Tecnologia",
     "name": "Tecnologia — Luminex",
@@ -568,7 +568,7 @@
   },
   {
     "id": "template-64",
-    "thumbnail": "/api/imported-templates/coffee-shop-free-html5-template/thumbnail",
+    "thumbnail": "/templates/template-64.jpg",
     "alt": "Prévia do modelo Cafeteria — Coffee",
     "category": "Restaurantes",
     "name": "Cafeteria — Coffee",
@@ -577,7 +577,7 @@
   },
   {
     "id": "template-65",
-    "thumbnail": "/api/imported-templates/eat-restaurant-bootstrap-html5-template/thumbnail",
+    "thumbnail": "/templates/template-65.jpg",
     "alt": "Prévia do modelo Restaurante — Eat",
     "category": "Restaurantes",
     "name": "Restaurante — Eat",
@@ -586,7 +586,7 @@
   },
   {
     "id": "template-66",
-    "thumbnail": "/api/imported-templates/golden-hotel-free-html5-bootstrap-web-template/thumbnail",
+    "thumbnail": "/templates/template-66.jpg",
     "alt": "Prévia do modelo Hospedagem — Golden",
     "category": "Serviços profissionais",
     "name": "Hospedagem — Golden",
