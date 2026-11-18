@@ -1,0 +1,1 @@
+addEventListener("load",function(){setTimeout(function(){document.querySelectorAll("video[data-fl-lazy]").forEach(function(v){v.querySelectorAll("source[data-src]").forEach(function(s){s.src=s.getAttribute("data-src")});v.load();var p=v.play();if(p&&p.catch)p.catch(function(){})})},200)});

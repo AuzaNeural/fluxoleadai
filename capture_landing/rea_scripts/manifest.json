@@ -1,0 +1,939 @@
+{
+  "capture_path": "C:\\Users\\alecs\\Desktop\\EMPRESAS\\2 - AUZA NEURAL\\1 - PROJETOS\\6 - FLUXO LEAD AI\\capture_landing\\rea_inspect_web_page.json",
+  "capture_sha256": "442f103f8d46e2ae4ecf4dff153cb896d503a8686a86b3d597b6717389b630c6",
+  "capture_kind": "page-inspection",
+  "source_evidence_id": "ev_a91ea2ba87242ee4b5bcd0ef884fc55903a1e05eb8bd8778133cb2ea0139e63c",
+  "capture_completeness": {
+    "status": "policy_filtered",
+    "conditions": [
+      "attach_limited",
+      "policy_filtered"
+    ],
+    "policy_filtered_sections": [
+      "console_text",
+      "json_body_shapes",
+      "scripts",
+      "websocket_shapes"
+    ],
+    "attach_limited_sections": [
+      "console_events",
+      "metadata",
+      "network_requests",
+      "websocket_connections",
+      "websocket_frames",
+      "workers"
+    ],
+    "truncated_sections": [],
+    "unavailable_sections": [],
+    "excluded": [
+      {
+        "section": "console_text",
+        "reason": "not_approved",
+        "count": null
+      },
+      {
+        "section": "json_body_shapes",
+        "reason": "not_approved",
+        "count": null
+      },
+      {
+        "section": "scripts",
+        "reason": "unsupported_url",
+        "count": 1
+      },
+      {
+        "section": "websocket_shapes",
+        "reason": "not_approved",
+        "count": null
+      }
+    ],
+    "dropped_events": {
+      "scripts": 0,
+      "network_requests": 0,
+      "console_events": 0,
+      "websocket_connections": 0,
+      "websocket_frames": 0,
+      "webmcp_tools": 0,
+      "timeline_events": 0,
+      "total": 0
+    }
+  },
+  "output_directory": "C:\\Users\\alecs\\Desktop\\EMPRESAS\\2 - AUZA NEURAL\\1 - PROJETOS\\6 - FLUXO LEAD AI\\capture_landing\\rea_scripts",
+  "analysis_input": {
+    "input_path": "C:\\Users\\alecs\\Desktop\\EMPRESAS\\2 - AUZA NEURAL\\1 - PROJETOS\\6 - FLUXO LEAD AI\\capture_landing\\rea_scripts\\files",
+    "format": "directory"
+  },
+  "scripts": [
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_00342dce2606cacfe5233338adcbea769b34f43b412883a5b1e832fcc4aa62f0",
+        "frame_id": "AF7F2C301B21CDF6A5633A3BDDB80B04",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://fluxoleadai.com.br/wp-includes/js/wp-emoji-release.min.js?ver=7.1.2",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-1-6846c5db13ec2ff6864654848b870df64ffcc5fbe661ecf9fb8abbc22cd83d1a.js",
+        "layout": "isolated",
+        "layout_reason": "URL query, fragment, or credentials cannot select a canonical local module.",
+        "sha256": "063840b4b3f5869e0f0d078bab8bd29cfb3a59ee85e8e3edbbec35a8fe846fd3",
+        "bytes": 22752,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_0110891969d4b6327bf916e67d9054c8638550b2adfd172eadacb4b7c7a4112c",
+        "frame_id": "AF7F2C301B21CDF6A5633A3BDDB80B04",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://fluxoleadai.com.br/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-2-994a80449c1b3270d2c223d78e512a83d85cb185290968de56c324e2dc040748.js",
+        "layout": "isolated",
+        "layout_reason": "URL query, fragment, or credentials cannot select a canonical local module.",
+        "sha256": "5274f11e6fb32ae0cf2dfb9f8043272865c397a7c4223b4cfa7d50ea52fbde89",
+        "bytes": 13577,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_0a97f8ff3be36038167254b4391f3e7cfd6e49c19d850874be58f399baa6c503",
+        "frame_id": "AF7F2C301B21CDF6A5633A3BDDB80B04",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://fluxoleadai.com.br/",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-3-f9398ab44828f520ea3925be219663a9cdd7e7b46326df4ff610390bb955f179.js",
+        "layout": "isolated",
+        "layout_reason": "URL path is not an ordinary portable JavaScript module path.",
+        "sha256": "2e6ee90ca941fa94c14f4d210ffc0fa995f715eb2f23baf8612523a494508c5d",
+        "bytes": 186,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_0f20c4264200daaac311df9eb0f5bc94ea614846e792abbdb27e836a48b3911e",
+        "frame_id": "AF7F2C301B21CDF6A5633A3BDDB80B04",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://fluxoleadai.com.br/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=4.1.4",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-4-da632491ee163a6723e05a2b873a22a9e3b7e8ec7b309b49450544aeb5bf814d.js",
+        "layout": "isolated",
+        "layout_reason": "URL query, fragment, or credentials cannot select a canonical local module.",
+        "sha256": "1842d6e4d3c7399fdb01ab4b0a7dd5c1d9c096110de0532181ed581f14e9e813",
+        "bytes": 32098,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_0fa88a8f8914e71bdfd77c0e224b0f9a13e15a74133dc52132f987c88ba50afc",
+        "frame_id": "AF7F2C301B21CDF6A5633A3BDDB80B04",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://fluxoleadai.com.br/wp-content/plugins/elementor/assets/js/video.86d44e46e43d0807e708.bundle.min.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/aadfedac190900557da4134fe0dfa4dd50b1757743de03da04bf64b9dcd4c2be/wp-content/plugins/elementor/assets/js/video.86d44e46e43d0807e708.bundle.min.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "3a4fdbe6193f194e11a0a0ff7f7cf6d5b9f9f264e1ba8b65174428bc6ff55115",
+        "bytes": 3223,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_1979a9e2327b321df7de9730ed0d602eef9ee97d69cfd738a66d378e2c8c3b52",
+        "frame_id": "AF7F2C301B21CDF6A5633A3BDDB80B04",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://fluxoleadai.com.br/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=4.1.4",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-6-78251ac62836a52f9fe48945cf104b586c49d4df67bbac03491fde02bc0bfc02.js",
+        "layout": "isolated",
+        "layout_reason": "URL query, fragment, or credentials cannot select a canonical local module.",
+        "sha256": "8dd3674bae946e2e04bc962443f0994d736a761bb28e816c20aee6391ef242ed",
+        "bytes": 5819,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_1c7d642d0b4b2749f31d4a7255fdaf899436259ba5875d57f83d7c9e14256316",
+        "frame_id": "AF7F2C301B21CDF6A5633A3BDDB80B04",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://fluxoleadai.com.br/",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-7-f889ce30ba03cce8e60e19233381a931063b0f9e604d1bc1b2e70bc719aa9918.js",
+        "layout": "isolated",
+        "layout_reason": "URL path is not an ordinary portable JavaScript module path.",
+        "sha256": "1e3d4e8ce10bb39573ec7fb8e085bb024ad1a8bf1845690b2023fb62e2829f1c",
+        "bytes": 592,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_1d58a212f36f79cb2da80c098be5d7bd6ec49939e49bd7ecb65ec91ae441546a",
+        "frame_id": "AF7F2C301B21CDF6A5633A3BDDB80B04",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://fluxoleadai.com.br/wp-content/plugins/elementor/assets/js/shared-frontend-handlers.03caa53373b56d3bab67.bundle.min.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/aadfedac190900557da4134fe0dfa4dd50b1757743de03da04bf64b9dcd4c2be/wp-content/plugins/elementor/assets/js/shared-frontend-handlers.03caa53373b56d3bab67.bundle.min.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "77c0a6d635dad44b53a9eb9f0f367a1bd3bf3620c0e41d3a4c15d1313f2553f0",
+        "bytes": 8481,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_2658a87300a259d15ba62a872f43601cb3e4abd485b26614f75ebff028eac432",
+        "frame_id": "AF7F2C301B21CDF6A5633A3BDDB80B04",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://fluxoleadai.com.br/fl/consent.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/aadfedac190900557da4134fe0dfa4dd50b1757743de03da04bf64b9dcd4c2be/fl/consent.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "d39e9b53c911e61ec40bdd622761079e6678e47bb39a2180262bd385f72c00d5",
+        "bytes": 19495,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_2b40f1c584649b807a63795e59b181263546829a76afcb8df0036c91adb7e88a",
+        "frame_id": "AF7F2C301B21CDF6A5633A3BDDB80B04",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://fluxoleadai.com.br/wp-includes/js/jquery/ui/core.min.js?ver=1.14.2",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-10-51db7f0f28949b1eb61f6dcfe25ce354d4ffb79858eb27e430b7ad262b3c63e1.js",
+        "layout": "isolated",
+        "layout_reason": "URL query, fragment, or credentials cannot select a canonical local module.",
+        "sha256": "b7a27a4b4abfc300eaf7d9151afeef8df2663d98586e38f59f91bbe98ef30af7",
+        "bytes": 18674,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_34a2f4274875ad7246fea09a5d7597f10b3dcb912f53ab1555a36723a3926560",
+        "frame_id": "AF7F2C301B21CDF6A5633A3BDDB80B04",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://fluxoleadai.com.br/wp-content/plugins/gum-elementor-addon/js/jquery.superslides.js?ver=1.0",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-11-19ef5a4b74f0be774c3b26ad14a844461c2402584ef037b2517104e51a80970e.js",
+        "layout": "isolated",
+        "layout_reason": "URL query, fragment, or credentials cannot select a canonical local module.",
+        "sha256": "ee446fea39ccdf2d494c55c142e746153f1147c68f74834cd48ef2e6d8bba951",
+        "bytes": 15579,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_416d8687d2690c4563830d3bfe3b4e0050e0f21b92a90949b87a9629403e7f14",
+        "frame_id": "AF7F2C301B21CDF6A5633A3BDDB80B04",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": "https://fluxoleadai.com.br/wp-content/plugins/elementor/assets/lib/swiper/v8/swiper-bundle.min.js.map"
+      },
+      "url": "https://fluxoleadai.com.br/wp-content/plugins/elementor/assets/lib/swiper/v8/swiper.min.js?ver=8.4.5",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-12-719c983c2e34f7c27527ee9ee247ef1fd19db37b0969d0bf921094f484c489dd.js",
+        "layout": "isolated",
+        "layout_reason": "URL query, fragment, or credentials cannot select a canonical local module.",
+        "sha256": "2ac3af00c283c0b2ae6108fa83a2053e51274a2a812fb063916cbe19bc4f96b5",
+        "bytes": 143709,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_5020ed2140e552096070b60e352bfb1a56fad3159c64de6074b524e233054e98",
+        "frame_id": "AF7F2C301B21CDF6A5633A3BDDB80B04",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://fluxoleadai.com.br/wp-content/plugins/elementskit-lite/widgets/init/assets/js/widgets/header-offcanvas.js?ver=4.0.7",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-13-9f79c1947b6f11865d205b2e9b0098a31c0548f1975885b4d225472a9f536744.js",
+        "layout": "isolated",
+        "layout_reason": "URL query, fragment, or credentials cannot select a canonical local module.",
+        "sha256": "c14960982664ef67137d8ebcc3b0221a2e56119345884da647d7c33e263571e2",
+        "bytes": 485,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_5698f5b86843f3409db199f3bc25638957029bb8d3751c785919d1466b88dbc6",
+        "frame_id": "AF7F2C301B21CDF6A5633A3BDDB80B04",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://fluxoleadai.com.br/wp-includes/js/dist/i18n.min.js?ver=1dfe7db3940c23ea9216",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-14-10e43fff5f235d881f625e6104c2c63c65adcca86a6d2d71699a05503a07914a.js",
+        "layout": "isolated",
+        "layout_reason": "URL query, fragment, or credentials cannot select a canonical local module.",
+        "sha256": "5083905862c2b7aa8a84c4f2313d359d2288fb25fbe1ff577fa7325eff2ed2d9",
+        "bytes": 5791,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_6692f21a749bf3689ee26c4ac1606672496c136f56be322c9c803741a1cbaa81",
+        "frame_id": "AF7F2C301B21CDF6A5633A3BDDB80B04",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": "https://fluxoleadai.com.br/_ext/unpkg.com/lenis@1.1.18/dist/lenis.min.js.map"
+      },
+      "url": "https://fluxoleadai.com.br/_ext/unpkg.com/lenis@1.1.18/dist/lenis.min.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-15-6bb06f05b95e98831d3455f98de7e48a47560287492cfdcbf385ef4c6e9ebf0f.js",
+        "layout": "isolated",
+        "layout_reason": "URL path is not an ordinary portable JavaScript module path.",
+        "sha256": "0bf174d39b9abc304a3d501ab6457587e756d07bd824f868a5324b5cf15125b0",
+        "bytes": 13020,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_6c681cd882ff68c4c940f9948d95c0ca0ebceb3373904808e889cffa903e6220",
+        "frame_id": "AF7F2C301B21CDF6A5633A3BDDB80B04",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://fluxoleadai.com.br/wp-content/plugins/elementskit-lite/widgets/init/assets/js/widgets/header-search.js?ver=4.0.7",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-16-11b59bf2de0476d013a95938ed601cc017a66ecc31ce2b7134dd52e39796b044.js",
+        "layout": "isolated",
+        "layout_reason": "URL query, fragment, or credentials cannot select a canonical local module.",
+        "sha256": "95720581303ec7cef72bc7c239e479bbf8dfc7c7edb93af6b3ddf307fefaa394",
+        "bytes": 589,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_749757e481bbafcef7af85c7ff14cdd7fedcc156369a1be2d22c52ebe936992f",
+        "frame_id": "AF7F2C301B21CDF6A5633A3BDDB80B04",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://fluxoleadai.com.br/",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-17-c84aaf61d89dd185e79036e38a3b34d367ce3b3ef5b0508869b3b27450d54a01.js",
+        "layout": "isolated",
+        "layout_reason": "URL path is not an ordinary portable JavaScript module path.",
+        "sha256": "8707c53eb7a0273f7ab3a7baf5014fd24a73a780455a4a228158cf4c7c557769",
+        "bytes": 290,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_7576194f0b3b01cb6caa22da5837dba38847185cd096c8db3ba0d172e39df163",
+        "frame_id": "AF7F2C301B21CDF6A5633A3BDDB80B04",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://fluxoleadai.com.br/wp-content/plugins/gum-elementor-addon//js/owl.carousel.min.js?ver=2.2.1",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-18-297b49f701055f27794e29a56ab3cd412c0172ccb387d640221b394b6be32447.js",
+        "layout": "isolated",
+        "layout_reason": "URL path is not an ordinary portable JavaScript module path.",
+        "sha256": "b394d33b2a7ec654a6b037ebfda6618341b3f897a362be624c923c2711b54a43",
+        "bytes": 42766,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_7cfbc5c392137957d867360948c14775c9f5a5b1db5faf8c945e6d40cd5e6ef7",
+        "frame_id": "AF7F2C301B21CDF6A5633A3BDDB80B04",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://fluxoleadai.com.br/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=4.1.4",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-19-c4974561290a4f8efd96028c8742b3ee0f7422c0d81c4f046b42665e7fbc0189.js",
+        "layout": "isolated",
+        "layout_reason": "URL query, fragment, or credentials cannot select a canonical local module.",
+        "sha256": "c66f47147d5fe3cceeaa47a93ff7440a328f859b049deec2f9d8f414e9137474",
+        "bytes": 50602,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_837513e981ab225eb7295bddccb084ce0e309e7cf62874adee757b4e34ae62aa",
+        "frame_id": "AF7F2C301B21CDF6A5633A3BDDB80B04",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://fluxoleadai.com.br/wp-content/plugins/pro-elements/assets/js/frontend.min.js?ver=4.1.0",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-20-65187a33d76329c04abbfe657d0d2fff969473403105dcf2f3806c7f6f5c01fb.js",
+        "layout": "isolated",
+        "layout_reason": "URL query, fragment, or credentials cannot select a canonical local module.",
+        "sha256": "8f4967178276e8284f57e2dcc8e3eb3c82c03b6426ea57aee87cb36a19c31296",
+        "bytes": 23938,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_853aa172b97ea455958122a46c8b84c2d28496fc96d0279daaaa6f587f8eb630",
+        "frame_id": "AF7F2C301B21CDF6A5633A3BDDB80B04",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://fluxoleadai.com.br/wp-content/plugins/elementskit-lite/widgets/init/assets/js/widgets/accordion.js?ver=4.0.7",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-21-bb7e2fbde165ba7ea667be93d133138bb151ad6108f75f3c384499c74a3c9f81.js",
+        "layout": "isolated",
+        "layout_reason": "URL query, fragment, or credentials cannot select a canonical local module.",
+        "sha256": "a5ecd89e96fcddad1af45d0275734657192dd415b36a825771aa96a0e542fcf5",
+        "bytes": 257,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_97d5b0a7791db3e8b5bc2fd01013397a1230535efdd43d690f7d161864c8c680",
+        "frame_id": "AF7F2C301B21CDF6A5633A3BDDB80B04",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://fluxoleadai.com.br/_capturador/shim.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/aadfedac190900557da4134fe0dfa4dd50b1757743de03da04bf64b9dcd4c2be/_capturador/shim.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "1dc8831325a05a3d4287d449e2eb9faac8fe86b0b1962d38122c0d4bb1948eb6",
+        "bytes": 4989,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_a275232ef71eacdd503b02f9cd7b682f98dd77f78c798130bc48afc499de18ba",
+        "frame_id": "AF7F2C301B21CDF6A5633A3BDDB80B04",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://fluxoleadai.com.br/wp-content/plugins/elementor/assets/js/image-carousel.6167d20b95b33386757b.bundle.min.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/aadfedac190900557da4134fe0dfa4dd50b1757743de03da04bf64b9dcd4c2be/wp-content/plugins/elementor/assets/js/image-carousel.6167d20b95b33386757b.bundle.min.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "289714af428c6e58d11f943ee46c73be52c6fe6526f7a405e8326a99b4b52307",
+        "bytes": 408,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_a2a73d6ea20e63ad36986f5c3c11fad9c472c1e4f3f68c9a39bc820a254f63c3",
+        "frame_id": "AF7F2C301B21CDF6A5633A3BDDB80B04",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://fluxoleadai.com.br/wp-content/plugins/elementskit-lite/widgets/init/assets/js/widgets/core.js?ver=4.0.7",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-24-2ef794744fe207f756f61aef7842bddcc2e91e612b1186d33e33f27441f104dd.js",
+        "layout": "isolated",
+        "layout_reason": "URL query, fragment, or credentials cannot select a canonical local module.",
+        "sha256": "a8c2ffb8e0701a42c29dc2f68b7888063a0cf1de1eae2528956f2567de073268",
+        "bytes": 3467,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_a69ef99a3e45908f4f13ab9dbc8d7a64cd3b891b9219696b035b628026857c59",
+        "frame_id": "AF7F2C301B21CDF6A5633A3BDDB80B04",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://fluxoleadai.com.br/wp-content/plugins/pro-elements/assets/js/webpack-pro.runtime.min.js?ver=4.1.0",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-25-2ca74e8961c0a52e58e14c5a5100f7a683db0b8825a41602bee387ec0d8941eb.js",
+        "layout": "isolated",
+        "layout_reason": "URL query, fragment, or credentials cannot select a canonical local module.",
+        "sha256": "c90fb69b75b015bbdd08166e306ab48a870cfaabd102dce733247ba1c5bdbb33",
+        "bytes": 6241,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_b607f374a1c53727146b95225d6b4f717e2dd9cee4beb099e5b45df83cf43531",
+        "frame_id": "AF7F2C301B21CDF6A5633A3BDDB80B04",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://fluxoleadai.com.br/wp-content/plugins/elementskit-lite/assets/libs/magnific-popup/jquery.magnific-popup.min.js?ver=4.0.7",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-26-eedb9eed78f9bf7e9ef6bbb356ae70cdf48d21b4c1781ff75a722bf9d3178ddb.js",
+        "layout": "isolated",
+        "layout_reason": "URL query, fragment, or credentials cannot select a canonical local module.",
+        "sha256": "36ff873ebe85ca30547995ea8bba777681a48f1090a2b7906060617cb4b5937b",
+        "bytes": 20849,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_bdb30eb4ec3bd4d203019b78d4e35421b398ba6a093a08f8498edb3a2d793ba6",
+        "frame_id": "AF7F2C301B21CDF6A5633A3BDDB80B04",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://fluxoleadai.com.br/wp-content/plugins/gum-elementor-addon/js/jquery.easing.1.3.js?ver=1.0",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-27-a1d69c4fbdb321edef2ee236fee8dade29530db4ca518ccf97ee3d569554dbbe.js",
+        "layout": "isolated",
+        "layout_reason": "URL query, fragment, or credentials cannot select a canonical local module.",
+        "sha256": "0757f7ff6e5f6a581922a5e2d42c5e0cf7475d880885a9802e8bdd5e4188dd34",
+        "bytes": 8097,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_c1275a505bf237f23a9af9373fc08873f547dc7ffe78bfb56a92efef7689edc5",
+        "frame_id": "AF7F2C301B21CDF6A5633A3BDDB80B04",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://fluxoleadai.com.br/wp-content/plugins/elementor/assets/js/text-editor.45609661e409413f1cef.bundle.min.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/aadfedac190900557da4134fe0dfa4dd50b1757743de03da04bf64b9dcd4c2be/wp-content/plugins/elementor/assets/js/text-editor.45609661e409413f1cef.bundle.min.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "4543f55b0b8bc8fe912da8ddd1da7b07d0e8d3e77a824295a6bccd90d4f8aa13",
+        "bytes": 1348,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_d9899fa0fe9fee2e8a2cd8a3053a202378d5c7a83143642d01e2c9decf05ccbf",
+        "frame_id": "AF7F2C301B21CDF6A5633A3BDDB80B04",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://fluxoleadai.com.br/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-29-79d6ac2c7fc16097098ace2d36227c69c567b3dbd13249b71aaf112dcf0bbfcc.js",
+        "layout": "isolated",
+        "layout_reason": "URL query, fragment, or credentials cannot select a canonical local module.",
+        "sha256": "cb6f2d32c49d1c2b25e9ffc9aaafa3f83075346c01bcd4ae6eb187392a4292cf",
+        "bytes": 87553,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_dc87983335dc8d5048824e50be77abadc068f386407c7226bba743977b30cab3",
+        "frame_id": "AF7F2C301B21CDF6A5633A3BDDB80B04",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://fluxoleadai.com.br/wp-includes/js/dist/hooks.min.js?ver=f0f188028580e8dc1255",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-30-cb2d4bba2ef189ca1b4cc93e4fa03366cf484641cf807a73c186f4bec5eadbae.js",
+        "layout": "isolated",
+        "layout_reason": "URL query, fragment, or credentials cannot select a canonical local module.",
+        "sha256": "fc774906082b59dedcfc55b8ef127783b6d056578ff4586a8ebbdb81bbe286f1",
+        "bytes": 5107,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_dfdc2b75c0480d5da19d69bb13c3f38510f459830c8b012dcd517daf171f61f0",
+        "frame_id": "AF7F2C301B21CDF6A5633A3BDDB80B04",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://fluxoleadai.com.br/wp-content/plugins/elementor/assets/js/counter.12335f45aaa79d244f24.bundle.min.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/aadfedac190900557da4134fe0dfa4dd50b1757743de03da04bf64b9dcd4c2be/wp-content/plugins/elementor/assets/js/counter.12335f45aaa79d244f24.bundle.min.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "83bc2e5a1c1130161bd95ff1c459a249db0861a1252b495baa478be264725964",
+        "bytes": 906,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_e78f8efecc02c22efbee731771aebc086ffba89eb4040cf946abd6dbc29898ad",
+        "frame_id": "AF7F2C301B21CDF6A5633A3BDDB80B04",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://fluxoleadai.com.br/wp-content/plugins/pro-elements/assets/js/elements-handlers.min.js?ver=4.1.0",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-32-a17bbe897cb580adf53ce3f2478f012bdcfbdb51163ee8ae279b33c90afb6c38.js",
+        "layout": "isolated",
+        "layout_reason": "URL query, fragment, or credentials cannot select a canonical local module.",
+        "sha256": "860839ccb402ba0182efb1f9c825f12eff5eb2e46ddc77d8c585a7d8032427d6",
+        "bytes": 43921,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_e9d5888fd85061024cb8cef1fe7ccd0851d564602ca29618a43ea0cb7e72fe48",
+        "frame_id": "AF7F2C301B21CDF6A5633A3BDDB80B04",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://fluxoleadai.com.br/wp-content/plugins/elementskit-lite/widgets/init/assets/js/ekit-ui.js?ver=4.0.7",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-33-26f04ae6e683578343798665fab1a1828e89f490819bf57a734776ae4ffc1748.js",
+        "layout": "isolated",
+        "layout_reason": "URL query, fragment, or credentials cannot select a canonical local module.",
+        "sha256": "614a3e106c296336827835cc8358c9fc0be9fb8387fad05f2ce7c2c328c1234d",
+        "bytes": 11871,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_ef7b2f96fd030438d7f05cffdb9449d9c7570fde93bc7241cf196b908bfb507f",
+        "frame_id": "AF7F2C301B21CDF6A5633A3BDDB80B04",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://fluxoleadai.com.br/wp-content/plugins/elementor/assets/lib/jquery-numerator/jquery-numerator.min.js?ver=0.2.1",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-34-0b02144dec09bfcc48d75e8aa1c1197ed77c03d9d2ba244071391f9944582dfe.js",
+        "layout": "isolated",
+        "layout_reason": "URL query, fragment, or credentials cannot select a canonical local module.",
+        "sha256": "9aa9bb8be2b834059533ce5de7eed3a662ad3d3e70643bbe5f75265075e9bd28",
+        "bytes": 1801,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_f3b1c315f7e7946cdb96dceb6366a388d7176c54ae7467296c2bb675edd7efae",
+        "frame_id": "AF7F2C301B21CDF6A5633A3BDDB80B04",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://fluxoleadai.com.br/",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-35-2f71c0fc5438dbd8eac09df53f21a9aa30afc242447e41dab58e41f5e897e71d.js",
+        "layout": "isolated",
+        "layout_reason": "URL path is not an ordinary portable JavaScript module path.",
+        "sha256": "d8259357aeba4e0c786dd6f213e1ccd2e7b1ff41641ce8d5bcd5d649c1b5aa9d",
+        "bytes": 401,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_f853d1a597263847b66b69af000992c88030d910ede75ff3cd58c8b2dc7af72c",
+        "frame_id": "AF7F2C301B21CDF6A5633A3BDDB80B04",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://fluxoleadai.com.br/",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-36-db5cef0c5e112da147119a7cd22333d5b350f4f4db938e29266171b3c94f456c.js",
+        "layout": "isolated",
+        "layout_reason": "URL path is not an ordinary portable JavaScript module path.",
+        "sha256": "dd0ec57abf154d52c161fae92db6014f042417d9660679097ae55287041ec52e",
+        "bytes": 922,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_f8971238656f4f4b59d5c8ed69dbd7a0b7d3137988ba11556845e14de8335543",
+        "frame_id": "AF7F2C301B21CDF6A5633A3BDDB80B04",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://fluxoleadai.com.br/wp-content/themes/hello-elementor/assets/js/hello-frontend.js?ver=3.4.9",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-37-6234b80a2af4960bee204aaae3e02a57d32ae3eb2a336693125d56515e494406.js",
+        "layout": "isolated",
+        "layout_reason": "URL query, fragment, or credentials cannot select a canonical local module.",
+        "sha256": "268cae8c2e7a7330526dd33b7dadc1bbd08b039bca4acd70390d81a7ef644767",
+        "bytes": 1830,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_fd91c7f715ca1430bcb300e94e9e0f5bc203df2da742d9b51342e00baa8ce219",
+        "frame_id": "AF7F2C301B21CDF6A5633A3BDDB80B04",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://fluxoleadai.com.br/wp-content/plugins/elementskit-lite/widgets/init/assets/js/widgets/nav-menu.js?ver=4.0.7",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-38-747992609528f366f9a0dac32fe4745b4b20e82118843f1746b8a4b7d997f993.js",
+        "layout": "isolated",
+        "layout_reason": "URL query, fragment, or credentials cannot select a canonical local module.",
+        "sha256": "08cf1b655636cac0bb7ba065d73cca2e212bd9952f5ecc80e2971337ea86e55a",
+        "bytes": 7695,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_ff0d87c37df4da9cd7f03c108a3297270dd5de62fe31391a2a115d5b6e6ced59",
+        "frame_id": "AF7F2C301B21CDF6A5633A3BDDB80B04",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://fluxoleadai.com.br/",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-39-8c2ac880a97f5c7ed3df27df8a894e77da7541403a789c5c29f1266542730876.js",
+        "layout": "isolated",
+        "layout_reason": "URL path is not an ordinary portable JavaScript module path.",
+        "sha256": "01952228ea7797213e984c96b7bcc557334938a6b2854c7d0ee280467dace0e5",
+        "bytes": 3734,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    }
+  ],
+  "limitations": [
+    "Observation starts when REA attaches; prior network and console activity is unavailable.",
+    "Worker targets are a final inventory snapshot, not worker-session observation. Their attached flag describes any debugging client; this page-session collector does not observe worker network, console, or script events, and short-lived workers may be absent from the snapshot.",
+    "Raw network headers, bodies, cookies, storage values, console objects, and WebSocket payloads are never retained; explicitly requested primitive console text is retained verbatim, while payload captures retain value-free shapes.",
+    "Source maps are reported only as declarative URLs and are not fetched.",
+    "URL-less scripts and console events without an allowed source URL are excluded because their origin cannot be proven.",
+    "CDP discovery omitted the target attachment state; attached is reported as unknown.",
+    "Only script bytes retained in this capture are exported. Sources are not refetched or executed, and a response or Debugger source does not prove execution.",
+    "Ordinary unambiguous URL paths preserve relative module layouts by origin, including case-distinct spellings. Query variants, exact path collisions, file/directory prefixes, inline sources, and unrepresentable paths are isolated. A case-distinct pair is isolated only when the destination filesystem cannot store both spellings; the record names that pair. Browser module relationships of isolated paths remain unknown.",
+    "Local JavaScript analysis does not implement browser import maps, root-relative URL resolution, remote URL loading, or browser runtime behavior. It may strip import queries and fragments; isolated variants are not canonical targets.",
+    "Source-map declarations are retained as metadata. No source maps or missing dependencies are fetched or reconstructed.",
+    "Scenario response bytes preserve the output of Playwright's Response.body() API; any source-body provenance caveat from the capture is retained in this manifest. Debugger sources are the exposed text encoded as UTF-8. Redacted bytes are exported exactly as retained, and may no longer parse as JavaScript."
+  ]
+}
