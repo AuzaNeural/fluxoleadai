@@ -32,7 +32,8 @@ export type PageId =
   | 'planos'
   | 'historico'
   | 'configuracoes'
-  | 'suporte';
+  | 'suporte'
+  | 'editor';
 
 interface SidebarProps {
   currentPage: PageId;

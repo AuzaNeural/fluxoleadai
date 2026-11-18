@@ -6,7 +6,7 @@ import { PageId } from '../components/layout/Sidebar';
 import rawTemplates from '../data/templates.json';
 
 interface TemplatesProps {
-  onNavigate: (page: PageId) => void;
+  onNavigate: (page: PageId, data?: any) => void;
 }
 
 interface RawTemplate {
@@ -85,13 +85,7 @@ export const Templates: React.FC<TemplatesProps> = ({ onNavigate }) => {
   });
 
   const handleUseTemplate = (tmpl: RawTemplate) => {
-    setActiveTemplateForModal({
-      id: tmpl.id,
-      name: tmpl.name,
-      category: tmpl.category,
-      image_url: tmpl.thumbnail || getCategoryFallback(tmpl.category),
-      description: tmpl.description
-    });
+    onNavigate('editor', tmpl);
   };
 
   return (

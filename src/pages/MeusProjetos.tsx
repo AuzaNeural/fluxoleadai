@@ -11,9 +11,14 @@ import {
 import { useLeads } from '../context/LeadContext';
 import { useToast } from '../context/ToastContext';
 import { NewProjectModal } from '../components/modals/NewProjectModal';
+import { PageId } from '../components/layout/Sidebar';
 import { Project } from '../types';
 
-export const MeusProjetos: React.FC = () => {
+interface MeusProjetosProps {
+  onNavigate?: (page: PageId, data?: any) => void;
+}
+
+export const MeusProjetos: React.FC<MeusProjetosProps> = ({ onNavigate }) => {
   const { projects, publishProject } = useLeads();
   const { showToast } = useToast();
 
@@ -44,7 +49,7 @@ export const MeusProjetos: React.FC = () => {
 
         <button
           type="button"
-          onClick={() => setIsModalOpen(true)}
+          onClick={() => (onNavigate ? onNavigate('templates') : setIsModalOpen(true))}
           className="inline-flex items-center gap-1.5 h-10 px-5 rounded-full bg-gradient-to-r from-[#fa2600] to-[#c82200] hover:from-[#ff3a17] hover:to-[#db2700] text-white text-xs font-semibold shadow-md transition-all cursor-pointer self-start sm:self-auto"
         >
           <Plus className="w-3.5 h-3.5" />
@@ -145,7 +150,7 @@ export const MeusProjetos: React.FC = () => {
 
                   <button
                     type="button"
-                    onClick={() => showToast('Editor de site com IA pronto!', 'info')}
+                    onClick={() => (onNavigate ? onNavigate('editor', proj) : showToast('Abrindo editor...', 'info'))}
                     className="inline-flex items-center gap-1.5 h-8 px-3.5 rounded-full border border-[#282e3b] bg-[#141720] text-xs font-semibold text-gray-200 hover:text-white hover:border-[#fa2600] transition-all cursor-pointer"
                   >
                     <Edit className="w-3 h-3" />

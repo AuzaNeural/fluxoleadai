@@ -3,6 +3,7 @@ import { useAuth } from './context/AuthContext';
 import { Login } from './pages/Login';
 import { MainLayout } from './components/layout/MainLayout';
 import { PageId } from './components/layout/Sidebar';
+import { Project } from './types';
 
 // Páginas
 import { Dashboard } from './pages/Dashboard';
@@ -17,9 +18,11 @@ import { PlanosAssinatura } from './pages/PlanosAssinatura';
 import { Historico } from './pages/Historico';
 import { Configuracoes } from './pages/Configuracoes';
 import { Suporte } from './pages/Suporte';
+import { SiteEditor } from './pages/SiteEditor';
 
 const getPageFromHash = (): PageId => {
   const hash = window.location.hash.toLowerCase();
+  if (hash.includes('editor')) return 'editor';
   if (hash.includes('crm')) return 'crm';
   if (hash.includes('vendedor')) return 'vendedor-ia';
   if (hash.includes('leads')) return 'meus-leads';
@@ -37,6 +40,8 @@ const getPageFromHash = (): PageId => {
 export const App: React.FC = () => {
   const { isAuthenticated } = useAuth();
   const [currentPage, setCurrentPage] = useState<PageId>(getPageFromHash);
+  const [currentTemplateForEditor, setCurrentTemplateForEditor] = useState<any>(null);
+  const [currentProjectForEditor, setCurrentProjectForEditor] = useState<Project | null>(null);
 
   useEffect(() => {
     const handleHashChange = () => {
@@ -46,7 +51,16 @@ export const App: React.FC = () => {
     return () => window.removeEventListener('hashchange', handleHashChange);
   }, []);
 
-  const handleNavigate = (page: PageId) => {
+  const handleNavigate = (page: PageId, data?: any) => {
+    if (page === 'editor') {
+      if (data && (data.template_id || data.status)) {
+        setCurrentProjectForEditor(data as Project);
+        setCurrentTemplateForEditor(null);
+      } else if (data) {
+        setCurrentTemplateForEditor(data);
+        setCurrentProjectForEditor(null);
+      }
+    }
     setCurrentPage(page);
     window.location.hash = `/app/${page}`;
   };
@@ -70,7 +84,7 @@ export const App: React.FC = () => {
       case 'templates':
         return <Templates onNavigate={handleNavigate} />;
       case 'meus-projetos':
-        return <MeusProjetos />;
+        return <MeusProjetos onNavigate={handleNavigate} />;
       case 'sites-publicados':
         return <SitesPublicados onNavigate={handleNavigate} />;
       case 'planos':
@@ -81,6 +95,14 @@ export const App: React.FC = () => {
         return <Configuracoes />;
       case 'suporte':
         return <Suporte />;
+      case 'editor':
+        return (
+          <SiteEditor
+            templateData={currentTemplateForEditor}
+            projectData={currentProjectForEditor}
+            onNavigate={handleNavigate}
+          />
+        );
       default:
         return <Dashboard onNavigate={handleNavigate} />;
     }
@@ -92,4 +114,3 @@ export const App: React.FC = () => {
     </MainLayout>
   );
 };
-
