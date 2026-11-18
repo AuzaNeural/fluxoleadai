@@ -1,0 +1,14 @@
+{
+  "format": "craft-anything-web-script-export",
+  "scripts": [
+    {
+      "bytes": 8145,
+      "path": "files/fluxoleadai.com.br/app/templates.js",
+      "sha256": "624a6a2a51518a5c18b463927b251fea34444e6845546331d205001897606e34",
+      "url": "https://fluxoleadai.com.br/app/templates"
+    }
+  ],
+  "skipped": [],
+  "source": "C:\\Users\\alecs\\Desktop\\EMPRESAS\\2 - AUZA NEURAL\\1 - PROJETOS\\6 - FLUXO LEAD AI\\capture_templates\\capture.json",
+  "version": 1
+}

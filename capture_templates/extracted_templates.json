@@ -1,0 +1,596 @@
+[
+  {
+    "index": 1,
+    "id": "948193e4-c852-458c-9942-acb6f22d90e0",
+    "category": "Advocacia",
+    "title": "Advocacia Premium — Direito Bancário",
+    "description": "Escritórios de advocacia (direito bancário e do consumidor). Hero com slideshow, áreas de atuação, problemas que resolve, time e depoimentos. Seções sem dados somem sozinhas.",
+    "thumbnail": "/api/templates/948193e4-c852-458c-9942-acb6f22d90e0/media/thumbnail",
+    "demoUrl": "/demos/advocacia-direito-bancario/"
+  },
+  {
+    "index": 2,
+    "id": "d9b34e5c-74dd-4802-bb5d-4c02fdc5a3d0",
+    "category": "Barbearias",
+    "title": "Barbearia VIP",
+    "description": "Barbearias premium: vídeo de fundo no topo, slides, experiência, serviços, galeria, agendamento pelo WhatsApp, produtos e localização. Visual escuro com dourado; nome, contatos, endereço e horário da barbearia entram sozinhos.",
+    "thumbnail": "/api/templates/d9b34e5c-74dd-4802-bb5d-4c02fdc5a3d0/media/thumbnail",
+    "demoUrl": "/demos/barbearia-vip/"
+  },
+  {
+    "index": 3,
+    "id": "35a8f015-d38a-4683-9d45-9c5ad4739659",
+    "category": "Restaurantes",
+    "title": "Churrascaria Premium",
+    "description": "Churrascarias e restaurantes de rodízio: banners em carrossel, apresentação, experiência, cardápio com busca, galeria, eventos pelo WhatsApp, dúvidas e localização. Visual vermelho e dourado; nome, contatos, endereço e cidade da empresa entram sozinhos.",
+    "thumbnail": "/api/templates/35a8f015-d38a-4683-9d45-9c5ad4739659/media/thumbnail",
+    "demoUrl": "/demos/churrascaria-premium/"
+  },
+  {
+    "index": 4,
+    "id": "342696ad-c2a0-440d-8a0f-54f1b4dd1ef9",
+    "category": "Restaurantes",
+    "title": "Cafeteria",
+    "description": "Cafeterias, brunch, gastronomia e cultura. Visual editorial elegante com tons terrosos, hero com foto de ambiente, experiências em cards, seção sobre, cardápio visual, depoimentos, localização com mapa e horário, FAQ e botão flutuante de WhatsApp.",
+    "thumbnail": "/api/templates/342696ad-c2a0-440d-8a0f-54f1b4dd1ef9/media/thumbnail",
+    "demoUrl": "/demos/bettina/"
+  },
+  {
+    "index": 5,
+    "id": "26c831ba-d5d0-4a08-803b-0d04afb3431a",
+    "category": "Estúdios de tatuagem",
+    "title": "Tattoo Studio Clássico",
+    "description": "Estúdios de tatuagem com trajetória: preto e dourado, faixa de trabalhos no topo, o estúdio, o artista, linha do tempo, galeria com lupa e contato pelo WhatsApp. Seções sem dados somem sozinhas.",
+    "thumbnail": "/api/templates/26c831ba-d5d0-4a08-803b-0d04afb3431a/media/thumbnail",
+    "demoUrl": "/demos/tattoo-studio-classico/"
+  },
+  {
+    "index": 6,
+    "id": "0332f831-5cfa-4d50-b4a9-505e2ea9a84f",
+    "category": "Pet shops",
+    "title": "Pet Shop",
+    "description": "Banho e tosa com vídeo responsivo, imagens locais, carrosséis animados e páginas de serviços, sobre e contato. Fotos, textos, marca e contatos editáveis.",
+    "thumbnail": "/api/templates/0332f831-5cfa-4d50-b4a9-505e2ea9a84f/media/thumbnail",
+    "demoUrl": "/demos/pet-shop/"
+  },
+  {
+    "index": 7,
+    "id": "96a18cbd-32d6-4c6c-a730-50a0f59fe804",
+    "category": "Estúdios de tatuagem",
+    "title": "Tattoo Studio Urbano",
+    "description": "Estúdios de tatuagem com pegada urbana: preto e laranja, título grande com o nome do estúdio, estilos com galeria e lightbox, processo de criação, perguntas frequentes e orçamento pelo WhatsApp. Seções sem dados somem sozinhas.",
+    "thumbnail": "/api/templates/96a18cbd-32d6-4c6c-a730-50a0f59fe804/media/thumbnail",
+    "demoUrl": "/demos/tattoo-studio-urbano/"
+  },
+  {
+    "index": 8,
+    "id": "f683649a-2214-4b07-8e17-4261ce4d006d",
+    "category": "Educação",
+    "title": "Colégio",
+    "description": "Template escolar fiel à captura, com páginas institucionais, galeria, eventos e notícias. Textos, fotos, logo e contatos editáveis.",
+    "thumbnail": "/api/templates/f683649a-2214-4b07-8e17-4261ce4d006d/media/thumbnail",
+    "demoUrl": "/demos/colegio-seg/"
+  },
+  {
+    "index": 9,
+    "id": "d5e76db4-246d-4880-b07c-198308454829",
+    "category": "Saúde &amp; Bem-estar",
+    "title": "Clínica Odontológica",
+    "description": "Clínica odontológica fiel à referência Vital Odonto, com tratamentos, unidade única, atendimento por WhatsApp e mídia editável.",
+    "thumbnail": "/api/templates/d5e76db4-246d-4880-b07c-198308454829/media/thumbnail",
+    "demoUrl": "/demos/vital-odonto/"
+  },
+  {
+    "index": 10,
+    "id": "93b26324-0e1e-4253-ad92-15c62c8cc67d",
+    "category": "Serviços profissionais",
+    "title": "Estética Automotiva",
+    "description": "Spa e estética automotiva com simulador de películas, carrosséis, fotos, vídeos, textos e contatos editáveis.",
+    "thumbnail": "/api/templates/93b26324-0e1e-4253-ad92-15c62c8cc67d/media/thumbnail",
+    "demoUrl": "/demos/bravos-spa/"
+  },
+  {
+    "index": 11,
+    "id": "4558283a-2306-42e6-86cd-7b9e789e64fa",
+    "category": "Academias e esportes",
+    "title": "Academia",
+    "description": "Academia boutique com layout fiel à referência, uma localização, fotos e vídeos editáveis, contatos automáticos e agendamento por WhatsApp.",
+    "thumbnail": "/api/templates/4558283a-2306-42e6-86cd-7b9e789e64fa/media/thumbnail",
+    "demoUrl": "/demos/academia-boutique/"
+  },
+  {
+    "index": 12,
+    "id": "874fceda-0f16-4bb7-8891-9362a2de12c8",
+    "category": "Academias e esportes",
+    "title": "Academia Gymfito",
+    "description": "Template para academia e estúdio de treinamento, com 16 páginas e duas variações de home. Visual escuro com acento laranja.",
+    "thumbnail": "/api/templates/874fceda-0f16-4bb7-8891-9362a2de12c8/media/thumbnail",
+    "demoUrl": "https://fluxoleadai.com.br/s/site-academia-gymfito-4c07a6"
+  },
+  {
+    "index": 13,
+    "id": "d107137d-23e4-4b38-8099-3cde79932e22",
+    "category": "Advocacia",
+    "title": "Advocacia — Lawgne",
+    "description": "",
+    "thumbnail": "/api/templates/d107137d-23e4-4b38-8099-3cde79932e22/media/thumbnail",
+    "demoUrl": "https://fluxoleadai.com.br/s/site-advocacia-lawgne-0d1be2"
+  },
+  {
+    "index": 14,
+    "id": "206971d8-5b2b-4d19-aad2-664dfd3538e5",
+    "category": "Advocacia",
+    "title": "Advocacia — Lawgne [NOVO]",
+    "description": "",
+    "thumbnail": "/api/templates/206971d8-5b2b-4d19-aad2-664dfd3538e5/media/thumbnail",
+    "demoUrl": "https://fluxoleadai.com.br/s/site-advocacia-lawgne-0d1be2"
+  },
+  {
+    "index": 15,
+    "id": "26f9bf27-742b-42d9-8ad7-6301b4558435",
+    "category": "Advocacia",
+    "title": "Advocacia — Qualacoat",
+    "description": "",
+    "thumbnail": "/api/templates/26f9bf27-742b-42d9-8ad7-6301b4558435/media/thumbnail",
+    "demoUrl": "https://fluxoleadai.com.br/s/site-advocacia-qualacoat-1b4b18"
+  },
+  {
+    "index": 16,
+    "id": "ec1e3263-c232-4d67-af98-e8ac911783f5",
+    "category": "Advocacia",
+    "title": "Advocacia — Solven",
+    "description": "",
+    "thumbnail": "/api/templates/ec1e3263-c232-4d67-af98-e8ac911783f5/media/thumbnail",
+    "demoUrl": "https://fluxoleadai.com.br/s/site-advocacia-solven-a1bb7f"
+  },
+  {
+    "index": 17,
+    "id": "7dcf3251-38a4-40c6-bc08-7e274685c4c0",
+    "category": "Imobiliário &amp; Reforma",
+    "title": "Arquitetura — Axisbuilt",
+    "description": "",
+    "thumbnail": "/api/templates/7dcf3251-38a4-40c6-bc08-7e274685c4c0/media/thumbnail",
+    "demoUrl": "https://fluxoleadai.com.br/s/site-arquitetura-axisbuilt-0bef03"
+  },
+  {
+    "index": 18,
+    "id": "840273f2-0f20-4af4-81c4-269436295a5e",
+    "category": "Serviços profissionais",
+    "title": "Automotivo — Automec",
+    "description": "",
+    "thumbnail": "/api/templates/840273f2-0f20-4af4-81c4-269436295a5e/media/thumbnail",
+    "demoUrl": "https://fluxoleadai.com.br/s/site-automotivo-automec-e4e357"
+  },
+  {
+    "index": 19,
+    "id": "f5a2a7d6-a797-4830-a047-cd231ab8035f",
+    "category": "Serviços profissionais",
+    "title": "Automotivo — Autovent",
+    "description": "",
+    "thumbnail": "/api/templates/f5a2a7d6-a797-4830-a047-cd231ab8035f/media/thumbnail",
+    "demoUrl": "https://fluxoleadai.com.br/s/site-automotivo-autovent-147a91"
+  },
+  {
+    "index": 20,
+    "id": "0cfab682-f71c-4dce-add0-7ba4d6006939",
+    "category": "Serviços profissionais",
+    "title": "Automotivo — Carlink",
+    "description": "",
+    "thumbnail": "/api/templates/0cfab682-f71c-4dce-add0-7ba4d6006939/media/thumbnail",
+    "demoUrl": "https://fluxoleadai.com.br/s/site-automotivo-carlink-053347"
+  },
+  {
+    "index": 21,
+    "id": "57efdb63-f247-41fa-8060-0d596d6c1731",
+    "category": "Serviços profissionais",
+    "title": "Automotivo — Kars",
+    "description": "",
+    "thumbnail": "/api/templates/57efdb63-f247-41fa-8060-0d596d6c1731/media/thumbnail",
+    "demoUrl": "https://fluxoleadai.com.br/s/site-automotivo-kars-8b15ab"
+  },
+  {
+    "index": 22,
+    "id": "ceee5526-c958-4f90-bcc7-5ccc5c795e06",
+    "category": "Barbearias",
+    "title": "Barbearia — Barberon",
+    "description": "",
+    "thumbnail": "/api/templates/ceee5526-c958-4f90-bcc7-5ccc5c795e06/media/thumbnail",
+    "demoUrl": "https://fluxoleadai.com.br/s/site-barbearia-barberon-d3ccfc"
+  },
+  {
+    "index": 23,
+    "id": "44c3b418-6ef7-4115-b5df-7684929fa5a9",
+    "category": "Barbearias",
+    "title": "Barbearia — Hairbarber",
+    "description": "",
+    "thumbnail": "/api/templates/44c3b418-6ef7-4115-b5df-7684929fa5a9/media/thumbnail",
+    "demoUrl": "https://fluxoleadai.com.br/s/site-barbearia-hairbarber-a35172"
+  },
+  {
+    "index": 24,
+    "id": "b38f0607-ec23-4a43-a619-7397a415433a",
+    "category": "Barbearias",
+    "title": "Barbearia — Qutter",
+    "description": "",
+    "thumbnail": "/api/templates/b38f0607-ec23-4a43-a619-7397a415433a/media/thumbnail",
+    "demoUrl": "https://fluxoleadai.com.br/s/site-barbearia-qutter-c358ac"
+  },
+  {
+    "index": 25,
+    "id": "92ac38e5-f497-4922-a234-12b472e2fcb4",
+    "category": "Barbearias",
+    "title": "Barbearia — Trimly",
+    "description": "",
+    "thumbnail": "/api/templates/92ac38e5-f497-4922-a234-12b472e2fcb4/media/thumbnail",
+    "demoUrl": "https://fluxoleadai.com.br/s/site-barbearia-trimly-690ec9"
+  },
+  {
+    "index": 26,
+    "id": "2be7c24d-ddfd-4340-9629-f5d5d78ef826",
+    "category": "Serviços profissionais",
+    "title": "Cinema — Movflx",
+    "description": "",
+    "thumbnail": "/api/templates/2be7c24d-ddfd-4340-9629-f5d5d78ef826/media/thumbnail",
+    "demoUrl": "https://fluxoleadai.com.br/s/site-cinema-movflx-723619"
+  },
+  {
+    "index": 27,
+    "id": "3a734739-6574-4290-bebd-c9d520e3c1a8",
+    "category": "Serviços profissionais",
+    "title": "Climatização — Coolair",
+    "description": "",
+    "thumbnail": "/api/templates/3a734739-6574-4290-bebd-c9d520e3c1a8/media/thumbnail",
+    "demoUrl": "https://fluxoleadai.com.br/s/site-climatizacao-coolair-fccbd1"
+  },
+  {
+    "index": 28,
+    "id": "949e7cac-5794-49ba-8677-b2472e974fef",
+    "category": "Serviços profissionais",
+    "title": "Climatização — Oyoxo",
+    "description": "",
+    "thumbnail": "/api/templates/949e7cac-5794-49ba-8677-b2472e974fef/media/thumbnail",
+    "demoUrl": "https://fluxoleadai.com.br/s/site-climatizacao-oyoxo-fda5ca"
+  },
+  {
+    "index": 29,
+    "id": "7caf425c-5ed2-42b8-aa94-c7daebe6249e",
+    "category": "Imobiliário &amp; Reforma",
+    "title": "Construção — Construc",
+    "description": "",
+    "thumbnail": "/api/templates/7caf425c-5ed2-42b8-aa94-c7daebe6249e/media/thumbnail",
+    "demoUrl": "https://fluxoleadai.com.br/s/site-construcao-construc-c9da2f"
+  },
+  {
+    "index": 30,
+    "id": "f0d549d5-d84a-46b1-ad98-4b45aab3e175",
+    "category": "Imobiliário &amp; Reforma",
+    "title": "Construção — Renova",
+    "description": "",
+    "thumbnail": "/api/templates/f0d549d5-d84a-46b1-ad98-4b45aab3e175/media/thumbnail",
+    "demoUrl": "https://fluxoleadai.com.br/s/site-construcao-renova-8c0563"
+  },
+  {
+    "index": 31,
+    "id": "78889f65-967f-4f13-88f0-66d7b2bb15cd",
+    "category": "Salões de beleza",
+    "title": "Estética — Haircare",
+    "description": "",
+    "thumbnail": "/api/templates/78889f65-967f-4f13-88f0-66d7b2bb15cd/media/thumbnail",
+    "demoUrl": "https://fluxoleadai.com.br/s/site-estetica-haircare-ae033d"
+  },
+  {
+    "index": 32,
+    "id": "2d87eaea-4e10-4d70-a218-937f0d116331",
+    "category": "Salões de beleza",
+    "title": "Estética — Spamagic",
+    "description": "",
+    "thumbnail": "/api/templates/2d87eaea-4e10-4d70-a218-937f0d116331/media/thumbnail",
+    "demoUrl": "https://fluxoleadai.com.br/s/site-estetica-spamagic-5f74bc"
+  },
+  {
+    "index": 33,
+    "id": "815d55e6-a2cb-4695-a68d-7a5f535c0a4d",
+    "category": "Serviços profissionais",
+    "title": "Hospedagem — Boostay",
+    "description": "",
+    "thumbnail": "/api/templates/815d55e6-a2cb-4695-a68d-7a5f535c0a4d/media/thumbnail",
+    "demoUrl": "https://fluxoleadai.com.br/s/site-hospedagem-boostay-de6473"
+  },
+  {
+    "index": 34,
+    "id": "f5322f14-d38e-4afa-936d-0a3478a2247d",
+    "category": "Serviços profissionais",
+    "title": "Hospedagem — Hotelmaster",
+    "description": "",
+    "thumbnail": "/api/templates/f5322f14-d38e-4afa-936d-0a3478a2247d/media/thumbnail",
+    "demoUrl": "https://fluxoleadai.com.br/s/site-hospedagem-hotelmaster-a328de"
+  },
+  {
+    "index": 35,
+    "id": "18e950ec-0af6-4b3f-8143-2e4ebc0efcfa",
+    "category": "Serviços profissionais",
+    "title": "Hospedagem — Leluxe",
+    "description": "",
+    "thumbnail": "/api/templates/18e950ec-0af6-4b3f-8143-2e4ebc0efcfa/media/thumbnail",
+    "demoUrl": "https://fluxoleadai.com.br/s/site-hospedagem-leluxe-f2dbb8"
+  },
+  {
+    "index": 36,
+    "id": "e52ad08e-711f-4801-b366-1656a3076394",
+    "category": "Serviços profissionais",
+    "title": "Hospedagem — Qomfort",
+    "description": "",
+    "thumbnail": "/api/templates/e52ad08e-711f-4801-b366-1656a3076394/media/thumbnail",
+    "demoUrl": "https://fluxoleadai.com.br/s/site-hospedagem-qomfort-4c3a61"
+  },
+  {
+    "index": 37,
+    "id": "cbcbc1cc-2ec7-4660-a28e-6108d0c58e59",
+    "category": "Imobiliário &amp; Reforma",
+    "title": "Imóveis — Domira",
+    "description": "",
+    "thumbnail": "/api/templates/cbcbc1cc-2ec7-4660-a28e-6108d0c58e59/media/thumbnail",
+    "demoUrl": "https://fluxoleadai.com.br/s/site-imoveis-domira-073854"
+  },
+  {
+    "index": 38,
+    "id": "37f46e19-ac5a-4fb5-a682-2502bbd64a9e",
+    "category": "Imobiliário &amp; Reforma",
+    "title": "Imóveis — Lemanhouse",
+    "description": "",
+    "thumbnail": "/api/templates/37f46e19-ac5a-4fb5-a682-2502bbd64a9e/media/thumbnail",
+    "demoUrl": "https://fluxoleadai.com.br/s/site-imoveis-lemanhouse-3cb66a"
+  },
+  {
+    "index": 39,
+    "id": "94801da4-2eee-4078-8591-4fcc0cf39558",
+    "category": "Imobiliário &amp; Reforma",
+    "title": "Imóveis — Quicksale",
+    "description": "",
+    "thumbnail": "/api/templates/94801da4-2eee-4078-8591-4fcc0cf39558/media/thumbnail",
+    "demoUrl": "https://fluxoleadai.com.br/s/site-imoveis-quicksale-2d26ac"
+  },
+  {
+    "index": 40,
+    "id": "1b5f26cb-5102-45d9-918c-c7a45c644be3",
+    "category": "Serviços profissionais",
+    "title": "Limpeza — Laun",
+    "description": "",
+    "thumbnail": "/api/templates/1b5f26cb-5102-45d9-918c-c7a45c644be3/media/thumbnail",
+    "demoUrl": "https://fluxoleadai.com.br/s/site-limpeza-laun-ddc776"
+  },
+  {
+    "index": 41,
+    "id": "f7307bc4-03ef-458c-ac74-6e6c3f6f43ab",
+    "category": "Lojas",
+    "title": "Lojas",
+    "description": "Loja virtual elegante com vitrine de produtos, coleções, avaliações e carrinho lateral. Layout responsivo com textos em português, fotos substituíveis e integração completa com o editor Fluxo Lead.",
+    "thumbnail": "/api/templates/f7307bc4-03ef-458c-ac74-6e6c3f6f43ab/media/thumbnail",
+    "demoUrl": "/demos/thewhiteshelf/"
+  },
+  {
+    "index": 42,
+    "id": "e068a7d3-ffa0-4fbf-80ef-e2307d12add2",
+    "category": "Serviços profissionais",
+    "title": "Manutenção — Handify",
+    "description": "",
+    "thumbnail": "/api/templates/e068a7d3-ffa0-4fbf-80ef-e2307d12add2/media/thumbnail",
+    "demoUrl": "https://fluxoleadai.com.br/s/site-manutencao-handify-6df29b"
+  },
+  {
+    "index": 43,
+    "id": "fbb1a266-5e4d-418a-89a7-30c66c69e235",
+    "category": "Serviços profissionais",
+    "title": "Manutenção — Qlinest",
+    "description": "",
+    "thumbnail": "/api/templates/fbb1a266-5e4d-418a-89a7-30c66c69e235/media/thumbnail",
+    "demoUrl": "https://fluxoleadai.com.br/s/site-manutencao-qlinest-71b624"
+  },
+  {
+    "index": 44,
+    "id": "b2f43cdc-4897-43c5-830d-be0aa4a36e32",
+    "category": "Saúde &amp; Bem-estar",
+    "title": "Odontologia — Decare",
+    "description": "",
+    "thumbnail": "/api/templates/b2f43cdc-4897-43c5-830d-be0aa4a36e32/media/thumbnail",
+    "demoUrl": "https://fluxoleadai.com.br/s/site-odontologia-decare-33240d"
+  },
+  {
+    "index": 45,
+    "id": "14c13a5d-09d0-4c4e-8448-b0e3ee6e19f7",
+    "category": "Saúde &amp; Bem-estar",
+    "title": "Odontologia — Dentia Next",
+    "description": "",
+    "thumbnail": "/api/templates/14c13a5d-09d0-4c4e-8448-b0e3ee6e19f7/media/thumbnail",
+    "demoUrl": "https://fluxoleadai.com.br/s/site-odontologia-dentia-next-72358b"
+  },
+  {
+    "index": 46,
+    "id": "57d648c0-2a79-42e1-9041-56a1386bf5f1",
+    "category": "Saúde &amp; Bem-estar",
+    "title": "Odontologia — Dentia Php",
+    "description": "",
+    "thumbnail": "/api/templates/57d648c0-2a79-42e1-9041-56a1386bf5f1/media/thumbnail",
+    "demoUrl": "https://fluxoleadai.com.br/s/site-odontologia-dentia-php-f5a06b"
+  },
+  {
+    "index": 47,
+    "id": "d845fe4a-f6b5-46ce-9b83-5de9ee4baf37",
+    "category": "Saúde &amp; Bem-estar",
+    "title": "Odontologia — Dentisto",
+    "description": "",
+    "thumbnail": "/api/templates/d845fe4a-f6b5-46ce-9b83-5de9ee4baf37/media/thumbnail",
+    "demoUrl": "https://fluxoleadai.com.br/s/site-odontologia-dentisto-5a9962"
+  },
+  {
+    "index": 48,
+    "id": "c4c7922b-af8f-45a5-917e-3b2af81ba1e0",
+    "category": "Academias e esportes",
+    "title": "Personal Trainer — Fitmas",
+    "description": "",
+    "thumbnail": "/api/templates/c4c7922b-af8f-45a5-917e-3b2af81ba1e0/media/thumbnail",
+    "demoUrl": "https://fluxoleadai.com.br/s/site-personal-trainer-fitmas-a3ca98"
+  },
+  {
+    "index": 49,
+    "id": "52d7b428-9581-44df-bb83-b91e64a86af8",
+    "category": "Academias e esportes",
+    "title": "Personal Trainer — Progym",
+    "description": "",
+    "thumbnail": "/api/templates/52d7b428-9581-44df-bb83-b91e64a86af8/media/thumbnail",
+    "demoUrl": "https://fluxoleadai.com.br/s/site-personal-trainer-progym-ea2087"
+  },
+  {
+    "index": 50,
+    "id": "de461ab0-8ff5-4678-b797-512d909e6b97",
+    "category": "Academias e esportes",
+    "title": "Personal Trainer — Samantha",
+    "description": "",
+    "thumbnail": "/api/templates/de461ab0-8ff5-4678-b797-512d909e6b97/media/thumbnail",
+    "demoUrl": "https://fluxoleadai.com.br/s/site-personal-trainer-samantha-d7e50b"
+  },
+  {
+    "index": 51,
+    "id": "a017fcb1-5077-4e18-adf3-6d034ca5a244",
+    "category": "Restaurantes",
+    "title": "Pizzaria — Onepage",
+    "description": "",
+    "thumbnail": "/api/templates/a017fcb1-5077-4e18-adf3-6d034ca5a244/media/thumbnail",
+    "demoUrl": "https://fluxoleadai.com.br/s/site-pizzaria-onepage-414a51"
+  },
+  {
+    "index": 52,
+    "id": "53e15bd6-1c41-4973-b5ea-ded7b218ba17",
+    "category": "Restaurantes",
+    "title": "Restaurante — Duas Casas",
+    "description": "",
+    "thumbnail": "/api/templates/53e15bd6-1c41-4973-b5ea-ded7b218ba17/media/thumbnail",
+    "demoUrl": "https://fluxoleadai.com.br/s/site-restaurante-duas-casas-fce6fd"
+  },
+  {
+    "index": 53,
+    "id": "22ebc82b-0f25-43e3-94ab-37e88be44cd1",
+    "category": "Restaurantes",
+    "title": "Restaurante — Elegencia",
+    "description": "",
+    "thumbnail": "/api/templates/22ebc82b-0f25-43e3-94ab-37e88be44cd1/media/thumbnail",
+    "demoUrl": "https://fluxoleadai.com.br/s/site-restaurante-elegencia-047473"
+  },
+  {
+    "index": 54,
+    "id": "8a56c96b-d2d0-4f85-bebc-2da9df2541b4",
+    "category": "Restaurantes",
+    "title": "Restaurante — Foodio",
+    "description": "",
+    "thumbnail": "/api/templates/8a56c96b-d2d0-4f85-bebc-2da9df2541b4/media/thumbnail",
+    "demoUrl": "https://fluxoleadai.com.br/s/site-restaurante-foodio-63dd6b"
+  },
+  {
+    "index": 55,
+    "id": "91a5ac49-adb4-4f4c-a424-ad37416b77fd",
+    "category": "Restaurantes",
+    "title": "Restaurante — Foodu",
+    "description": "",
+    "thumbnail": "/api/templates/91a5ac49-adb4-4f4c-a424-ad37416b77fd/media/thumbnail",
+    "demoUrl": "https://fluxoleadai.com.br/s/site-restaurante-foodu-e4784a"
+  },
+  {
+    "index": 56,
+    "id": "33ab1ff9-e344-4f0a-88e3-069a3c969c98",
+    "category": "Restaurantes",
+    "title": "Restaurante — Fresheat",
+    "description": "",
+    "thumbnail": "/api/templates/33ab1ff9-e344-4f0a-88e3-069a3c969c98/media/thumbnail",
+    "demoUrl": "https://fluxoleadai.com.br/s/site-restaurante-fresheat-871e65"
+  },
+  {
+    "index": 57,
+    "id": "41383f1b-f3fe-4053-a2b8-f40ab220bff7",
+    "category": "Restaurantes",
+    "title": "Restaurante — Grillino",
+    "description": "",
+    "thumbnail": "/api/templates/41383f1b-f3fe-4053-a2b8-f40ab220bff7/media/thumbnail",
+    "demoUrl": "https://fluxoleadai.com.br/s/site-restaurante-grillino-9f01d4"
+  },
+  {
+    "index": 58,
+    "id": "19e826c6-83b0-43d5-98c1-2402fdcb76bf",
+    "category": "Restaurantes",
+    "title": "Restaurante — Royate",
+    "description": "",
+    "thumbnail": "/api/templates/19e826c6-83b0-43d5-98c1-2402fdcb76bf/media/thumbnail",
+    "demoUrl": "https://fluxoleadai.com.br/s/site-restaurante-royate-c9eb8c"
+  },
+  {
+    "index": 59,
+    "id": "8910aff4-cb92-4a44-af45-81d1d8231e0b",
+    "category": "Restaurantes",
+    "title": "Restaurante — Thesignature",
+    "description": "",
+    "thumbnail": "/api/templates/8910aff4-cb92-4a44-af45-81d1d8231e0b/media/thumbnail",
+    "demoUrl": "https://fluxoleadai.com.br/s/site-restaurante-thesignature-a3be92"
+  },
+  {
+    "index": 60,
+    "id": "6e9f5f47-453f-4c08-b1c9-f8c86637ce7f",
+    "category": "Saúde &amp; Bem-estar",
+    "title": "Saúde — Clinicmaster",
+    "description": "",
+    "thumbnail": "/api/templates/6e9f5f47-453f-4c08-b1c9-f8c86637ce7f/media/thumbnail",
+    "demoUrl": "https://fluxoleadai.com.br/s/site-saude-clinicmaster-438f3c"
+  },
+  {
+    "index": 61,
+    "id": "eb5451e7-0693-469b-bbc6-5fa3a2f06d97",
+    "category": "Saúde &amp; Bem-estar",
+    "title": "Saúde — Counseling",
+    "description": "",
+    "thumbnail": "/api/templates/eb5451e7-0693-469b-bbc6-5fa3a2f06d97/media/thumbnail",
+    "demoUrl": "https://fluxoleadai.com.br/s/site-saude-counseling-e9a9bb"
+  },
+  {
+    "index": 62,
+    "id": "e34db5a4-34d5-4c54-82ee-b758c780b299",
+    "category": "Saúde &amp; Bem-estar",
+    "title": "Saúde — Mentalpress",
+    "description": "",
+    "thumbnail": "/api/templates/e34db5a4-34d5-4c54-82ee-b758c780b299/media/thumbnail",
+    "demoUrl": "https://fluxoleadai.com.br/s/site-saude-mentalpress-920cad"
+  },
+  {
+    "index": 63,
+    "id": "745042b5-8193-4590-b67a-41095866e28c",
+    "category": "Tecnologia",
+    "title": "Tecnologia — Luminex",
+    "description": "",
+    "thumbnail": "/api/templates/745042b5-8193-4590-b67a-41095866e28c/media/thumbnail",
+    "demoUrl": "https://fluxoleadai.com.br/s/site-tecnologia-luminex-e9f726"
+  },
+  {
+    "index": 64,
+    "id": "template-64",
+    "category": "Restaurantes",
+    "title": "Cafeteria — Coffee",
+    "description": "Café, acompanhamentos e uma pausa no seu dia. Consulte as opções de bebidas e os acompanhamentos do cardápio.",
+    "thumbnail": "/api/imported-templates/coffee-shop-free-html5-template/thumbnail",
+    "demoUrl": "https://www.fluxoleadai.com.br/coffee-shop-free-html5-template/index.html"
+  },
+  {
+    "index": 65,
+    "id": "template-65",
+    "category": "Restaurantes",
+    "title": "Restaurante — Eat",
+    "description": "Consulte o cardápio e escolha o que combina com sua fome. Fale com a equipe para confirmar pratos, preços e disponibilidade.",
+    "thumbnail": "/api/imported-templates/eat-restaurant-bootstrap-html5-template/thumbnail",
+    "demoUrl": "https://www.fluxoleadai.com.br/eat-restaurant-bootstrap-html5-template/index.html"
+  },
+  {
+    "index": 66,
+    "id": "template-66",
+    "category": "Serviços profissionais",
+    "title": "Hospedagem — Golden",
+    "description": "Organize sua estadia com as informações que você precisa. Informe as datas e a quantidade de hóspedes para consultar disponibilidade.",
+    "thumbnail": "/api/imported-templates/golden-hotel-free-html5-bootstrap-web-template/thumbnail",
+    "demoUrl": "https://www.fluxoleadai.com.br/golden-hotel-free-html5-bootstrap-web-template/index.html"
+  }
+]
