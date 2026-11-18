@@ -4,7 +4,11 @@ import { useAuth } from '../context/AuthContext';
 import { useToast } from '../context/ToastContext';
 import { CookieConsentModal } from '../components/common/CookieConsentModal';
 
-export const Login: React.FC = () => {
+interface LoginProps {
+  onBack?: () => void;
+}
+
+export const Login: React.FC<LoginProps> = ({ onBack }) => {
   const { login } = useAuth();
   const { showToast } = useToast();
 
@@ -157,7 +161,13 @@ export const Login: React.FC = () => {
         <span>·</span>
         <button
           type="button"
-          onClick={() => showToast('Início do Fluxo Lead', 'info')}
+          onClick={() => {
+            if (onBack) {
+              onBack();
+            } else {
+              window.location.hash = '';
+            }
+          }}
           className="hover:text-gray-300 transition-colors"
         >
           Início

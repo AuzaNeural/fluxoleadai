@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useAuth } from './context/AuthContext';
 import { Login } from './pages/Login';
+import { LandingPage } from './pages/LandingPage';
 import { MainLayout } from './components/layout/MainLayout';
 import { PageId } from './components/layout/Sidebar';
 import { Project } from './types';
@@ -37,15 +38,22 @@ const getPageFromHash = (): PageId => {
   return 'dashboard';
 };
 
+const isAuthRoute = (): boolean => {
+  const hash = window.location.hash.toLowerCase();
+  return hash.includes('login') || hash.includes('entrar');
+};
+
 export const App: React.FC = () => {
   const { isAuthenticated } = useAuth();
   const [currentPage, setCurrentPage] = useState<PageId>(getPageFromHash);
+  const [showLogin, setShowLogin] = useState<boolean>(isAuthRoute);
   const [currentTemplateForEditor, setCurrentTemplateForEditor] = useState<any>(null);
   const [currentProjectForEditor, setCurrentProjectForEditor] = useState<Project | null>(null);
 
   useEffect(() => {
     const handleHashChange = () => {
       setCurrentPage(getPageFromHash());
+      setShowLogin(isAuthRoute());
     };
     window.addEventListener('hashchange', handleHashChange);
     return () => window.removeEventListener('hashchange', handleHashChange);
@@ -66,7 +74,28 @@ export const App: React.FC = () => {
   };
 
   if (!isAuthenticated) {
-    return <Login />;
+    if (showLogin) {
+      return (
+        <Login
+          onBack={() => {
+            window.location.hash = '';
+            setShowLogin(false);
+          }}
+        />
+      );
+    }
+    return (
+      <LandingPage
+        onLogin={() => {
+          window.location.hash = '/entrar';
+          setShowLogin(true);
+        }}
+        onExploreTemplates={() => {
+          window.location.hash = '/entrar';
+          setShowLogin(true);
+        }}
+      />
+    );
   }
 
   const renderCurrentPage = () => {

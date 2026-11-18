@@ -1,0 +1,5731 @@
+{
+  "a11y": {
+    "images_without_alt": 0,
+    "landmarks": {
+      "banner": 1,
+      "contentinfo": 1,
+      "navigation": 2
+    },
+    "lang": "pt-BR",
+    "unnamed_controls": 0,
+    "unnamed_examples": []
+  },
+  "assets": {
+    "background_images": [],
+    "fonts": [
+      "https://fluxoleadai.com.br/_ext/fonts.googleapis.com/css__qb14eb693.css",
+      "https://fluxoleadai.com.br/_ext/fonts.googleapis.com/css__qe29a12e4.css",
+      "https://fluxoleadai.com.br/_ext/fonts.googleapis.com/css__qc59a8c66.css",
+      "https://fluxoleadai.com.br/_ext/fonts.gstatic.com/s/rethinksans/v7/AMOWz4SDuXOMCPfdoglY9JQEVFi3.woff2",
+      "https://fluxoleadai.com.br/_ext/fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2",
+      "https://fluxoleadai.com.br/landing-extra/otim/ekit-icones.woff2",
+      "https://fluxoleadai.com.br/_ext/fonts.gstatic.com/s/syne/v24/8vIH7w4qzmVxm2BL9A.woff2",
+      "https://fluxoleadai.com.br/_ext/fonts.gstatic.com/s/rethinksans/v7/AMOIz4SDuXOMCPfdoglY9JQEUWi1690.woff2"
+    ],
+    "images": [
+      {
+        "alt": "",
+        "h": 160,
+        "src": "https://fluxoleadai.com.br/landing-extra/brand/logo-fluxo-lead.webp",
+        "w": 1105
+      },
+      {
+        "alt": "",
+        "h": 348,
+        "src": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/Background-Graphics-2-3-dasdas-1536x372.png",
+        "w": 1439
+      },
+      {
+        "alt": "",
+        "h": 800,
+        "src": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/brilho-rosvermelha-2-3-das.png",
+        "w": 800
+      },
+      {
+        "alt": "",
+        "h": 800,
+        "src": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/brilho-rosvermelha-2-3-das.png",
+        "w": 800
+      },
+      {
+        "alt": "",
+        "h": 259,
+        "src": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/1-2312312312-1-g-1536x277.webp",
+        "w": 1439
+      },
+      {
+        "alt": "",
+        "h": 243,
+        "src": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/botao-1231-_1_-j.webp",
+        "w": 240
+      },
+      {
+        "alt": "",
+        "h": 1254,
+        "src": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/ChatGPT-Image-9-de-jul.-de-2026-19_26_24-_1__1g-dfgfd.webp",
+        "w": 1254
+      },
+      {
+        "alt": "",
+        "h": 772,
+        "src": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/wp1-3.webp",
+        "w": 772
+      },
+      {
+        "alt": "FireShot Capture 101 - Artura – Best Token and Crypto Site - [app.usefluxai.com.br]",
+        "h": 759,
+        "src": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/FireShot-Capture-101-Artura-%E2%80%93-Best-Token-and-Crypto-Site-app.usefluxai.com_.br_.webp",
+        "w": 1600
+      },
+      {
+        "alt": "FireShot Capture 102 - Home – Conals – Manufacture industrials - [app.usefluxai.com.br]",
+        "h": 759,
+        "src": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/FireShot-Capture-102-Home-%E2%80%93-Conals-%E2%80%93-Manufacture-industrials-app.usefluxai.com_.br_.webp",
+        "w": 1600
+      },
+      {
+        "alt": "FireShot Capture 103 - DOQU – Dark Digital Bank & E-Wallet Elementor Template Kit by Jegth_ - [app.usefluxai.com.br]",
+        "h": 759,
+        "src": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/FireShot-Capture-103-DOQU-%E2%80%93-Dark-Digital-Bank-E-Wallet-Elementor-Template-Kit-by-Jegth_-app.usefluxai.com_.br_.webp",
+        "w": 1600
+      },
+      {
+        "alt": "FireShot Capture 092 - Home – Cyrion - [app.usefluxai.com.br]",
+        "h": 759,
+        "src": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/FireShot-Capture-092-Home-%E2%80%93-Cyrion-app.usefluxai.com_.br_.png",
+        "w": 1600
+      },
+      {
+        "alt": "FireShot Capture 093 - Home 02 Onepage – Saasking - [app.usefluxai.com.br]",
+        "h": 759,
+        "src": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/FireShot-Capture-093-Home-02-Onepage-%E2%80%93-Saasking-app.usefluxai.com_.br_.png",
+        "w": 1600
+      },
+      {
+        "alt": "FireShot Capture 094 - Axino – Task Management SaaS - [app.usefluxai.com.br]",
+        "h": 759,
+        "src": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/FireShot-Capture-094-Axino-%E2%80%93-Task-Management-SaaS-app.usefluxai.com_.br_.webp",
+        "w": 1600
+      },
+      {
+        "alt": "FireShot Capture 095 - Aigocy – AI Agency – WordPress Theme - [app.usefluxai.com.br]",
+        "h": 759,
+        "src": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/FireShot-Capture-095-Aigocy-%E2%80%93-AI-Agency-%E2%80%93-WordPress-Theme-app.usefluxai.com_.br_.webp",
+        "w": 1600
+      },
+      {
+        "alt": "FireShot Capture 098 - - [app.usefluxai.com.br]",
+        "h": 759,
+        "src": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/FireShot-Capture-098-app.usefluxai.com_.br_.webp",
+        "w": 1600
+      },
+      {
+        "alt": "FireShot Capture 096 - Flexy – Digital Marketing Agency - [app.usefluxai.com.br]",
+        "h": 759,
+        "src": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/FireShot-Capture-096-Flexy-%E2%80%93-Digital-Marketing-Agency-app.usefluxai.com_.br_.webp",
+        "w": 1600
+      },
+      {
+        "alt": "FireShot Capture 099 - Home 02 Onepage – SassRiver - [app.usefluxai.com.br]",
+        "h": 759,
+        "src": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/FireShot-Capture-099-Home-02-Onepage-%E2%80%93-SassRiver-app.usefluxai.com_.br_.webp",
+        "w": 1600
+      },
+      {
+        "alt": "FireShot Capture 100 - Velo - [app.usefluxai.com.br]",
+        "h": 0,
+        "src": "",
+        "w": 0
+      },
+      {
+        "alt": "FireShot Capture 101 - Artura – Best Token and Crypto Site - [app.usefluxai.com.br]",
+        "h": 759,
+        "src": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/FireShot-Capture-101-Artura-%E2%80%93-Best-Token-and-Crypto-Site-app.usefluxai.com_.br_.webp",
+        "w": 1600
+      },
+      {
+        "alt": "FireShot Capture 102 - Home – Conals – Manufacture industrials - [app.usefluxai.com.br]",
+        "h": 759,
+        "src": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/FireShot-Capture-102-Home-%E2%80%93-Conals-%E2%80%93-Manufacture-industrials-app.usefluxai.com_.br_.webp",
+        "w": 1600
+      },
+      {
+        "alt": "FireShot Capture 103 - DOQU – Dark Digital Bank & E-Wallet Elementor Template Kit by Jegth_ - [app.usefluxai.com.br]",
+        "h": 759,
+        "src": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/FireShot-Capture-103-DOQU-%E2%80%93-Dark-Digital-Bank-E-Wallet-Elementor-Template-Kit-by-Jegth_-app.usefluxai.com_.br_.webp",
+        "w": 1600
+      },
+      {
+        "alt": "FireShot Capture 092 - Home – Cyrion - [app.usefluxai.com.br]",
+        "h": 759,
+        "src": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/FireShot-Capture-092-Home-%E2%80%93-Cyrion-app.usefluxai.com_.br_.png",
+        "w": 1600
+      },
+      {
+        "alt": "FireShot Capture 093 - Home 02 Onepage – Saasking - [app.usefluxai.com.br]",
+        "h": 759,
+        "src": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/FireShot-Capture-093-Home-02-Onepage-%E2%80%93-Saasking-app.usefluxai.com_.br_.png",
+        "w": 1600
+      },
+      {
+        "alt": "FireShot Capture 094 - Axino – Task Management SaaS - [app.usefluxai.com.br]",
+        "h": 759,
+        "src": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/FireShot-Capture-094-Axino-%E2%80%93-Task-Management-SaaS-app.usefluxai.com_.br_.webp",
+        "w": 1600
+      },
+      {
+        "alt": "FireShot Capture 096 - Flexy – Digital Marketing Agency - [app.usefluxai.com.br]",
+        "h": 759,
+        "src": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/FireShot-Capture-096-Flexy-%E2%80%93-Digital-Marketing-Agency-app.usefluxai.com_.br_.webp",
+        "w": 1600
+      },
+      {
+        "alt": "FireShot Capture 092 - Home – Cyrion - [app.usefluxai.com.br]",
+        "h": 759,
+        "src": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/FireShot-Capture-092-Home-%E2%80%93-Cyrion-app.usefluxai.com_.br_.png",
+        "w": 1600
+      },
+      {
+        "alt": "FireShot Capture 093 - Home 02 Onepage – Saasking - [app.usefluxai.com.br]",
+        "h": 759,
+        "src": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/FireShot-Capture-093-Home-02-Onepage-%E2%80%93-Saasking-app.usefluxai.com_.br_.png",
+        "w": 1600
+      },
+      {
+        "alt": "FireShot Capture 094 - Axino – Task Management SaaS - [app.usefluxai.com.br]",
+        "h": 0,
+        "src": "",
+        "w": 0
+      },
+      {
+        "alt": "FireShot Capture 095 - Aigocy – AI Agency – WordPress Theme - [app.usefluxai.com.br]",
+        "h": 0,
+        "src": "",
+        "w": 0
+      },
+      {
+        "alt": "FireShot Capture 096 - Flexy – Digital Marketing Agency - [app.usefluxai.com.br]",
+        "h": 759,
+        "src": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/FireShot-Capture-096-Flexy-%E2%80%93-Digital-Marketing-Agency-app.usefluxai.com_.br_.webp",
+        "w": 1600
+      },
+      {
+        "alt": "FireShot Capture 092 - Home – Cyrion - [app.usefluxai.com.br]",
+        "h": 759,
+        "src": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/FireShot-Capture-092-Home-%E2%80%93-Cyrion-app.usefluxai.com_.br_.png",
+        "w": 1600
+      },
+      {
+        "alt": "FireShot Capture 103 - DOQU – Dark Digital Bank & E-Wallet Elementor Template Kit by Jegth_ - [app.usefluxai.com.br]",
+        "h": 759,
+        "src": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/FireShot-Capture-103-DOQU-%E2%80%93-Dark-Digital-Bank-E-Wallet-Elementor-Template-Kit-by-Jegth_-app.usefluxai.com_.br_.webp",
+        "w": 1600
+      },
+      {
+        "alt": "FireShot Capture 098 - - [app.usefluxai.com.br]",
+        "h": 759,
+        "src": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/FireShot-Capture-098-app.usefluxai.com_.br_.webp",
+        "w": 1600
+      },
+      {
+        "alt": "FireShot Capture 099 - Home 02 Onepage – SassRiver - [app.usefluxai.com.br]",
+        "h": 759,
+        "src": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/FireShot-Capture-099-Home-02-Onepage-%E2%80%93-SassRiver-app.usefluxai.com_.br_.webp",
+        "w": 1600
+      },
+      {
+        "alt": "FireShot Capture 100 - Velo - [app.usefluxai.com.br]",
+        "h": 0,
+        "src": "",
+        "w": 0
+      },
+      {
+        "alt": "FireShot Capture 101 - Artura – Best Token and Crypto Site - [app.usefluxai.com.br]",
+        "h": 0,
+        "src": "",
+        "w": 0
+      },
+      {
+        "alt": "FireShot Capture 103 - DOQU – Dark Digital Bank & E-Wallet Elementor Template Kit by Jegth_ - [app.usefluxai.com.br]",
+        "h": 759,
+        "src": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/FireShot-Capture-103-DOQU-%E2%80%93-Dark-Digital-Bank-E-Wallet-Elementor-Template-Kit-by-Jegth_-app.usefluxai.com_.br_.webp",
+        "w": 1600
+      },
+      {
+        "alt": "FireShot Capture 098 - - [app.usefluxai.com.br]",
+        "h": 759,
+        "src": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/FireShot-Capture-098-app.usefluxai.com_.br_.webp",
+        "w": 1600
+      },
+      {
+        "alt": "notificacoes-elevatelp hrty - Copia (2) - Copia - Copia - Copia",
+        "h": 140,
+        "src": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/notificacoes-elevatelp-hrty-Copia-2-Copia-Copia-Copia.png",
+        "w": 760
+      },
+      {
+        "alt": "notificacoes-elevatelp hrty",
+        "h": 140,
+        "src": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/notificacoes-elevatelp-hrty.png",
+        "w": 760
+      },
+      {
+        "alt": "notificacoes-elevatelp hrty - Copia",
+        "h": 140,
+        "src": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/notificacoes-elevatelp-hrty-Copia.png",
+        "w": 760
+      },
+      {
+        "alt": "notificacoes-elevatelp hrty - Copia (2)",
+        "h": 140,
+        "src": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/notificacoes-elevatelp-hrty-Copia-2.png",
+        "w": 760
+      },
+      {
+        "alt": "notificacoes-elevatelp hrty - Copia (2) - Copia",
+        "h": 140,
+        "src": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/notificacoes-elevatelp-hrty-Copia-2-Copia.png",
+        "w": 760
+      },
+      {
+        "alt": "notificacoes-elevatelp hrty - Copia (2) - Copia - Copia",
+        "h": 140,
+        "src": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/notificacoes-elevatelp-hrty-Copia-2-Copia-Copia.png",
+        "w": 760
+      },
+      {
+        "alt": "notificacoes-elevatelp hrty - Copia (2) - Copia - Copia - Copia",
+        "h": 140,
+        "src": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/notificacoes-elevatelp-hrty-Copia-2-Copia-Copia-Copia.png",
+        "w": 760
+      },
+      {
+        "alt": "notificacoes-elevatelp hrty",
+        "h": 140,
+        "src": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/notificacoes-elevatelp-hrty.png",
+        "w": 760
+      },
+      {
+        "alt": "notificações kiwify - Copia (2) - Copia - Copia",
+        "h": 140,
+        "src": "https://fluxoleadai.com.br/wp-content/uploads/2026/07/notificacoes-kiwify-Copia-2-Copia-Copia.png",
+        "w": 760
+      },
+      {
+        "alt": "notificações kiwify",
+        "h": 140,
+        "src": "https://fluxoleadai.com.br/wp-content/uploads/2026/07/notificacoes-kiwify.png",
+        "w": 760
+      },
+      {
+        "alt": "notificações kiwify - Copia",
+        "h": 140,
+        "src": "https://fluxoleadai.com.br/wp-content/uploads/2026/07/notificacoes-kiwify-Copia.png",
+        "w": 760
+      },
+      {
+        "alt": "notificações kiwify - Copia (2)",
+        "h": 140,
+        "src": "https://fluxoleadai.com.br/wp-content/uploads/2026/07/notificacoes-kiwify-Copia-2.png",
+        "w": 760
+      },
+      {
+        "alt": "notificações kiwify - Copia (2) - Copia",
+        "h": 140,
+        "src": "https://fluxoleadai.com.br/wp-content/uploads/2026/07/notificacoes-kiwify-Copia-2-Copia.png",
+        "w": 760
+      },
+      {
+        "alt": "notificações kiwify - Copia (2) - Copia - Copia",
+        "h": 140,
+        "src": "https://fluxoleadai.com.br/wp-content/uploads/2026/07/notificacoes-kiwify-Copia-2-Copia-Copia.png",
+        "w": 760
+      },
+      {
+        "alt": "notificações kiwify",
+        "h": 140,
+        "src": "https://fluxoleadai.com.br/wp-content/uploads/2026/07/notificacoes-kiwify.png",
+        "w": 760
+      },
+      {
+        "alt": "",
+        "h": 1150,
+        "src": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/ChatGPT-Image-23-de-set.-de-2026-13_23_08-sdsad-asdsa.webp",
+        "w": 1367
+      },
+      {
+        "alt": "",
+        "h": 1150,
+        "src": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/ChatGPT-Image-23-de-set.-de-2026-13_20_46.webp",
+        "w": 1368
+      },
+      {
+        "alt": "",
+        "h": 1150,
+        "src": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/ChatGPT-Image-23-de-set.-de-2026-13_25_26.webp",
+        "w": 1367
+      },
+      {
+        "alt": "Site Agente Labs",
+        "h": 681,
+        "src": "https://fluxoleadai.com.br/landing-extra/img/site-1.webp",
+        "w": 1200
+      },
+      {
+        "alt": "Site Megatelecom",
+        "h": 681,
+        "src": "https://fluxoleadai.com.br/landing-extra/img/site-2.webp",
+        "w": 1200
+      },
+      {
+        "alt": "Site VixHub",
+        "h": 681,
+        "src": "https://fluxoleadai.com.br/landing-extra/img/site-3.webp",
+        "w": 1200
+      },
+      {
+        "alt": "Site Casa Charme",
+        "h": 681,
+        "src": "https://fluxoleadai.com.br/landing-extra/img/site-4.webp",
+        "w": 1200
+      },
+      {
+        "alt": "Site CSAB basquete",
+        "h": 681,
+        "src": "https://fluxoleadai.com.br/landing-extra/img/site-5.webp",
+        "w": 1200
+      },
+      {
+        "alt": "",
+        "h": 681,
+        "src": "https://fluxoleadai.com.br/landing-extra/img/site-1.webp",
+        "w": 1200
+      },
+      {
+        "alt": "",
+        "h": 681,
+        "src": "https://fluxoleadai.com.br/landing-extra/img/site-2.webp",
+        "w": 1200
+      },
+      {
+        "alt": "",
+        "h": 681,
+        "src": "https://fluxoleadai.com.br/landing-extra/img/site-3.webp",
+        "w": 1200
+      },
+      {
+        "alt": "",
+        "h": 681,
+        "src": "https://fluxoleadai.com.br/landing-extra/img/site-4.webp",
+        "w": 1200
+      },
+      {
+        "alt": "",
+        "h": 681,
+        "src": "https://fluxoleadai.com.br/landing-extra/img/site-5.webp",
+        "w": 1200
+      },
+      {
+        "alt": "Site GFM",
+        "h": 681,
+        "src": "https://fluxoleadai.com.br/landing-extra/img/site-6.webp",
+        "w": 1200
+      },
+      {
+        "alt": "Site Dhyego Lemos Advocacia",
+        "h": 681,
+        "src": "https://fluxoleadai.com.br/landing-extra/img/site-7.webp",
+        "w": 1200
+      },
+      {
+        "alt": "Site de canal do YouTube",
+        "h": 681,
+        "src": "https://fluxoleadai.com.br/landing-extra/img/site-8.webp",
+        "w": 1200
+      },
+      {
+        "alt": "Site Doutor Reels",
+        "h": 681,
+        "src": "https://fluxoleadai.com.br/landing-extra/img/site-9.webp",
+        "w": 1200
+      },
+      {
+        "alt": "Site Legado Masculino",
+        "h": 681,
+        "src": "https://fluxoleadai.com.br/landing-extra/img/site-10.webp",
+        "w": 1200
+      },
+      {
+        "alt": "",
+        "h": 681,
+        "src": "https://fluxoleadai.com.br/landing-extra/img/site-6.webp",
+        "w": 1200
+      },
+      {
+        "alt": "",
+        "h": 681,
+        "src": "https://fluxoleadai.com.br/landing-extra/img/site-7.webp",
+        "w": 1200
+      },
+      {
+        "alt": "",
+        "h": 681,
+        "src": "https://fluxoleadai.com.br/landing-extra/img/site-8.webp",
+        "w": 1200
+      },
+      {
+        "alt": "",
+        "h": 681,
+        "src": "https://fluxoleadai.com.br/landing-extra/img/site-9.webp",
+        "w": 1200
+      },
+      {
+        "alt": "",
+        "h": 681,
+        "src": "https://fluxoleadai.com.br/landing-extra/img/site-10.webp",
+        "w": 1200
+      },
+      {
+        "alt": "Conversa no WhatsApp: Ficou top irmão, atingiu as nossas expectativas!",
+        "h": 1316,
+        "src": "https://fluxoleadai.com.br/landing-extra/img/zap-1.webp",
+        "w": 738
+      },
+      {
+        "alt": "Conversa no WhatsApp: parabéns pelo trabalho, ficou muito top",
+        "h": 1316,
+        "src": "https://fluxoleadai.com.br/landing-extra/img/zap-2.webp",
+        "w": 738
+      },
+      {
+        "alt": "Conversa no WhatsApp: Eu amei, achei fantástico, bem profissional",
+        "h": 1316,
+        "src": "https://fluxoleadai.com.br/landing-extra/img/zap-3.webp",
+        "w": 738
+      },
+      {
+        "alt": "Conversa no WhatsApp: ficou muito bom",
+        "h": 1316,
+        "src": "https://fluxoleadai.com.br/landing-extra/img/zap-4.webp",
+        "w": 738
+      },
+      {
+        "alt": "Conversa no WhatsApp: Nossa, ficou muito bom! Amei",
+        "h": 1316,
+        "src": "https://fluxoleadai.com.br/landing-extra/img/zap-5.webp",
+        "w": 738
+      },
+      {
+        "alt": "",
+        "h": 160,
+        "src": "https://fluxoleadai.com.br/landing-extra/brand/logo-fluxo-lead.webp",
+        "w": 1105
+      },
+      {
+        "alt": "",
+        "h": 160,
+        "src": "https://fluxoleadai.com.br/landing-extra/brand/logo-fluxo-lead.webp",
+        "w": 1105
+      },
+      {
+        "alt": "",
+        "h": 34,
+        "src": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/pagamentos.png",
+        "w": 390
+      },
+      {
+        "alt": "",
+        "h": 34,
+        "src": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/pagamentos.png",
+        "w": 390
+      },
+      {
+        "alt": "",
+        "h": 259,
+        "src": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/1-2312312312-1-g-1536x277.webp",
+        "w": 1439
+      },
+      {
+        "alt": "",
+        "h": 243,
+        "src": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/botao-1231-_1_-j.webp",
+        "w": 240
+      },
+      {
+        "alt": "",
+        "h": 160,
+        "src": "https://fluxoleadai.com.br/landing-extra/brand/logo-fluxo-lead.webp",
+        "w": 1105
+      },
+      {
+        "alt": "Fluxo Lead",
+        "h": 160,
+        "src": "https://fluxoleadai.com.br/landing-extra/brand/logo-fluxo-lead.webp",
+        "w": 1105
+      }
+    ],
+    "inline_scripts": 18,
+    "requests": [
+      {
+        "bytes": 2042,
+        "type": "script",
+        "url": "https://fluxoleadai.com.br/_capturador/shim.js"
+      },
+      {
+        "bytes": 8191,
+        "type": "link",
+        "url": "https://fluxoleadai.com.br/wp-content/plugins/gum-elementor-addon/css/style.css"
+      },
+      {
+        "bytes": 2093,
+        "type": "link",
+        "url": "https://fluxoleadai.com.br/wp-content/themes/hello-elementor/assets/css/reset.css"
+      },
+      {
+        "bytes": 1572,
+        "type": "link",
+        "url": "https://fluxoleadai.com.br/wp-content/themes/hello-elementor/assets/css/theme.css"
+      },
+      {
+        "bytes": 1717,
+        "type": "link",
+        "url": "https://fluxoleadai.com.br/wp-content/themes/hello-elementor/assets/css/header-footer.css"
+      },
+      {
+        "bytes": 7569,
+        "type": "link",
+        "url": "https://fluxoleadai.com.br/wp-content/plugins/elementor/assets/css/frontend.min.css"
+      },
+      {
+        "bytes": 2098,
+        "type": "link",
+        "url": "https://fluxoleadai.com.br/wp-content/uploads/elementor/css/post-49.css"
+      },
+      {
+        "bytes": 11771,
+        "type": "link",
+        "url": "https://fluxoleadai.com.br/wp-content/uploads/elementor/css/post-873.css"
+      },
+      {
+        "bytes": 514,
+        "type": "link",
+        "url": "https://fluxoleadai.com.br/wp-content/plugins/elementor/assets/css/widget-image.min.css"
+      },
+      {
+        "bytes": 860,
+        "type": "link",
+        "url": "https://fluxoleadai.com.br/wp-content/plugins/elementor/assets/css/widget-heading.min.css"
+      },
+      {
+        "bytes": 703,
+        "type": "link",
+        "url": "https://fluxoleadai.com.br/wp-content/plugins/elementor/assets/css/widget-video.min.css"
+      },
+      {
+        "bytes": 734,
+        "type": "link",
+        "url": "https://fluxoleadai.com.br/wp-content/plugins/elementor/assets/css/widget-icon-box.min.css"
+      },
+      {
+        "bytes": 1053,
+        "type": "link",
+        "url": "https://fluxoleadai.com.br/wp-content/plugins/elementor/assets/css/widget-counter.min.css"
+      },
+      {
+        "bytes": 4888,
+        "type": "link",
+        "url": "https://fluxoleadai.com.br/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css"
+      },
+      {
+        "bytes": 13582,
+        "type": "link",
+        "url": "https://fluxoleadai.com.br/wp-content/plugins/elementskit-lite/widgets/init/assets/css/common.css"
+      },
+      {
+        "bytes": 1098,
+        "type": "link",
+        "url": "https://fluxoleadai.com.br/wp-content/plugins/elementor/assets/css/conditionals/e-swiper.min.css"
+      },
+      {
+        "bytes": 642,
+        "type": "link",
+        "url": "https://fluxoleadai.com.br/wp-content/plugins/elementor/assets/css/widget-image-carousel.min.css"
+      },
+      {
+        "bytes": 1322,
+        "type": "link",
+        "url": "https://fluxoleadai.com.br/wp-content/plugins/elementor/assets/css/widget-icon-list.min.css"
+      },
+      {
+        "bytes": 1040,
+        "type": "link",
+        "url": "https://fluxoleadai.com.br/wp-content/plugins/elementor/assets/css/widget-divider.min.css"
+      },
+      {
+        "bytes": 1561,
+        "type": "link",
+        "url": "https://fluxoleadai.com.br/wp-content/plugins/elementskit-lite/widgets/init/assets/css/accordion.css"
+      },
+      {
+        "bytes": 430,
+        "type": "link",
+        "url": "https://fluxoleadai.com.br/wp-content/plugins/elementor/assets/lib/animations/styles/fadeInUp.min.css"
+      },
+      {
+        "bytes": 453,
+        "type": "link",
+        "url": "https://fluxoleadai.com.br/wp-content/plugins/elementor/assets/lib/animations/styles/slideInDown.min.css"
+      },
+      {
+        "bytes": 1441,
+        "type": "link",
+        "url": "https://fluxoleadai.com.br/wp-content/uploads/elementor/css/base-desktop.css"
+      },
+      {
+        "bytes": 844,
+        "type": "link",
+        "url": "https://fluxoleadai.com.br/_ext/fonts.googleapis.com/css__qb14eb693.css"
+      },
+      {
+        "bytes": 1616,
+        "type": "link",
+        "url": "https://fluxoleadai.com.br/_ext/fonts.googleapis.com/css__qe29a12e4.css"
+      },
+      {
+        "bytes": 783,
+        "type": "link",
+        "url": "https://fluxoleadai.com.br/_ext/fonts.googleapis.com/css__qc59a8c66.css"
+      },
+      {
+        "bytes": 1214,
+        "type": "link",
+        "url": "https://fluxoleadai.com.br/landing-extra/otim/ekiticons.min.css"
+      },
+      {
+        "bytes": 4469,
+        "type": "script",
+        "url": "https://fluxoleadai.com.br/wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min.js"
+      },
+      {
+        "bytes": 989,
+        "type": "script",
+        "url": "https://fluxoleadai.com.br/wp-content/plugins/gum-elementor-addon/js/allscripts.js"
+      },
+      {
+        "bytes": 5170,
+        "type": "script",
+        "url": "https://fluxoleadai.com.br/wp-includes/js/jquery/jquery-migrate.min.js"
+      },
+      {
+        "bytes": 30712,
+        "type": "script",
+        "url": "https://fluxoleadai.com.br/wp-includes/js/jquery/jquery.min.js"
+      },
+      {
+        "bytes": 11251,
+        "type": "script",
+        "url": "https://fluxoleadai.com.br/wp-content/plugins/gum-elementor-addon//js/owl.carousel.min.js"
+      },
+      {
+        "bytes": 88056,
+        "type": "img",
+        "url": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/Background-Graphics-2-3-dasdas-1536x372.png"
+      },
+      {
+        "bytes": 905,
+        "type": "script",
+        "url": "https://fluxoleadai.com.br/wp-content/plugins/gum-elementor-addon/js/price-table.js"
+      },
+      {
+        "bytes": 21396,
+        "type": "img",
+        "url": "https://fluxoleadai.com.br/landing-extra/brand/logo-fluxo-lead.webp"
+      },
+      {
+        "bytes": 5590,
+        "type": "video",
+        "url": "https://fluxoleadai.com.br/landing-extra/video/hero-poster.webp"
+      },
+      {
+        "bytes": 69530,
+        "type": "img",
+        "url": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/brilho-rosvermelha-2-3-das.png"
+      },
+      {
+        "bytes": 5598,
+        "type": "img",
+        "url": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/notificacoes-elevatelp-hrty.png"
+      },
+      {
+        "bytes": 5598,
+        "type": "img",
+        "url": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/notificacoes-elevatelp-hrty-Copia.png"
+      },
+      {
+        "bytes": 5598,
+        "type": "img",
+        "url": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/notificacoes-elevatelp-hrty-Copia-2.png"
+      },
+      {
+        "bytes": 5598,
+        "type": "img",
+        "url": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/notificacoes-elevatelp-hrty-Copia-2-Copia.png"
+      },
+      {
+        "bytes": 5598,
+        "type": "img",
+        "url": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/notificacoes-elevatelp-hrty-Copia-2-Copia-Copia.png"
+      },
+      {
+        "bytes": 5598,
+        "type": "img",
+        "url": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/notificacoes-elevatelp-hrty-Copia-2-Copia-Copia-Copia.png"
+      },
+      {
+        "bytes": 5538,
+        "type": "img",
+        "url": "https://fluxoleadai.com.br/wp-content/uploads/2026/07/notificacoes-kiwify.png"
+      },
+      {
+        "bytes": 5538,
+        "type": "img",
+        "url": "https://fluxoleadai.com.br/wp-content/uploads/2026/07/notificacoes-kiwify-Copia.png"
+      },
+      {
+        "bytes": 5538,
+        "type": "img",
+        "url": "https://fluxoleadai.com.br/wp-content/uploads/2026/07/notificacoes-kiwify-Copia-2.png"
+      },
+      {
+        "bytes": 5538,
+        "type": "img",
+        "url": "https://fluxoleadai.com.br/wp-content/uploads/2026/07/notificacoes-kiwify-Copia-2-Copia.png"
+      },
+      {
+        "bytes": 5538,
+        "type": "img",
+        "url": "https://fluxoleadai.com.br/wp-content/uploads/2026/07/notificacoes-kiwify-Copia-2-Copia-Copia.png"
+      },
+      {
+        "bytes": 565,
+        "type": "link",
+        "url": "https://fluxoleadai.com.br/manifest.webmanifest"
+      },
+      {
+        "bytes": 542,
+        "type": "link",
+        "url": "https://fluxoleadai.com.br/_ext/unpkg.com/lenis@1.1.18/dist/lenis.css"
+      },
+      {
+        "bytes": 3985,
+        "type": "script",
+        "url": "https://fluxoleadai.com.br/_ext/unpkg.com/lenis@1.1.18/dist/lenis.min.js"
+      },
+      {
+        "bytes": 2315,
+        "type": "script",
+        "url": "https://fluxoleadai.com.br/wp-content/plugins/gum-elementor-addon/js/jquery.easing.1.3.js"
+      },
+      {
+        "bytes": 2154,
+        "type": "script",
+        "url": "https://fluxoleadai.com.br/wp-includes/js/dist/hooks.min.js"
+      },
+      {
+        "bytes": 4041,
+        "type": "script",
+        "url": "https://fluxoleadai.com.br/wp-content/plugins/gum-elementor-addon/js/jquery.superslides.js"
+      },
+      {
+        "bytes": 844,
+        "type": "script",
+        "url": "https://fluxoleadai.com.br/wp-content/themes/hello-elementor/assets/js/hello-frontend.js"
+      },
+      {
+        "bytes": 1034,
+        "type": "script",
+        "url": "https://fluxoleadai.com.br/wp-content/plugins/elementor/assets/lib/jquery-numerator/jquery-numerator.min.js"
+      },
+      {
+        "bytes": 2793,
+        "type": "script",
+        "url": "https://fluxoleadai.com.br/wp-includes/js/dist/i18n.min.js"
+      },
+      {
+        "bytes": 40061,
+        "type": "script",
+        "url": "https://fluxoleadai.com.br/wp-content/plugins/elementor/assets/lib/swiper/v8/swiper.min.js"
+      },
+      {
+        "bytes": 4433,
+        "type": "script",
+        "url": "https://fluxoleadai.com.br/wp-content/plugins/elementskit-lite/widgets/init/assets/js/ekit-ui.js"
+      },
+      {
+        "bytes": 2847,
+        "type": "script",
+        "url": "https://fluxoleadai.com.br/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js"
+      },
+      {
+        "bytes": 6824,
+        "type": "script",
+        "url": "https://fluxoleadai.com.br/wp-includes/js/jquery/ui/core.min.js"
+      },
+      {
+        "bytes": 16215,
+        "type": "script",
+        "url": "https://fluxoleadai.com.br/wp-content/plugins/elementor/assets/js/frontend-modules.min.js"
+      },
+      {
+        "bytes": 1773,
+        "type": "script",
+        "url": "https://fluxoleadai.com.br/wp-content/plugins/elementskit-lite/widgets/init/assets/js/widgets/core.js"
+      },
+      {
+        "bytes": 10737,
+        "type": "script",
+        "url": "https://fluxoleadai.com.br/wp-content/plugins/elementor/assets/js/frontend.min.js"
+      },
+      {
+        "bytes": 557,
+        "type": "script",
+        "url": "https://fluxoleadai.com.br/wp-content/plugins/elementskit-lite/widgets/init/assets/js/widgets/accordion.js"
+      },
+      {
+        "bytes": 889,
+        "type": "script",
+        "url": "https://fluxoleadai.com.br/wp-content/plugins/elementskit-lite/widgets/init/assets/js/widgets/header-search.js"
+      },
+      {
+        "bytes": 2592,
+        "type": "script",
+        "url": "https://fluxoleadai.com.br/wp-content/plugins/elementskit-lite/widgets/init/assets/js/widgets/nav-menu.js"
+      },
+      {
+        "bytes": 7877,
+        "type": "script",
+        "url": "https://fluxoleadai.com.br/wp-content/plugins/elementskit-lite/assets/libs/magnific-popup/jquery.magnific-popup.min.js"
+      },
+      {
+        "bytes": 785,
+        "type": "script",
+        "url": "https://fluxoleadai.com.br/wp-content/plugins/elementskit-lite/widgets/init/assets/js/widgets/header-offcanvas.js"
+      },
+      {
+        "bytes": 3131,
+        "type": "script",
+        "url": "https://fluxoleadai.com.br/wp-content/plugins/pro-elements/assets/js/webpack-pro.runtime.min.js"
+      },
+      {
+        "bytes": 6723,
+        "type": "script",
+        "url": "https://fluxoleadai.com.br/wp-content/plugins/pro-elements/assets/js/frontend.min.js"
+      },
+      {
+        "bytes": 0,
+        "type": "script",
+        "url": "https://fluxoleadai.com.br/fl/consent.js"
+      },
+      {
+        "bytes": 10869,
+        "type": "script",
+        "url": "https://fluxoleadai.com.br/wp-content/plugins/pro-elements/assets/js/elements-handlers.min.js"
+      },
+      {
+        "bytes": 332,
+        "type": "fetch",
+        "url": "https://fluxoleadai.com.br/api/public/portfolio"
+      },
+      {
+        "bytes": 86546,
+        "type": "css",
+        "url": "https://fluxoleadai.com.br/wp-content/uploads/2026/07/27c4bef7-ded8-476a-8dee-745338e4b28b-12312312312-1-scaled.png"
+      },
+      {
+        "bytes": 32956,
+        "type": "css",
+        "url": "https://fluxoleadai.com.br/wp-content/uploads/2026/07/brilho-rosa-2.webp"
+      },
+      {
+        "bytes": 35976,
+        "type": "css",
+        "url": "https://fluxoleadai.com.br/_ext/fonts.gstatic.com/s/rethinksans/v7/AMOWz4SDuXOMCPfdoglY9JQEVFi3.woff2"
+      },
+      {
+        "bytes": 110430,
+        "type": "css",
+        "url": "https://fluxoleadai.com.br/wp-content/uploads/2026/07/brilho-direita-asd.png"
+      },
+      {
+        "bytes": 22136,
+        "type": "css",
+        "url": "https://fluxoleadai.com.br/wp-content/uploads/2026/07/brilho-rosa.png"
+      },
+      {
+        "bytes": 48556,
+        "type": "css",
+        "url": "https://fluxoleadai.com.br/_ext/fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2"
+      },
+      {
+        "bytes": 960,
+        "type": "css",
+        "url": "https://fluxoleadai.com.br/landing-extra/otim/ekit-icones.woff2"
+      },
+      {
+        "bytes": 61804,
+        "type": "img",
+        "url": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/1-2312312312-1-g-1536x277.webp"
+      },
+      {
+        "bytes": 11334,
+        "type": "img",
+        "url": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/botao-1231-_1_-j.webp"
+      },
+      {
+        "bytes": 39056,
+        "type": "img",
+        "url": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/ChatGPT-Image-9-de-jul.-de-2026-19_26_24-_1__1g-dfgfd.webp"
+      },
+      {
+        "bytes": 39614,
+        "type": "img",
+        "url": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/wp1-3.webp"
+      },
+      {
+        "bytes": 6072,
+        "type": "css",
+        "url": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/DIVISORIA-SETA-2-3h-hgfhgf.png"
+      },
+      {
+        "bytes": 34908,
+        "type": "css",
+        "url": "https://fluxoleadai.com.br/_ext/fonts.gstatic.com/s/syne/v24/8vIH7w4qzmVxm2BL9A.woff2"
+      },
+      {
+        "bytes": 37272,
+        "type": "css",
+        "url": "https://fluxoleadai.com.br/_ext/fonts.gstatic.com/s/rethinksans/v7/AMOIz4SDuXOMCPfdoglY9JQEUWi1690.woff2"
+      },
+      {
+        "bytes": 2942,
+        "type": "script",
+        "url": "https://fluxoleadai.com.br/wp-content/plugins/elementor/assets/js/shared-frontend-handlers.03caa53373b56d3bab67.bundle.min.js"
+      },
+      {
+        "bytes": 947,
+        "type": "script",
+        "url": "https://fluxoleadai.com.br/wp-content/plugins/elementor/assets/js/text-editor.45609661e409413f1cef.bundle.min.js"
+      },
+      {
+        "bytes": 1576,
+        "type": "script",
+        "url": "https://fluxoleadai.com.br/wp-content/plugins/elementor/assets/js/video.86d44e46e43d0807e708.bundle.min.js"
+      },
+      {
+        "bytes": 1206,
+        "type": "script",
+        "url": "https://fluxoleadai.com.br/wp-content/plugins/elementor/assets/js/counter.12335f45aaa79d244f24.bundle.min.js"
+      },
+      {
+        "bytes": 708,
+        "type": "script",
+        "url": "https://fluxoleadai.com.br/wp-content/plugins/elementor/assets/js/image-carousel.6167d20b95b33386757b.bundle.min.js"
+      },
+      {
+        "bytes": 36613,
+        "type": "other",
+        "url": "https://fluxoleadai.com.br/icon.png"
+      },
+      {
+        "bytes": 33351,
+        "type": "other",
+        "url": "https://fluxoleadai.com.br/apple-icon.png"
+      },
+      {
+        "bytes": 5699,
+        "type": "script",
+        "url": "https://fluxoleadai.com.br/wp-includes/js/wp-emoji-release.min.js"
+      },
+      {
+        "bytes": 7928,
+        "type": "other",
+        "url": "https://fluxoleadai.com.br/favicon.ico"
+      },
+      {
+        "bytes": 54434,
+        "type": "img",
+        "url": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/FireShot-Capture-093-Home-02-Onepage-%E2%80%93-Saasking-app.usefluxai.com_.br_.png"
+      },
+      {
+        "bytes": 108454,
+        "type": "img",
+        "url": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/FireShot-Capture-092-Home-%E2%80%93-Cyrion-app.usefluxai.com_.br_.png"
+      },
+      {
+        "bytes": 43432,
+        "type": "img",
+        "url": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/FireShot-Capture-094-Axino-%E2%80%93-Task-Management-SaaS-app.usefluxai.com_.br_.webp"
+      },
+      {
+        "bytes": 39442,
+        "type": "img",
+        "url": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/FireShot-Capture-095-Aigocy-%E2%80%93-AI-Agency-%E2%80%93-WordPress-Theme-app.usefluxai.com_.br_.webp"
+      },
+      {
+        "bytes": 65094,
+        "type": "img",
+        "url": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/FireShot-Capture-098-app.usefluxai.com_.br_.webp"
+      },
+      {
+        "bytes": 58498,
+        "type": "img",
+        "url": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/FireShot-Capture-096-Flexy-%E2%80%93-Digital-Marketing-Agency-app.usefluxai.com_.br_.webp"
+      },
+      {
+        "bytes": 40852,
+        "type": "img",
+        "url": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/FireShot-Capture-101-Artura-%E2%80%93-Best-Token-and-Crypto-Site-app.usefluxai.com_.br_.webp"
+      },
+      {
+        "bytes": 86744,
+        "type": "img",
+        "url": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/FireShot-Capture-102-Home-%E2%80%93-Conals-%E2%80%93-Manufacture-industrials-app.usefluxai.com_.br_.webp"
+      },
+      {
+        "bytes": 36894,
+        "type": "img",
+        "url": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/FireShot-Capture-103-DOQU-%E2%80%93-Dark-Digital-Bank-E-Wallet-Elementor-Template-Kit-by-Jegth_-app.usefluxai.com_.br_.webp"
+      },
+      {
+        "bytes": 35778,
+        "type": "img",
+        "url": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/FireShot-Capture-099-Home-02-Onepage-%E2%80%93-SassRiver-app.usefluxai.com_.br_.webp"
+      },
+      {
+        "bytes": 21046,
+        "type": "img",
+        "url": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/Background-Graphics-2-3-dasdas-768x186.webp"
+      },
+      {
+        "bytes": 64118,
+        "type": "img",
+        "url": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/brilho-rosvermelha-2-3-das-768x768.webp"
+      },
+      {
+        "bytes": 18698,
+        "type": "img",
+        "url": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/1-2312312312-1-g-768x139.webp"
+      },
+      {
+        "bytes": 21334,
+        "type": "img",
+        "url": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/ChatGPT-Image-9-de-jul.-de-2026-19_26_24-_1__1g-dfgfd-768x768.webp"
+      },
+      {
+        "bytes": 27526,
+        "type": "img",
+        "url": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/wp1-3-768x768.webp"
+      },
+      {
+        "bytes": 0,
+        "type": "img",
+        "url": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/FireShot-Capture-092-Home-%E2%80%93-Cyrion-app.usefluxai.com_.br_.png"
+      },
+      {
+        "bytes": 0,
+        "type": "img",
+        "url": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/FireShot-Capture-093-Home-02-Onepage-%E2%80%93-Saasking-app.usefluxai.com_.br_.png"
+      },
+      {
+        "bytes": 0,
+        "type": "img",
+        "url": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/FireShot-Capture-096-Flexy-%E2%80%93-Digital-Marketing-Agency-app.usefluxai.com_.br_.webp"
+      },
+      {
+        "bytes": 0,
+        "type": "img",
+        "url": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/FireShot-Capture-098-app.usefluxai.com_.br_.webp"
+      },
+      {
+        "bytes": 0,
+        "type": "img",
+        "url": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/FireShot-Capture-099-Home-02-Onepage-%E2%80%93-SassRiver-app.usefluxai.com_.br_.webp"
+      },
+      {
+        "bytes": 0,
+        "type": "img",
+        "url": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/FireShot-Capture-103-DOQU-%E2%80%93-Dark-Digital-Bank-E-Wallet-Elementor-Template-Kit-by-Jegth_-app.usefluxai.com_.br_.webp"
+      },
+      {
+        "bytes": 0,
+        "type": "img",
+        "url": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/Background-Graphics-2-3-dasdas-1536x372.png"
+      },
+      {
+        "bytes": 0,
+        "type": "img",
+        "url": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/brilho-rosvermelha-2-3-das.png"
+      },
+      {
+        "bytes": 0,
+        "type": "img",
+        "url": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/1-2312312312-1-g-1536x277.webp"
+      },
+      {
+        "bytes": 0,
+        "type": "img",
+        "url": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/ChatGPT-Image-9-de-jul.-de-2026-19_26_24-_1__1g-dfgfd.webp"
+      },
+      {
+        "bytes": 0,
+        "type": "img",
+        "url": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/wp1-3.webp"
+      },
+      {
+        "bytes": 81302,
+        "type": "img",
+        "url": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/ChatGPT-Image-23-de-set.-de-2026-13_23_08-sdsad-asdsa.webp"
+      },
+      {
+        "bytes": 53704,
+        "type": "img",
+        "url": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/ChatGPT-Image-23-de-set.-de-2026-13_20_46.webp"
+      },
+      {
+        "bytes": 58532,
+        "type": "img",
+        "url": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/ChatGPT-Image-23-de-set.-de-2026-13_25_26.webp"
+      },
+      {
+        "bytes": 37064,
+        "type": "img",
+        "url": "https://fluxoleadai.com.br/landing-extra/img/site-1.webp"
+      },
+      {
+        "bytes": 71658,
+        "type": "img",
+        "url": "https://fluxoleadai.com.br/landing-extra/img/site-2.webp"
+      },
+      {
+        "bytes": 46328,
+        "type": "img",
+        "url": "https://fluxoleadai.com.br/landing-extra/img/site-3.webp"
+      },
+      {
+        "bytes": 57518,
+        "type": "img",
+        "url": "https://fluxoleadai.com.br/landing-extra/img/site-4.webp"
+      },
+      {
+        "bytes": 60892,
+        "type": "img",
+        "url": "https://fluxoleadai.com.br/landing-extra/img/site-5.webp"
+      },
+      {
+        "bytes": 31244,
+        "type": "img",
+        "url": "https://fluxoleadai.com.br/landing-extra/img/site-6.webp"
+      },
+      {
+        "bytes": 50270,
+        "type": "img",
+        "url": "https://fluxoleadai.com.br/landing-extra/img/site-7.webp"
+      },
+      {
+        "bytes": 71456,
+        "type": "img",
+        "url": "https://fluxoleadai.com.br/landing-extra/img/site-8.webp"
+      },
+      {
+        "bytes": 42114,
+        "type": "img",
+        "url": "https://fluxoleadai.com.br/landing-extra/img/site-9.webp"
+      },
+      {
+        "bytes": 63130,
+        "type": "img",
+        "url": "https://fluxoleadai.com.br/landing-extra/img/site-10.webp"
+      },
+      {
+        "bytes": 60466,
+        "type": "img",
+        "url": "https://fluxoleadai.com.br/landing-extra/img/zap-1.webp"
+      },
+      {
+        "bytes": 61042,
+        "type": "img",
+        "url": "https://fluxoleadai.com.br/landing-extra/img/zap-2.webp"
+      },
+      {
+        "bytes": 69660,
+        "type": "img",
+        "url": "https://fluxoleadai.com.br/landing-extra/img/zap-3.webp"
+      },
+      {
+        "bytes": 57194,
+        "type": "img",
+        "url": "https://fluxoleadai.com.br/landing-extra/img/zap-4.webp"
+      },
+      {
+        "bytes": 68206,
+        "type": "img",
+        "url": "https://fluxoleadai.com.br/landing-extra/img/zap-5.webp"
+      },
+      {
+        "bytes": 4010,
+        "type": "img",
+        "url": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/pagamentos.png"
+      },
+      {
+        "bytes": 0,
+        "type": "img",
+        "url": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/botao-1231-_1_-j.webp"
+      }
+    ],
+    "scripts": [
+      "https://fluxoleadai.com.br/_capturador/shim.js",
+      "https://fluxoleadai.com.br/wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min.js?ver=4.1.4",
+      "https://fluxoleadai.com.br/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+      "https://fluxoleadai.com.br/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+      "https://fluxoleadai.com.br/wp-content/plugins/gum-elementor-addon/js/allscripts.js?ver=1.0",
+      "https://fluxoleadai.com.br/wp-content/plugins/gum-elementor-addon//js/owl.carousel.min.js?ver=2.2.1",
+      "https://fluxoleadai.com.br/wp-content/plugins/gum-elementor-addon/js/price-table.js?ver=1.0",
+      "https://fluxoleadai.com.br/wp-includes/js/wp-emoji-release.min.js?ver=7.1.2",
+      "https://fluxoleadai.com.br/_ext/unpkg.com/lenis@1.1.18/dist/lenis.min.js",
+      "https://fluxoleadai.com.br/wp-content/plugins/gum-elementor-addon/js/jquery.easing.1.3.js?ver=1.0",
+      "https://fluxoleadai.com.br/wp-content/plugins/gum-elementor-addon/js/jquery.superslides.js?ver=1.0",
+      "https://fluxoleadai.com.br/wp-includes/js/dist/hooks.min.js?ver=f0f188028580e8dc1255",
+      "https://fluxoleadai.com.br/wp-includes/js/dist/i18n.min.js?ver=1dfe7db3940c23ea9216",
+      "https://fluxoleadai.com.br/wp-content/themes/hello-elementor/assets/js/hello-frontend.js?ver=3.4.9",
+      "https://fluxoleadai.com.br/wp-content/plugins/elementor/assets/lib/jquery-numerator/jquery-numerator.min.js?ver=0.2.1",
+      "https://fluxoleadai.com.br/wp-content/plugins/elementor/assets/lib/swiper/v8/swiper.min.js?ver=8.4.5",
+      "https://fluxoleadai.com.br/wp-content/plugins/elementskit-lite/widgets/init/assets/js/ekit-ui.js?ver=4.0.7",
+      "https://fluxoleadai.com.br/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=4.1.4",
+      "https://fluxoleadai.com.br/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=4.1.4",
+      "https://fluxoleadai.com.br/wp-includes/js/jquery/ui/core.min.js?ver=1.14.2",
+      "https://fluxoleadai.com.br/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=4.1.4",
+      "https://fluxoleadai.com.br/wp-content/plugins/elementskit-lite/widgets/init/assets/js/widgets/core.js?ver=4.0.7",
+      "https://fluxoleadai.com.br/wp-content/plugins/elementskit-lite/widgets/init/assets/js/widgets/accordion.js?ver=4.0.7",
+      "https://fluxoleadai.com.br/wp-content/plugins/elementskit-lite/widgets/init/assets/js/widgets/nav-menu.js?ver=4.0.7",
+      "https://fluxoleadai.com.br/wp-content/plugins/elementskit-lite/assets/libs/magnific-popup/jquery.magnific-popup.min.js?ver=4.0.7",
+      "https://fluxoleadai.com.br/wp-content/plugins/elementskit-lite/widgets/init/assets/js/widgets/header-search.js?ver=4.0.7",
+      "https://fluxoleadai.com.br/wp-content/plugins/elementskit-lite/widgets/init/assets/js/widgets/header-offcanvas.js?ver=4.0.7",
+      "https://fluxoleadai.com.br/wp-content/plugins/pro-elements/assets/js/webpack-pro.runtime.min.js?ver=4.1.0",
+      "https://fluxoleadai.com.br/wp-content/plugins/pro-elements/assets/js/frontend.min.js?ver=4.1.0",
+      "https://fluxoleadai.com.br/wp-content/plugins/pro-elements/assets/js/elements-handlers.min.js?ver=4.1.0",
+      "https://fluxoleadai.com.br/fl/consent.js"
+    ],
+    "stylesheets": [
+      "https://fluxoleadai.com.br/wp-content/plugins/gum-elementor-addon/css/style.css?ver=7.1.2",
+      "https://fluxoleadai.com.br/wp-content/themes/hello-elementor/assets/css/reset.css?ver=3.4.9",
+      "https://fluxoleadai.com.br/wp-content/themes/hello-elementor/assets/css/theme.css?ver=3.4.9",
+      "https://fluxoleadai.com.br/wp-content/themes/hello-elementor/assets/css/header-footer.css?ver=3.4.9",
+      "https://fluxoleadai.com.br/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=4.1.4",
+      "https://fluxoleadai.com.br/wp-content/uploads/elementor/css/post-49.css?ver=1790971060",
+      "https://fluxoleadai.com.br/wp-content/uploads/elementor/css/post-873.css?ver=1790971060",
+      "https://fluxoleadai.com.br/wp-content/plugins/elementor/assets/css/widget-image.min.css?ver=4.1.4",
+      "https://fluxoleadai.com.br/wp-content/plugins/elementor/assets/css/widget-heading.min.css?ver=4.1.4",
+      "https://fluxoleadai.com.br/wp-content/plugins/elementor/assets/css/widget-video.min.css?ver=4.1.4",
+      "https://fluxoleadai.com.br/wp-content/plugins/elementor/assets/css/widget-icon-box.min.css?ver=4.1.4",
+      "https://fluxoleadai.com.br/wp-content/plugins/elementor/assets/css/widget-counter.min.css?ver=4.1.4",
+      "https://fluxoleadai.com.br/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5",
+      "https://fluxoleadai.com.br/wp-content/plugins/elementor/assets/css/conditionals/e-swiper.min.css?ver=4.1.4",
+      "https://fluxoleadai.com.br/wp-content/plugins/elementor/assets/css/widget-image-carousel.min.css?ver=4.1.4",
+      "https://fluxoleadai.com.br/wp-content/plugins/elementor/assets/css/widget-icon-list.min.css?ver=4.1.4",
+      "https://fluxoleadai.com.br/wp-content/plugins/elementor/assets/css/widget-divider.min.css?ver=4.1.4",
+      "https://fluxoleadai.com.br/wp-content/plugins/elementskit-lite/widgets/init/assets/css/common.css?ver=4.0.7",
+      "https://fluxoleadai.com.br/wp-content/plugins/elementskit-lite/widgets/init/assets/css/accordion.css?ver=4.0.7",
+      "https://fluxoleadai.com.br/wp-content/plugins/elementor/assets/lib/animations/styles/fadeInUp.min.css?ver=4.1.4",
+      "https://fluxoleadai.com.br/wp-content/plugins/elementor/assets/lib/animations/styles/slideInDown.min.css?ver=4.1.4",
+      "https://fluxoleadai.com.br/wp-content/uploads/elementor/css/base-desktop.css?ver=6ac00cb4b0f53",
+      "https://fluxoleadai.com.br/_ext/fonts.googleapis.com/css__qb14eb693.css",
+      "https://fluxoleadai.com.br/_ext/fonts.googleapis.com/css__qe29a12e4.css",
+      "https://fluxoleadai.com.br/_ext/fonts.googleapis.com/css__qc59a8c66.css",
+      "https://fluxoleadai.com.br/landing-extra/otim/ekiticons.min.css",
+      "https://fluxoleadai.com.br/_ext/unpkg.com/lenis@1.1.18/dist/lenis.css"
+    ]
+  },
+  "breakpoints": [
+    {
+      "count": 1,
+      "px": 360,
+      "query": "min-width 360px"
+    },
+    {
+      "count": 1,
+      "px": 479,
+      "query": "max-width 479px"
+    },
+    {
+      "count": 1,
+      "px": 480,
+      "query": "max-width 480px"
+    },
+    {
+      "count": 1,
+      "px": 480,
+      "query": "min-width 480px"
+    },
+    {
+      "count": 1,
+      "px": 560,
+      "query": "max-width 560px"
+    },
+    {
+      "count": 2,
+      "px": 575,
+      "query": "max-width 575px"
+    },
+    {
+      "count": 2,
+      "px": 576,
+      "query": "min-width 576px"
+    },
+    {
+      "count": 2,
+      "px": 576,
+      "query": "max-width 576px"
+    },
+    {
+      "count": 2,
+      "px": 600,
+      "query": "max-width 600px"
+    },
+    {
+      "count": 2,
+      "px": 600,
+      "query": "min-width 600px"
+    },
+    {
+      "count": 27,
+      "px": 767,
+      "query": "max-width 767px"
+    },
+    {
+      "count": 14,
+      "px": 768,
+      "query": "min-width 768px"
+    },
+    {
+      "count": 1,
+      "px": 900,
+      "query": "max-width 900px"
+    },
+    {
+      "count": 1,
+      "px": 991,
+      "query": "max-width 991px"
+    },
+    {
+      "count": 2,
+      "px": 992,
+      "query": "min-width 992px"
+    },
+    {
+      "count": 1,
+      "px": 992,
+      "query": "max-width 992px"
+    },
+    {
+      "count": 24,
+      "px": 1024,
+      "query": "max-width 1024px"
+    },
+    {
+      "count": 6,
+      "px": 1025,
+      "query": "min-width 1025px"
+    },
+    {
+      "count": 1,
+      "px": 1200,
+      "query": "max-width 1200px"
+    },
+    {
+      "count": 1,
+      "px": 1200,
+      "query": "min-width 1200px"
+    },
+    {
+      "count": 1,
+      "px": 99999,
+      "query": "max-width 99999px"
+    }
+  ],
+  "design": {
+    "backgrounds": [
+      {
+        "count": 40,
+        "value": "#3a3a3a"
+      },
+      {
+        "count": 20,
+        "value": "#141414"
+      },
+      {
+        "count": 20,
+        "value": "#1b1b1b"
+      },
+      {
+        "count": 20,
+        "value": "#ff5a36"
+      },
+      {
+        "count": 20,
+        "value": "#232323"
+      },
+      {
+        "count": 13,
+        "value": "#000000"
+      },
+      {
+        "count": 6,
+        "value": "#02010100"
+      },
+      {
+        "count": 5,
+        "value": "#0b0b0b"
+      },
+      {
+        "count": 4,
+        "value": "#b2fe0200"
+      },
+      {
+        "count": 4,
+        "value": "#0a0a0a"
+      },
+      {
+        "count": 2,
+        "value": "#0d0d0d"
+      },
+      {
+        "count": 2,
+        "value": "#f2f2f2"
+      },
+      {
+        "count": 1,
+        "value": "#0c0c0c"
+      },
+      {
+        "count": 1,
+        "value": "#1f1f1f"
+      },
+      {
+        "count": 1,
+        "value": "#050505"
+      },
+      {
+        "count": 1,
+        "value": "#ff5a2a"
+      }
+    ],
+    "css_variables": {
+      "--direction-multiplier": "1",
+      "--page-title-display": "block",
+      "--shiny-cta-bg": "#000000",
+      "--shiny-cta-bg-subtle": "#1a1818",
+      "--shiny-cta-fg": "#ffffff",
+      "--shiny-cta-highlight": "#ff3911",
+      "--shiny-cta-highlight-subtle": "white",
+      "--swiper-navigation-size": "44px",
+      "--swiper-theme-color": "#007aff",
+      "--wp--preset--aspect-ratio--16-9": "16/9",
+      "--wp--preset--aspect-ratio--2-3": "2/3",
+      "--wp--preset--aspect-ratio--3-2": "3/2",
+      "--wp--preset--aspect-ratio--3-4": "3/4",
+      "--wp--preset--aspect-ratio--4-3": "4/3",
+      "--wp--preset--aspect-ratio--9-16": "9/16",
+      "--wp--preset--aspect-ratio--square": "1",
+      "--wp--preset--color--black": "#000000",
+      "--wp--preset--color--cyan-bluish-gray": "#abb8c3",
+      "--wp--preset--color--light-green-cyan": "#7bdcb5",
+      "--wp--preset--color--luminous-vivid-amber": "#fcb900",
+      "--wp--preset--color--luminous-vivid-orange": "#ff6900",
+      "--wp--preset--color--pale-cyan-blue": "#8ed1fc",
+      "--wp--preset--color--pale-pink": "#f78da7",
+      "--wp--preset--color--vivid-cyan-blue": "#0693e3",
+      "--wp--preset--color--vivid-green-cyan": "#00d084",
+      "--wp--preset--color--vivid-purple": "#9b51e0",
+      "--wp--preset--color--vivid-red": "#cf2e2e",
+      "--wp--preset--color--white": "#ffffff",
+      "--wp--preset--font-size--large": "36px",
+      "--wp--preset--font-size--medium": "20px",
+      "--wp--preset--font-size--small": "13px",
+      "--wp--preset--font-size--x-large": "42px",
+      "--wp--preset--gradient--blush-bordeaux": "linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%)",
+      "--wp--preset--gradient--blush-light-purple": "linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%)",
+      "--wp--preset--gradient--cool-to-warm-spectrum": "linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 8",
+      "--wp--preset--gradient--electric-grass": "linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%)",
+      "--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan": "linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%)",
+      "--wp--preset--gradient--luminous-dusk": "linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%)",
+      "--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange": "linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%)",
+      "--wp--preset--gradient--luminous-vivid-orange-to-vivid-red": "linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%)",
+      "--wp--preset--gradient--midnight": "linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%)",
+      "--wp--preset--gradient--pale-ocean": "linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%)",
+      "--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray": "linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%)",
+      "--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple": "linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%)",
+      "--wp--preset--shadow--crisp": "6px 6px 0px rgb(0, 0, 0)",
+      "--wp--preset--shadow--deep": "12px 12px 50px rgba(0, 0, 0, 0.4)",
+      "--wp--preset--shadow--natural": "6px 6px 9px rgba(0, 0, 0, 0.2)",
+      "--wp--preset--shadow--outlined": "6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0)",
+      "--wp--preset--shadow--sharp": "6px 6px 0px rgba(0, 0, 0, 0.2)",
+      "--wp--preset--spacing--20": "0.44rem",
+      "--wp--preset--spacing--30": "0.67rem",
+      "--wp--preset--spacing--40": "1rem",
+      "--wp--preset--spacing--50": "1.5rem",
+      "--wp--preset--spacing--60": "2.25rem",
+      "--wp--preset--spacing--70": "3.38rem",
+      "--wp--preset--spacing--80": "5.06rem",
+      "--wp--style--block-gap": "24px",
+      "--wp--style--global--content-size": "800px",
+      "--wp--style--global--wide-size": "1200px"
+    },
+    "font_faces": [
+      {
+        "family": "swiper-icons",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "400"
+      },
+      {
+        "family": "Rethink Sans",
+        "status": "unloaded",
+        "style": "italic",
+        "weight": "400"
+      },
+      {
+        "family": "Rethink Sans",
+        "status": "loaded",
+        "style": "italic",
+        "weight": "400"
+      },
+      {
+        "family": "Rethink Sans",
+        "status": "unloaded",
+        "style": "italic",
+        "weight": "500"
+      },
+      {
+        "family": "Rethink Sans",
+        "status": "unloaded",
+        "style": "italic",
+        "weight": "500"
+      },
+      {
+        "family": "Rethink Sans",
+        "status": "unloaded",
+        "style": "italic",
+        "weight": "600"
+      },
+      {
+        "family": "Rethink Sans",
+        "status": "unloaded",
+        "style": "italic",
+        "weight": "600"
+      },
+      {
+        "family": "Rethink Sans",
+        "status": "unloaded",
+        "style": "italic",
+        "weight": "700"
+      },
+      {
+        "family": "Rethink Sans",
+        "status": "unloaded",
+        "style": "italic",
+        "weight": "700"
+      },
+      {
+        "family": "Rethink Sans",
+        "status": "unloaded",
+        "style": "italic",
+        "weight": "800"
+      },
+      {
+        "family": "Rethink Sans",
+        "status": "unloaded",
+        "style": "italic",
+        "weight": "800"
+      },
+      {
+        "family": "Rethink Sans",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "400"
+      },
+      {
+        "family": "Rethink Sans",
+        "status": "loaded",
+        "style": "normal",
+        "weight": "400"
+      },
+      {
+        "family": "Rethink Sans",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "500"
+      },
+      {
+        "family": "Rethink Sans",
+        "status": "loaded",
+        "style": "normal",
+        "weight": "500"
+      },
+      {
+        "family": "Rethink Sans",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "600"
+      },
+      {
+        "family": "Rethink Sans",
+        "status": "loaded",
+        "style": "normal",
+        "weight": "600"
+      },
+      {
+        "family": "Rethink Sans",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "700"
+      },
+      {
+        "family": "Rethink Sans",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "700"
+      },
+      {
+        "family": "Rethink Sans",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "800"
+      },
+      {
+        "family": "Rethink Sans",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "800"
+      },
+      {
+        "family": "Inter",
+        "status": "unloaded",
+        "style": "italic",
+        "weight": "100"
+      },
+      {
+        "family": "Inter",
+        "status": "unloaded",
+        "style": "italic",
+        "weight": "100"
+      },
+      {
+        "family": "Inter",
+        "status": "unloaded",
+        "style": "italic",
+        "weight": "100"
+      },
+      {
+        "family": "Inter",
+        "status": "unloaded",
+        "style": "italic",
+        "weight": "100"
+      },
+      {
+        "family": "Inter",
+        "status": "unloaded",
+        "style": "italic",
+        "weight": "100"
+      },
+      {
+        "family": "Inter",
+        "status": "unloaded",
+        "style": "italic",
+        "weight": "100"
+      },
+      {
+        "family": "Inter",
+        "status": "unloaded",
+        "style": "italic",
+        "weight": "100"
+      },
+      {
+        "family": "Inter",
+        "status": "unloaded",
+        "style": "italic",
+        "weight": "200"
+      },
+      {
+        "family": "Inter",
+        "status": "unloaded",
+        "style": "italic",
+        "weight": "200"
+      },
+      {
+        "family": "Inter",
+        "status": "unloaded",
+        "style": "italic",
+        "weight": "200"
+      },
+      {
+        "family": "Inter",
+        "status": "unloaded",
+        "style": "italic",
+        "weight": "200"
+      },
+      {
+        "family": "Inter",
+        "status": "unloaded",
+        "style": "italic",
+        "weight": "200"
+      },
+      {
+        "family": "Inter",
+        "status": "unloaded",
+        "style": "italic",
+        "weight": "200"
+      },
+      {
+        "family": "Inter",
+        "status": "unloaded",
+        "style": "italic",
+        "weight": "200"
+      },
+      {
+        "family": "Inter",
+        "status": "unloaded",
+        "style": "italic",
+        "weight": "300"
+      },
+      {
+        "family": "Inter",
+        "status": "unloaded",
+        "style": "italic",
+        "weight": "300"
+      },
+      {
+        "family": "Inter",
+        "status": "unloaded",
+        "style": "italic",
+        "weight": "300"
+      },
+      {
+        "family": "Inter",
+        "status": "unloaded",
+        "style": "italic",
+        "weight": "300"
+      },
+      {
+        "family": "Inter",
+        "status": "unloaded",
+        "style": "italic",
+        "weight": "300"
+      },
+      {
+        "family": "Inter",
+        "status": "unloaded",
+        "style": "italic",
+        "weight": "300"
+      },
+      {
+        "family": "Inter",
+        "status": "unloaded",
+        "style": "italic",
+        "weight": "300"
+      },
+      {
+        "family": "Inter",
+        "status": "unloaded",
+        "style": "italic",
+        "weight": "400"
+      },
+      {
+        "family": "Inter",
+        "status": "unloaded",
+        "style": "italic",
+        "weight": "400"
+      },
+      {
+        "family": "Inter",
+        "status": "unloaded",
+        "style": "italic",
+        "weight": "400"
+      },
+      {
+        "family": "Inter",
+        "status": "unloaded",
+        "style": "italic",
+        "weight": "400"
+      },
+      {
+        "family": "Inter",
+        "status": "unloaded",
+        "style": "italic",
+        "weight": "400"
+      },
+      {
+        "family": "Inter",
+        "status": "unloaded",
+        "style": "italic",
+        "weight": "400"
+      },
+      {
+        "family": "Inter",
+        "status": "unloaded",
+        "style": "italic",
+        "weight": "400"
+      },
+      {
+        "family": "Inter",
+        "status": "unloaded",
+        "style": "italic",
+        "weight": "500"
+      },
+      {
+        "family": "Inter",
+        "status": "unloaded",
+        "style": "italic",
+        "weight": "500"
+      },
+      {
+        "family": "Inter",
+        "status": "unloaded",
+        "style": "italic",
+        "weight": "500"
+      },
+      {
+        "family": "Inter",
+        "status": "unloaded",
+        "style": "italic",
+        "weight": "500"
+      },
+      {
+        "family": "Inter",
+        "status": "unloaded",
+        "style": "italic",
+        "weight": "500"
+      },
+      {
+        "family": "Inter",
+        "status": "unloaded",
+        "style": "italic",
+        "weight": "500"
+      },
+      {
+        "family": "Inter",
+        "status": "unloaded",
+        "style": "italic",
+        "weight": "500"
+      },
+      {
+        "family": "Inter",
+        "status": "unloaded",
+        "style": "italic",
+        "weight": "600"
+      },
+      {
+        "family": "Inter",
+        "status": "unloaded",
+        "style": "italic",
+        "weight": "600"
+      },
+      {
+        "family": "Inter",
+        "status": "unloaded",
+        "style": "italic",
+        "weight": "600"
+      },
+      {
+        "family": "Inter",
+        "status": "unloaded",
+        "style": "italic",
+        "weight": "600"
+      },
+      {
+        "family": "Inter",
+        "status": "unloaded",
+        "style": "italic",
+        "weight": "600"
+      },
+      {
+        "family": "Inter",
+        "status": "unloaded",
+        "style": "italic",
+        "weight": "600"
+      },
+      {
+        "family": "Inter",
+        "status": "unloaded",
+        "style": "italic",
+        "weight": "600"
+      },
+      {
+        "family": "Inter",
+        "status": "unloaded",
+        "style": "italic",
+        "weight": "700"
+      },
+      {
+        "family": "Inter",
+        "status": "unloaded",
+        "style": "italic",
+        "weight": "700"
+      },
+      {
+        "family": "Inter",
+        "status": "unloaded",
+        "style": "italic",
+        "weight": "700"
+      },
+      {
+        "family": "Inter",
+        "status": "unloaded",
+        "style": "italic",
+        "weight": "700"
+      },
+      {
+        "family": "Inter",
+        "status": "unloaded",
+        "style": "italic",
+        "weight": "700"
+      },
+      {
+        "family": "Inter",
+        "status": "unloaded",
+        "style": "italic",
+        "weight": "700"
+      },
+      {
+        "family": "Inter",
+        "status": "unloaded",
+        "style": "italic",
+        "weight": "700"
+      },
+      {
+        "family": "Inter",
+        "status": "unloaded",
+        "style": "italic",
+        "weight": "800"
+      },
+      {
+        "family": "Inter",
+        "status": "unloaded",
+        "style": "italic",
+        "weight": "800"
+      },
+      {
+        "family": "Inter",
+        "status": "unloaded",
+        "style": "italic",
+        "weight": "800"
+      },
+      {
+        "family": "Inter",
+        "status": "unloaded",
+        "style": "italic",
+        "weight": "800"
+      },
+      {
+        "family": "Inter",
+        "status": "unloaded",
+        "style": "italic",
+        "weight": "800"
+      },
+      {
+        "family": "Inter",
+        "status": "unloaded",
+        "style": "italic",
+        "weight": "800"
+      },
+      {
+        "family": "Inter",
+        "status": "unloaded",
+        "style": "italic",
+        "weight": "800"
+      },
+      {
+        "family": "Inter",
+        "status": "unloaded",
+        "style": "italic",
+        "weight": "900"
+      },
+      {
+        "family": "Inter",
+        "status": "unloaded",
+        "style": "italic",
+        "weight": "900"
+      },
+      {
+        "family": "Inter",
+        "status": "unloaded",
+        "style": "italic",
+        "weight": "900"
+      }
+    ],
+    "font_sizes": [
+      {
+        "count": 13,
+        "value": "16px"
+      },
+      {
+        "count": 11,
+        "value": "15px"
+      },
+      {
+        "count": 11,
+        "value": "13px"
+      },
+      {
+        "count": 8,
+        "value": "17px"
+      },
+      {
+        "count": 8,
+        "value": "19px"
+      },
+      {
+        "count": 8,
+        "value": "20px"
+      },
+      {
+        "count": 6,
+        "value": "14px"
+      },
+      {
+        "count": 5,
+        "value": "18px"
+      },
+      {
+        "count": 5,
+        "value": "58px"
+      },
+      {
+        "count": 4,
+        "value": "34px"
+      },
+      {
+        "count": 4,
+        "value": "26px"
+      },
+      {
+        "count": 4,
+        "value": "35px"
+      },
+      {
+        "count": 3,
+        "value": "12px"
+      },
+      {
+        "count": 2,
+        "value": "62px"
+      },
+      {
+        "count": 2,
+        "value": "47px"
+      },
+      {
+        "count": 2,
+        "value": "24px"
+      }
+    ],
+    "font_weights": [
+      {
+        "count": 75,
+        "value": "400"
+      },
+      {
+        "count": 15,
+        "value": "300"
+      },
+      {
+        "count": 6,
+        "value": "600"
+      },
+      {
+        "count": 4,
+        "value": "500"
+      }
+    ],
+    "fonts": [
+      {
+        "count": 47,
+        "value": "\"Rethink Sans\", Rethink, Poppins"
+      },
+      {
+        "count": 30,
+        "value": "Inter, Rethink, Poppins"
+      },
+      {
+        "count": 9,
+        "value": "Inter, Rethink, Poppins, sans-serif"
+      },
+      {
+        "count": 5,
+        "value": "\"Rethink Sans\", Rethink, sans-serif"
+      },
+      {
+        "count": 4,
+        "value": "Inter, system-ui, -apple-system, \"Segoe UI\", sans-serif"
+      },
+      {
+        "count": 2,
+        "value": "Syne, Rethink, Poppins"
+      },
+      {
+        "count": 1,
+        "value": "Syne, Rethink, Poppins, sans-serif"
+      },
+      {
+        "count": 1,
+        "value": "\"Rethink Sans\", Rethink, Poppins, sans-serif"
+      },
+      {
+        "count": 1,
+        "value": "\"Rethink Sans\", Inter, sans-serif"
+      }
+    ],
+    "max_widths": [
+      {
+        "count": 2,
+        "value": "1280px"
+      },
+      {
+        "count": 1,
+        "value": "560px"
+      },
+      {
+        "count": 1,
+        "value": "276px"
+      }
+    ],
+    "radii": [
+      {
+        "count": 62,
+        "value": "50%"
+      },
+      {
+        "count": 20,
+        "value": "14px"
+      },
+      {
+        "count": 20,
+        "value": "7px"
+      },
+      {
+        "count": 18,
+        "value": "15px"
+      },
+      {
+        "count": 13,
+        "value": "20px"
+      },
+      {
+        "count": 7,
+        "value": "30px"
+      },
+      {
+        "count": 5,
+        "value": "38px"
+      },
+      {
+        "count": 5,
+        "value": "16px"
+      },
+      {
+        "count": 4,
+        "value": "100px"
+      },
+      {
+        "count": 3,
+        "value": "999px"
+      }
+    ],
+    "shadows": [
+      {
+        "count": 20,
+        "value": "rgba(255, 80, 30, 0.35) 0px 30px 60px -30px"
+      },
+      {
+        "count": 4,
+        "value": "rgb(44, 44, 44) 0px 0px 0px 2px, rgb(17, 17, 17) 0px 0px 0px 3px, rgba(0, 0, 0, 0.9) 0px 40px 80px -30px"
+      },
+      {
+        "count": 2,
+        "value": "rgb(26, 24, 24) 0px 0px 0px 1px inset"
+      },
+      {
+        "count": 2,
+        "value": "rgba(255, 72, 5, 0.4) 0px 10px 20px 0px, rgba(255, 72, 5, 0.3) 0px 20px 40px 0px, rgba(255, 72, 5, 0.2) 0px 40px 80px 0px, rgba(255, 72, 5, 0.1) 0px 60px 120px 0px"
+      },
+      {
+        "count": 1,
+        "value": "rgb(255, 90, 42) 0px 0px 0px 2px, rgba(255, 80, 30, 0.6) 0px 0px 60px -10px, rgb(0, 0, 0) 0px 40px 80px -30px"
+      },
+      {
+        "count": 1,
+        "value": "rgba(0, 0, 0, 0.9) 0px 30px 80px -20px, rgba(250, 38, 0, 0.08) 0px 0px 0px 1px"
+      }
+    ],
+    "spacing": [
+      {
+        "count": 203,
+        "value": "24px"
+      },
+      {
+        "count": 57,
+        "value": "16px"
+      },
+      {
+        "count": 47,
+        "value": "6px"
+      },
+      {
+        "count": 41,
+        "value": "12px"
+      },
+      {
+        "count": 23,
+        "value": "20px"
+      },
+      {
+        "count": 21,
+        "value": "9px"
+      },
+      {
+        "count": 16,
+        "value": "26px"
+      },
+      {
+        "count": 14,
+        "value": "18px"
+      },
+      {
+        "count": 14,
+        "value": "5px"
+      },
+      {
+        "count": 13,
+        "value": "10px"
+      },
+      {
+        "count": 12,
+        "value": "8px"
+      },
+      {
+        "count": 11,
+        "value": "22px"
+      },
+      {
+        "count": 10,
+        "value": "14px"
+      },
+      {
+        "count": 9,
+        "value": "15px"
+      },
+      {
+        "count": 8,
+        "value": "72px"
+      },
+      {
+        "count": 8,
+        "value": "32px"
+      },
+      {
+        "count": 7,
+        "value": "40px"
+      },
+      {
+        "count": 6,
+        "value": "35px"
+      },
+      {
+        "count": 5,
+        "value": "-240px"
+      },
+      {
+        "count": 3,
+        "value": "-70px"
+      },
+      {
+        "count": 3,
+        "value": "25px"
+      },
+      {
+        "count": 3,
+        "value": "50px"
+      },
+      {
+        "count": 2,
+        "value": "-15px"
+      },
+      {
+        "count": 2,
+        "value": "-20px"
+      }
+    ],
+    "text_colors": [
+      {
+        "count": 35,
+        "value": "#ffffff"
+      },
+      {
+        "count": 11,
+        "value": "#00000000"
+      },
+      {
+        "count": 11,
+        "value": "#b9b9b9"
+      },
+      {
+        "count": 10,
+        "value": "#fafafa"
+      },
+      {
+        "count": 5,
+        "value": "#666666"
+      },
+      {
+        "count": 5,
+        "value": "#bdbdbd"
+      },
+      {
+        "count": 5,
+        "value": "#8a8a8a"
+      },
+      {
+        "count": 4,
+        "value": "#777777"
+      },
+      {
+        "count": 2,
+        "value": "#ff2b00"
+      },
+      {
+        "count": 2,
+        "value": "#dddddd"
+      },
+      {
+        "count": 2,
+        "value": "#ff5a2a"
+      },
+      {
+        "count": 2,
+        "value": "#111111"
+      },
+      {
+        "count": 1,
+        "value": "#cccccc"
+      },
+      {
+        "count": 1,
+        "value": "#555555"
+      },
+      {
+        "count": 1,
+        "value": "#a3a3a3"
+      },
+      {
+        "count": 1,
+        "value": "#ff4d01"
+      }
+    ]
+  },
+  "forms": [],
+  "headings": [
+    {
+      "level": 2,
+      "text": "FLUXO LEAD"
+    },
+    {
+      "level": 1,
+      "text": "A única ferramenta que você precisa para vender sites com IA"
+    },
+    {
+      "level": 2,
+      "text": "Prepare-se para conhecer o próximo nível"
+    },
+    {
+      "level": 2,
+      "text": "FEITAS A MÃO, REALMENTE PREMIUM"
+    },
+    {
+      "level": 2,
+      "text": "Uma estrutura que realmente converte pode mudar seu jogo"
+    },
+    {
+      "level": 2,
+      "text": "Ache o cliente rápido"
+    },
+    {
+      "level": 2,
+      "text": "Escale sem limite"
+    },
+    {
+      "level": 2,
+      "text": ""
+    },
+    {
+      "level": 2,
+      "text": "Sites de verdade, entregues para clientes de verdade"
+    },
+    {
+      "level": 2,
+      "text": "O que os clientes falaram quando receberam o site"
+    },
+    {
+      "level": 2,
+      "text": "Fluxo Lead Mensal"
+    },
+    {
+      "level": 2,
+      "text": "ASSINATURA DE"
+    },
+    {
+      "level": 2,
+      "text": "197"
+    },
+    {
+      "level": 2,
+      "text": "Fluxo Lead Anual"
+    },
+    {
+      "level": 2,
+      "text": "DE R$2.364 POR 12X DE"
+    },
+    {
+      "level": 2,
+      "text": "30,68"
+    },
+    {
+      "level": 2,
+      "text": "Perguntas Frequentes"
+    },
+    {
+      "level": 2,
+      "text": "Sua privacidade"
+    }
+  ],
+  "health": {
+    "errors": [],
+    "failed_requests": []
+  },
+  "lang": "pt-BR",
+  "layouts": [
+    {
+      "blocks": [
+        {
+          "h": 83,
+          "pad": [
+            0,
+            24,
+            0,
+            24
+          ],
+          "per_row": 1,
+          "tag": "header",
+          "w": 1425,
+          "y": 0
+        },
+        {
+          "background": "#000000",
+          "column": {
+            "max_w": 560,
+            "pad": [
+              0,
+              0
+            ],
+            "w": 560,
+            "x": 433
+          },
+          "h": 1128,
+          "heading": "Sites de verdade, entregues para clientes de verdade",
+          "pad": [
+            120,
+            0,
+            40,
+            0
+          ],
+          "per_row": 1,
+          "tag": "section",
+          "w": 1425,
+          "y": 3821
+        },
+        {
+          "background": "#000000",
+          "h": 1160,
+          "heading": "O que os clientes falaram quando receberam o site",
+          "pad": [
+            80,
+            0,
+            140,
+            0
+          ],
+          "per_row": 1,
+          "tag": "section",
+          "w": 1425,
+          "y": 4949
+        },
+        {
+          "background": "#000000",
+          "column": {
+            "max_w": 1280,
+            "pad": [
+              0,
+              0
+            ],
+            "w": 1280,
+            "x": 73
+          },
+          "h": 148,
+          "pad": [
+            34,
+            72,
+            26,
+            72
+          ],
+          "per_row": 1,
+          "tag": "footer",
+          "w": 1425,
+          "y": 7712
+        },
+        {
+          "background": "#0e0e0ef7",
+          "h": 193,
+          "heading": "Sua privacidade",
+          "pad": [
+            20,
+            22,
+            20,
+            22
+          ],
+          "per_row": 3,
+          "tag": "section",
+          "w": 560,
+          "y": 5683
+        }
+      ],
+      "page_h": 7860,
+      "page_w": 1425,
+      "type": {
+        "body": 17,
+        "h1": 62,
+        "h2": 18,
+        "h3": 0
+      },
+      "width": 1440
+    },
+    {
+      "blocks": [
+        {
+          "column": {
+            "max_w": 186,
+            "pad": [
+              0,
+              0
+            ],
+            "w": 186,
+            "x": 102
+          },
+          "h": 75,
+          "pad": [
+            0,
+            24,
+            0,
+            24
+          ],
+          "per_row": 1,
+          "tag": "header",
+          "w": 390,
+          "y": 0
+        },
+        {
+          "background": "#000000",
+          "column": {
+            "max_w": 560,
+            "pad": [
+              0,
+              0
+            ],
+            "w": 390,
+            "x": 0
+          },
+          "h": 974,
+          "heading": "Sites de verdade, entregues para clientes de verdade",
+          "pad": [
+            80,
+            0,
+            40,
+            0
+          ],
+          "per_row": 1,
+          "tag": "section",
+          "w": 390,
+          "y": 4129
+        },
+        {
+          "background": "#000000",
+          "h": 1872,
+          "heading": "O que os clientes falaram quando receberam o site",
+          "pad": [
+            80,
+            0,
+            140,
+            0
+          ],
+          "per_row": 2,
+          "tag": "section",
+          "w": 390,
+          "y": 5102
+        },
+        {
+          "background": "#000000",
+          "column": {
+            "max_w": 1280,
+            "pad": [
+              0,
+              0
+            ],
+            "w": 350,
+            "x": 20
+          },
+          "h": 259,
+          "pad": [
+            30,
+            20,
+            24,
+            20
+          ],
+          "per_row": 2,
+          "tag": "footer",
+          "w": 390,
+          "y": 9960
+        },
+        {
+          "gap": 22,
+          "h": 45,
+          "pad": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "per_row": 2,
+          "tag": "nav",
+          "w": 350,
+          "y": 10035
+        },
+        {
+          "gap": 22,
+          "h": 40,
+          "pad": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "per_row": 2,
+          "tag": "nav",
+          "w": 350,
+          "y": 10156
+        },
+        {
+          "background": "#0e0e0ef7",
+          "h": 258,
+          "heading": "Sua privacidade",
+          "pad": [
+            16,
+            16,
+            16,
+            16
+          ],
+          "per_row": 2,
+          "tag": "section",
+          "w": 374,
+          "y": 2611
+        }
+      ],
+      "page_h": 10220,
+      "page_w": 390,
+      "type": {
+        "body": 15,
+        "h1": 33,
+        "h2": 16,
+        "h3": 0
+      },
+      "width": 390
+    }
+  ],
+  "links": [
+    {
+      "href": "https://fluxoleadai.com.br/entrar",
+      "text": "Entrar"
+    },
+    {
+      "href": "https://fluxoleadai.com.br/#valor",
+      "text": "Quero Vender Sites"
+    },
+    {
+      "href": "https://fluxoleadai.com.br/#valor",
+      "text": "Quero Vender Sites"
+    },
+    {
+      "href": "https://fluxoleadai.com.br/assinar?plano=mensal",
+      "text": "Assinar Mensal"
+    },
+    {
+      "href": "https://fluxoleadai.com.br/assinar?plano=anual",
+      "text": "Garantir Anual"
+    },
+    {
+      "href": "https://fluxoleadai.com.br/entrar",
+      "text": "Entrar"
+    },
+    {
+      "href": "https://fluxoleadai.com.br/#collapse-84afa3c6ac00cb528da2",
+      "text": "Preciso saber programar ou entender de design?"
+    },
+    {
+      "href": "https://fluxoleadai.com.br/#collapse-b5ae55c6ac00cb528da2",
+      "text": "Como a IA adapta o site pro meu cliente?"
+    },
+    {
+      "href": "https://fluxoleadai.com.br/#collapse-cfa60bf6ac00cb528da2",
+      "text": "Posso publicar com o domínio do meu cliente, ou só com um link da Fluxo Lead?"
+    },
+    {
+      "href": "https://fluxoleadai.com.br/#collapse-84afa3c6ac00cb5296de",
+      "text": "Como funciona o \"Achar Clientes\"?"
+    },
+    {
+      "href": "https://fluxoleadai.com.br/#collapse-b5ae55c6ac00cb5296de",
+      "text": "Preciso pagar alguma mensalidade além do plano?"
+    },
+    {
+      "href": "https://fluxoleadai.com.br/#collapse-cfa60bf6ac00cb5296de",
+      "text": "Funciona pra qualquer tipo de negócio ou nicho?"
+    },
+    {
+      "href": "https://fluxoleadai.com.br/",
+      "text": "Fluxo Lead — página inicial"
+    },
+    {
+      "href": "https://fluxoleadai.com.br/funcionalidades",
+      "text": "Funcionalidades"
+    },
+    {
+      "href": "https://fluxoleadai.com.br/#valor",
+      "text": "Planos"
+    },
+    {
+      "href": "https://fluxoleadai.com.br/portfolio",
+      "text": "Portfólio"
+    },
+    {
+      "href": "https://fluxoleadai.com.br/blog",
+      "text": "Blog"
+    },
+    {
+      "href": "https://fluxoleadai.com.br/contato",
+      "text": "Contato"
+    },
+    {
+      "href": "https://fluxoleadai.com.br/entrar",
+      "text": "Entrar"
+    },
+    {
+      "href": "https://fluxoleadai.com.br/termos",
+      "text": "Termos de uso"
+    },
+    {
+      "href": "https://fluxoleadai.com.br/privacidade",
+      "text": "Privacidade"
+    },
+    {
+      "href": "https://fluxoleadai.com.br/politica-de-cookies",
+      "text": "Cookies"
+    },
+    {
+      "href": "https://fluxoleadai.com.br/cancelamento",
+      "text": "Cancelamento"
+    },
+    {
+      "href": "https://fluxoleadai.com.br/reembolso",
+      "text": "Reembolso"
+    },
+    {
+      "href": "https://fluxoleadai.com.br/politica-de-cookies",
+      "text": "Política de Cookies"
+    }
+  ],
+  "meta": {
+    "description": "Encontre empresas por nicho e cidade, veja quem não informa site, organize os contatos num CRM e entregue sites a partir de modelos profissionais.",
+    "icons": [
+      "https://fluxoleadai.com.br/favicon.ico",
+      "https://fluxoleadai.com.br/icon.png",
+      "https://fluxoleadai.com.br/apple-icon.png"
+    ],
+    "og_image": "https://fluxoleadai.com.br/og/fluxo-lead.png",
+    "og_title": "Fluxo Lead — prospecção de empresas, CRM e sites prontos para vender",
+    "theme_color": "#000000"
+  },
+  "outline": [
+    {
+      "box": {
+        "h": 83,
+        "w": 1425,
+        "x": 0,
+        "y": 0
+      },
+      "class": "elementor-element elementor-element-26ce6da7 e-flex e-con-boxed e-con e-parent e-lazyloaded",
+      "color": "#b9b9b9",
+      "depth": 3,
+      "display": "flex",
+      "flex": "column",
+      "font": "16px 400",
+      "tag": "header"
+    },
+    {
+      "alt": "",
+      "box": {
+        "h": 35,
+        "w": 242,
+        "x": 592,
+        "y": 24
+      },
+      "class": "attachment-full size-full wp-image-1566",
+      "color": "#b9b9b9",
+      "depth": 6,
+      "font": "16px 400",
+      "src": "https://fluxoleadai.com.br/landing-extra/brand/logo-fluxo-lead.webp",
+      "tag": "img"
+    },
+    {
+      "alt": "",
+      "box": {
+        "h": 220,
+        "w": 909,
+        "x": 258,
+        "y": 71
+      },
+      "class": "attachment-full size-full wp-image-1579",
+      "color": "#b9b9b9",
+      "depth": 7,
+      "font": "16px 400",
+      "src": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/Background-Graphics-2-3-dasdas-1536x372.png",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 22,
+        "w": 153,
+        "x": 636,
+        "y": 186
+      },
+      "class": "elementor-heading-title elementor-size-default",
+      "color": "#ff4019",
+      "depth": 7,
+      "font": "18px 400",
+      "tag": "h2",
+      "text": "FLUXO LEAD"
+    },
+    {
+      "box": {
+        "h": 149,
+        "w": 950,
+        "x": 237,
+        "y": 241
+      },
+      "class": "elementor-heading-title elementor-size-default",
+      "color": "#ffffff",
+      "depth": 7,
+      "font": "62px 400",
+      "tag": "h1",
+      "text": "A única ferramenta que você precisa para vender sites com IA"
+    },
+    {
+      "box": {
+        "h": 48,
+        "w": 633,
+        "x": 396,
+        "y": 414
+      },
+      "color": "#b9b9b9",
+      "depth": 7,
+      "font": "17px 400",
+      "tag": "p",
+      "text": "Escolha um modelo, deixe a IA reescrever a copy e as cores pro seu cliente, e publique uma página pronta pra vender. Sem código, sem contratar designer."
+    },
+    {
+      "box": {
+        "h": 25,
+        "w": 116,
+        "x": 491,
+        "y": 541
+      },
+      "color": "#cccccc",
+      "depth": 9,
+      "font": "18px 400",
+      "tag": "p",
+      "text": "Entrar"
+    },
+    {
+      "box": {
+        "h": 25,
+        "w": 116,
+        "x": 491,
+        "y": 541
+      },
+      "class": "fl-entrar-topo",
+      "color": "#cccccc",
+      "depth": 10,
+      "font": "18px 400",
+      "href": "https://fluxoleadai.com.br/entrar",
+      "tag": "a",
+      "text": "Entrar"
+    },
+    {
+      "background": "#b2fe0200",
+      "box": {
+        "h": 51,
+        "w": 176,
+        "x": 703,
+        "y": 529
+      },
+      "class": "elementor-button elementor-button-link elementor-size-sm",
+      "color": "#ffffff",
+      "depth": 9,
+      "font": "17px 300",
+      "href": "https://fluxoleadai.com.br/#valor",
+      "tag": "a",
+      "text": "Quero Vender Sites"
+    },
+    {
+      "background": "#000000",
+      "box": {
+        "h": 730,
+        "w": 730,
+        "x": 348,
+        "y": 561
+      },
+      "class": "elementor-video",
+      "color": "#b9b9b9",
+      "depth": 7,
+      "font": "16px 400",
+      "tag": "video"
+    },
+    {
+      "alt": "",
+      "box": {
+        "h": 212,
+        "w": 212,
+        "x": 856,
+        "y": 602
+      },
+      "class": "attachment-full size-full wp-image-1580",
+      "color": "#b9b9b9",
+      "depth": 7,
+      "font": "16px 400",
+      "src": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/brilho-rosvermelha-2-3-das.png",
+      "tag": "img"
+    },
+    {
+      "alt": "",
+      "box": {
+        "h": 240,
+        "w": 240,
+        "x": 303,
+        "y": 850
+      },
+      "class": "attachment-full size-full wp-image-1580",
+      "color": "#b9b9b9",
+      "depth": 7,
+      "font": "16px 400",
+      "src": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/brilho-rosvermelha-2-3-das.png",
+      "tag": "img"
+    },
+    {
+      "alt": "",
+      "box": {
+        "h": 248,
+        "w": 1377,
+        "x": 24,
+        "y": 1168
+      },
+      "class": "attachment-full size-full wp-image-1581",
+      "color": "#b9b9b9",
+      "depth": 5,
+      "font": "16px 400",
+      "src": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/1-2312312312-1-g-1536x277.webp",
+      "tag": "img"
+    },
+    {
+      "alt": "",
+      "box": {
+        "h": 56,
+        "w": 55,
+        "x": 685,
+        "y": 1366
+      },
+      "class": "attachment-full size-full wp-image-1594",
+      "color": "#b9b9b9",
+      "depth": 5,
+      "font": "16px 400",
+      "src": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/botao-1231-_1_-j.webp",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 92,
+        "w": 755,
+        "x": 335,
+        "y": 1531
+      },
+      "class": "elementor-heading-title elementor-size-default",
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "40px 400",
+      "tag": "h2",
+      "text": "Prepare-se para conhecer o próximo nível"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 1169,
+        "x": 128,
+        "y": 1646
+      },
+      "color": "#b9b9b9",
+      "depth": 7,
+      "font": "17px 400",
+      "tag": "p",
+      "text": "Esquece Claude e Lovable, estamos em outro patamatar!"
+    },
+    {
+      "box": {
+        "h": 22,
+        "w": 461,
+        "x": 482,
+        "y": 1712
+      },
+      "class": "elementor-heading-title elementor-size-default",
+      "color": "#ff1944",
+      "depth": 6,
+      "font": "18px 400",
+      "tag": "h2",
+      "text": "FEITAS A MÃO, REALMENTE PREMIUM"
+    },
+    {
+      "alt": "",
+      "box": {
+        "h": 110,
+        "w": 110,
+        "x": 590,
+        "y": 1790
+      },
+      "class": "attachment-full size-full wp-image-1678",
+      "color": "#b9b9b9",
+      "depth": 7,
+      "font": "16px 400",
+      "src": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/ChatGPT-Image-9-de-jul.-de-2026-19_26_24-_1__1g-dfgfd.webp",
+      "tag": "img"
+    },
+    {
+      "alt": "",
+      "box": {
+        "h": 110,
+        "w": 110,
+        "x": 725,
+        "y": 1812
+      },
+      "class": "attachment-full size-full wp-image-1679",
+      "color": "#b9b9b9",
+      "depth": 7,
+      "font": "16px 400",
+      "src": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/wp1-3.webp",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 373,
+        "w": 467,
+        "x": 157,
+        "y": 1664
+      },
+      "color": "#b9b9b9",
+      "depth": 7,
+      "font": "16px 400",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 373,
+        "w": 467,
+        "x": 801,
+        "y": 1664
+      },
+      "color": "#b9b9b9",
+      "depth": 7,
+      "font": "16px 400",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 230,
+        "w": 1425,
+        "x": 0,
+        "y": 2256
+      },
+      "class": "elementor-image-carousel-wrapper swiper swiper-initialized swiper-horizontal swiper-pointer-events swiper-rtl",
+      "color": "#b9b9b9",
+      "depth": 5,
+      "font": "16px 400",
+      "role": "region",
+      "tag": "div"
+    },
+    {
+      "box": {
+        "h": 230,
+        "w": 462,
+        "x": 2890,
+        "y": 2256
+      },
+      "class": "swiper-slide swiper-slide-duplicate",
+      "color": "#b9b9b9",
+      "depth": 7,
+      "font": "16px 400",
+      "role": "group",
+      "tag": "div"
+    },
+    {
+      "alt": "FireShot Capture 101 - Artura – Best Token and Crypto Site - [app.usefluxai.com.br]",
+      "box": {
+        "h": 224,
+        "w": 462,
+        "x": 2890,
+        "y": 2256
+      },
+      "class": "swiper-slide-image swiper-lazy swiper-lazy-loaded",
+      "color": "#b9b9b9",
+      "depth": 9,
+      "font": "16px 400",
+      "src": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/FireShot-Capture-101-Artura-%E2%80%93-Best-Token-and-Crypto-Site-app.usefluxai.com_.br_.webp",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 230,
+        "w": 462,
+        "x": 2408,
+        "y": 2256
+      },
+      "class": "swiper-slide swiper-slide-duplicate",
+      "color": "#b9b9b9",
+      "depth": 7,
+      "font": "16px 400",
+      "role": "group",
+      "tag": "div"
+    },
+    {
+      "alt": "FireShot Capture 102 - Home – Conals – Manufacture industrials - [app.usefluxai.com.br]",
+      "box": {
+        "h": 224,
+        "w": 462,
+        "x": 2408,
+        "y": 2256
+      },
+      "class": "swiper-slide-image swiper-lazy swiper-lazy-loaded",
+      "color": "#b9b9b9",
+      "depth": 9,
+      "font": "16px 400",
+      "src": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/FireShot-Capture-102-Home-%E2%80%93-Conals-%E2%80%93-Manufacture-industrials-app.usefluxai.com_.br_.webp",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 230,
+        "w": 462,
+        "x": 1927,
+        "y": 2256
+      },
+      "class": "swiper-slide swiper-slide-duplicate",
+      "color": "#b9b9b9",
+      "depth": 7,
+      "font": "16px 400",
+      "role": "group",
+      "tag": "div"
+    },
+    {
+      "alt": "FireShot Capture 103 - DOQU – Dark Digital Bank & E-Wallet Elementor Template Kit by Jegth_ - [app.usefluxai.com.br]",
+      "box": {
+        "h": 224,
+        "w": 462,
+        "x": 1927,
+        "y": 2256
+      },
+      "class": "swiper-slide-image swiper-lazy swiper-lazy-loaded",
+      "color": "#b9b9b9",
+      "depth": 9,
+      "font": "16px 400",
+      "src": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/FireShot-Capture-103-DOQU-%E2%80%93-Dark-Digital-Bank-E-Wallet-Elementor-Template-Kit-by-Jegth_-app.usefluxai.com_.br_.webp",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 230,
+        "w": 462,
+        "x": 1445,
+        "y": 2256
+      },
+      "class": "swiper-slide swiper-slide-prev",
+      "color": "#b9b9b9",
+      "depth": 7,
+      "font": "16px 400",
+      "role": "group",
+      "tag": "div"
+    },
+    {
+      "alt": "FireShot Capture 092 - Home – Cyrion - [app.usefluxai.com.br]",
+      "box": {
+        "h": 224,
+        "w": 462,
+        "x": 1445,
+        "y": 2256
+      },
+      "class": "swiper-slide-image swiper-lazy swiper-lazy-loaded",
+      "color": "#b9b9b9",
+      "depth": 9,
+      "font": "16px 400",
+      "src": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/FireShot-Capture-092-Home-%E2%80%93-Cyrion-app.usefluxai.com_.br_.png",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 230,
+        "w": 462,
+        "x": 963,
+        "y": 2256
+      },
+      "class": "swiper-slide swiper-slide-active",
+      "color": "#b9b9b9",
+      "depth": 7,
+      "font": "16px 400",
+      "role": "group",
+      "tag": "div"
+    },
+    {
+      "alt": "FireShot Capture 093 - Home 02 Onepage – Saasking - [app.usefluxai.com.br]",
+      "box": {
+        "h": 224,
+        "w": 462,
+        "x": 963,
+        "y": 2256
+      },
+      "class": "swiper-slide-image swiper-lazy swiper-lazy-loaded",
+      "color": "#b9b9b9",
+      "depth": 9,
+      "font": "16px 400",
+      "src": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/FireShot-Capture-093-Home-02-Onepage-%E2%80%93-Saasking-app.usefluxai.com_.br_.png",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 230,
+        "w": 462,
+        "x": 482,
+        "y": 2256
+      },
+      "class": "swiper-slide swiper-slide-next",
+      "color": "#b9b9b9",
+      "depth": 7,
+      "font": "16px 400",
+      "role": "group",
+      "tag": "div"
+    },
+    {
+      "alt": "FireShot Capture 094 - Axino – Task Management SaaS - [app.usefluxai.com.br]",
+      "box": {
+        "h": 224,
+        "w": 462,
+        "x": 482,
+        "y": 2256
+      },
+      "class": "swiper-slide-image swiper-lazy swiper-lazy-loaded",
+      "color": "#b9b9b9",
+      "depth": 9,
+      "font": "16px 400",
+      "src": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/FireShot-Capture-094-Axino-%E2%80%93-Task-Management-SaaS-app.usefluxai.com_.br_.webp",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 230,
+        "w": 462,
+        "x": 0,
+        "y": 2256
+      },
+      "class": "swiper-slide",
+      "color": "#b9b9b9",
+      "depth": 7,
+      "font": "16px 400",
+      "role": "group",
+      "tag": "div"
+    },
+    {
+      "alt": "FireShot Capture 095 - Aigocy – AI Agency – WordPress Theme - [app.usefluxai.com.br]",
+      "box": {
+        "h": 224,
+        "w": 462,
+        "x": 0,
+        "y": 2256
+      },
+      "class": "swiper-slide-image swiper-lazy swiper-lazy-loaded",
+      "color": "#b9b9b9",
+      "depth": 9,
+      "font": "16px 400",
+      "src": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/FireShot-Capture-095-Aigocy-%E2%80%93-AI-Agency-%E2%80%93-WordPress-Theme-app.usefluxai.com_.br_.webp",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 230,
+        "w": 462,
+        "x": -482,
+        "y": 2256
+      },
+      "class": "swiper-slide",
+      "color": "#b9b9b9",
+      "depth": 7,
+      "font": "16px 400",
+      "role": "group",
+      "tag": "div"
+    },
+    {
+      "alt": "FireShot Capture 098 - - [app.usefluxai.com.br]",
+      "box": {
+        "h": 224,
+        "w": 462,
+        "x": -482,
+        "y": 2256
+      },
+      "class": "swiper-slide-image swiper-lazy swiper-lazy-loaded",
+      "color": "#b9b9b9",
+      "depth": 9,
+      "font": "16px 400",
+      "src": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/FireShot-Capture-098-app.usefluxai.com_.br_.webp",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 230,
+        "w": 462,
+        "x": -963,
+        "y": 2256
+      },
+      "class": "swiper-slide",
+      "color": "#b9b9b9",
+      "depth": 7,
+      "font": "16px 400",
+      "role": "group",
+      "tag": "div"
+    },
+    {
+      "alt": "FireShot Capture 096 - Flexy – Digital Marketing Agency - [app.usefluxai.com.br]",
+      "box": {
+        "h": 224,
+        "w": 462,
+        "x": -963,
+        "y": 2256
+      },
+      "class": "swiper-slide-image swiper-lazy swiper-lazy-loaded",
+      "color": "#b9b9b9",
+      "depth": 9,
+      "font": "16px 400",
+      "src": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/FireShot-Capture-096-Flexy-%E2%80%93-Digital-Marketing-Agency-app.usefluxai.com_.br_.webp",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 230,
+        "w": 462,
+        "x": -1445,
+        "y": 2256
+      },
+      "class": "swiper-slide",
+      "color": "#b9b9b9",
+      "depth": 7,
+      "font": "16px 400",
+      "role": "group",
+      "tag": "div"
+    },
+    {
+      "alt": "FireShot Capture 099 - Home 02 Onepage – SassRiver - [app.usefluxai.com.br]",
+      "box": {
+        "h": 224,
+        "w": 462,
+        "x": -1445,
+        "y": 2256
+      },
+      "class": "swiper-slide-image swiper-lazy swiper-lazy-loaded",
+      "color": "#b9b9b9",
+      "depth": 9,
+      "font": "16px 400",
+      "src": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/FireShot-Capture-099-Home-02-Onepage-%E2%80%93-SassRiver-app.usefluxai.com_.br_.webp",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 32,
+        "w": 462,
+        "x": -1927,
+        "y": 2256
+      },
+      "class": "swiper-slide",
+      "color": "#b9b9b9",
+      "depth": 7,
+      "font": "16px 400",
+      "role": "group",
+      "tag": "div"
+    },
+    {
+      "alt": "FireShot Capture 100 - Velo - [app.usefluxai.com.br]",
+      "box": {
+        "h": 32,
+        "w": 421,
+        "x": -1906,
+        "y": 2256
+      },
+      "class": "swiper-slide-image swiper-lazy",
+      "color": "#b9b9b9",
+      "depth": 9,
+      "font": "16px 400",
+      "src": "",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 230,
+        "w": 462,
+        "x": -2408,
+        "y": 2256
+      },
+      "class": "swiper-slide",
+      "color": "#b9b9b9",
+      "depth": 7,
+      "font": "16px 400",
+      "role": "group",
+      "tag": "div"
+    },
+    {
+      "alt": "FireShot Capture 101 - Artura – Best Token and Crypto Site - [app.usefluxai.com.br]",
+      "box": {
+        "h": 224,
+        "w": 462,
+        "x": -2408,
+        "y": 2256
+      },
+      "class": "swiper-slide-image swiper-lazy swiper-lazy-loaded",
+      "color": "#b9b9b9",
+      "depth": 9,
+      "font": "16px 400",
+      "src": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/FireShot-Capture-101-Artura-%E2%80%93-Best-Token-and-Crypto-Site-app.usefluxai.com_.br_.webp",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 230,
+        "w": 462,
+        "x": -2890,
+        "y": 2256
+      },
+      "class": "swiper-slide",
+      "color": "#b9b9b9",
+      "depth": 7,
+      "font": "16px 400",
+      "role": "group",
+      "tag": "div"
+    },
+    {
+      "alt": "FireShot Capture 102 - Home – Conals – Manufacture industrials - [app.usefluxai.com.br]",
+      "box": {
+        "h": 224,
+        "w": 462,
+        "x": -2890,
+        "y": 2256
+      },
+      "class": "swiper-slide-image swiper-lazy swiper-lazy-loaded",
+      "color": "#b9b9b9",
+      "depth": 9,
+      "font": "16px 400",
+      "src": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/FireShot-Capture-102-Home-%E2%80%93-Conals-%E2%80%93-Manufacture-industrials-app.usefluxai.com_.br_.webp",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 230,
+        "w": 462,
+        "x": -3372,
+        "y": 2256
+      },
+      "class": "swiper-slide",
+      "color": "#b9b9b9",
+      "depth": 7,
+      "font": "16px 400",
+      "role": "group",
+      "tag": "div"
+    },
+    {
+      "alt": "FireShot Capture 103 - DOQU – Dark Digital Bank & E-Wallet Elementor Template Kit by Jegth_ - [app.usefluxai.com.br]",
+      "box": {
+        "h": 224,
+        "w": 462,
+        "x": -3372,
+        "y": 2256
+      },
+      "class": "swiper-slide-image swiper-lazy swiper-lazy-loaded",
+      "color": "#b9b9b9",
+      "depth": 9,
+      "font": "16px 400",
+      "src": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/FireShot-Capture-103-DOQU-%E2%80%93-Dark-Digital-Bank-E-Wallet-Elementor-Template-Kit-by-Jegth_-app.usefluxai.com_.br_.webp",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 230,
+        "w": 462,
+        "x": -3853,
+        "y": 2256
+      },
+      "class": "swiper-slide swiper-slide-duplicate swiper-slide-duplicate-prev",
+      "color": "#b9b9b9",
+      "depth": 7,
+      "font": "16px 400",
+      "role": "group",
+      "tag": "div"
+    },
+    {
+      "alt": "FireShot Capture 092 - Home – Cyrion - [app.usefluxai.com.br]",
+      "box": {
+        "h": 224,
+        "w": 462,
+        "x": -3853,
+        "y": 2256
+      },
+      "class": "swiper-slide-image swiper-lazy swiper-lazy-loaded",
+      "color": "#b9b9b9",
+      "depth": 9,
+      "font": "16px 400",
+      "src": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/FireShot-Capture-092-Home-%E2%80%93-Cyrion-app.usefluxai.com_.br_.png",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 230,
+        "w": 462,
+        "x": -4335,
+        "y": 2256
+      },
+      "class": "swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active",
+      "color": "#b9b9b9",
+      "depth": 7,
+      "font": "16px 400",
+      "role": "group",
+      "tag": "div"
+    },
+    {
+      "alt": "FireShot Capture 093 - Home 02 Onepage – Saasking - [app.usefluxai.com.br]",
+      "box": {
+        "h": 224,
+        "w": 462,
+        "x": -4335,
+        "y": 2256
+      },
+      "class": "swiper-slide-image swiper-lazy swiper-lazy-loaded",
+      "color": "#b9b9b9",
+      "depth": 9,
+      "font": "16px 400",
+      "src": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/FireShot-Capture-093-Home-02-Onepage-%E2%80%93-Saasking-app.usefluxai.com_.br_.png",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 230,
+        "w": 462,
+        "x": -4816,
+        "y": 2256
+      },
+      "class": "swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next",
+      "color": "#b9b9b9",
+      "depth": 7,
+      "font": "16px 400",
+      "role": "group",
+      "tag": "div"
+    },
+    {
+      "alt": "FireShot Capture 094 - Axino – Task Management SaaS - [app.usefluxai.com.br]",
+      "box": {
+        "h": 224,
+        "w": 462,
+        "x": -4816,
+        "y": 2256
+      },
+      "class": "swiper-slide-image swiper-lazy swiper-lazy-loaded",
+      "color": "#b9b9b9",
+      "depth": 9,
+      "font": "16px 400",
+      "src": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/FireShot-Capture-094-Axino-%E2%80%93-Task-Management-SaaS-app.usefluxai.com_.br_.webp",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 98,
+        "w": 827,
+        "x": 299,
+        "y": 2674
+      },
+      "class": "elementor-heading-title elementor-size-default",
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "47px 400",
+      "tag": "h2",
+      "text": "Uma estrutura que realmente converte pode mudar seu jogo"
+    },
+    {
+      "box": {
+        "h": 42,
+        "w": 244,
+        "x": 235,
+        "y": 2883
+      },
+      "color": "#ffffff",
+      "depth": 8,
+      "font": "15px 400",
+      "tag": "p",
+      "text": "Com a ferramenta certa, você lucar todo dia com previsibilidade"
+    },
+    {
+      "box": {
+        "h": 67,
+        "w": 332,
+        "x": 503,
+        "y": 2913
+      },
+      "class": "elementor-image-carousel-wrapper swiper swiper-initialized swiper-horizontal swiper-pointer-events swiper-backface-hidde",
+      "color": "#b9b9b9",
+      "depth": 7,
+      "font": "16px 400",
+      "role": "region",
+      "tag": "div"
+    },
+    {
+      "box": {
+        "h": 67,
+        "w": 332,
+        "x": -481,
+        "y": 2913
+      },
+      "class": "swiper-slide swiper-slide-duplicate",
+      "color": "#b9b9b9",
+      "depth": 9,
+      "font": "16px 400",
+      "role": "group",
+      "tag": "div"
+    },
+    {
+      "alt": "notificacoes-elevatelp hrty - Copia (2) - Copia - Copia - Copia",
+      "box": {
+        "h": 61,
+        "w": 332,
+        "x": -481,
+        "y": 2913
+      },
+      "class": "swiper-slide-image",
+      "color": "#b9b9b9",
+      "depth": 11,
+      "font": "16px 400",
+      "src": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/notificacoes-elevatelp-hrty-Copia-2-Copia-Copia-Copia.png",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 67,
+        "w": 332,
+        "x": -149,
+        "y": 2913
+      },
+      "class": "swiper-slide",
+      "color": "#b9b9b9",
+      "depth": 9,
+      "font": "16px 400",
+      "role": "group",
+      "tag": "div"
+    },
+    {
+      "alt": "notificacoes-elevatelp hrty",
+      "box": {
+        "h": 61,
+        "w": 332,
+        "x": -149,
+        "y": 2913
+      },
+      "class": "swiper-slide-image",
+      "color": "#b9b9b9",
+      "depth": 11,
+      "font": "16px 400",
+      "src": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/notificacoes-elevatelp-hrty.png",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 67,
+        "w": 332,
+        "x": 183,
+        "y": 2913
+      },
+      "class": "swiper-slide swiper-slide-prev",
+      "color": "#b9b9b9",
+      "depth": 9,
+      "font": "16px 400",
+      "role": "group",
+      "tag": "div"
+    },
+    {
+      "alt": "notificacoes-elevatelp hrty - Copia",
+      "box": {
+        "h": 61,
+        "w": 332,
+        "x": 183,
+        "y": 2913
+      },
+      "class": "swiper-slide-image",
+      "color": "#b9b9b9",
+      "depth": 11,
+      "font": "16px 400",
+      "src": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/notificacoes-elevatelp-hrty-Copia.png",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 67,
+        "w": 332,
+        "x": 515,
+        "y": 2913
+      },
+      "class": "swiper-slide swiper-slide-active",
+      "color": "#b9b9b9",
+      "depth": 9,
+      "font": "16px 400",
+      "role": "group",
+      "tag": "div"
+    },
+    {
+      "alt": "notificacoes-elevatelp hrty - Copia (2)",
+      "box": {
+        "h": 61,
+        "w": 332,
+        "x": 515,
+        "y": 2913
+      },
+      "class": "swiper-slide-image",
+      "color": "#b9b9b9",
+      "depth": 11,
+      "font": "16px 400",
+      "src": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/notificacoes-elevatelp-hrty-Copia-2.png",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 67,
+        "w": 332,
+        "x": 847,
+        "y": 2913
+      },
+      "class": "swiper-slide swiper-slide-next",
+      "color": "#b9b9b9",
+      "depth": 9,
+      "font": "16px 400",
+      "role": "group",
+      "tag": "div"
+    },
+    {
+      "alt": "notificacoes-elevatelp hrty - Copia (2) - Copia",
+      "box": {
+        "h": 61,
+        "w": 332,
+        "x": 847,
+        "y": 2913
+      },
+      "class": "swiper-slide-image",
+      "color": "#b9b9b9",
+      "depth": 11,
+      "font": "16px 400",
+      "src": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/notificacoes-elevatelp-hrty-Copia-2-Copia.png",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 67,
+        "w": 332,
+        "x": 1179,
+        "y": 2913
+      },
+      "class": "swiper-slide",
+      "color": "#b9b9b9",
+      "depth": 9,
+      "font": "16px 400",
+      "role": "group",
+      "tag": "div"
+    },
+    {
+      "alt": "notificacoes-elevatelp hrty - Copia (2) - Copia - Copia",
+      "box": {
+        "h": 61,
+        "w": 332,
+        "x": 1179,
+        "y": 2913
+      },
+      "class": "swiper-slide-image",
+      "color": "#b9b9b9",
+      "depth": 11,
+      "font": "16px 400",
+      "src": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/notificacoes-elevatelp-hrty-Copia-2-Copia-Copia.png",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 67,
+        "w": 332,
+        "x": 1511,
+        "y": 2913
+      },
+      "class": "swiper-slide",
+      "color": "#b9b9b9",
+      "depth": 9,
+      "font": "16px 400",
+      "role": "group",
+      "tag": "div"
+    },
+    {
+      "alt": "notificacoes-elevatelp hrty - Copia (2) - Copia - Copia - Copia",
+      "box": {
+        "h": 61,
+        "w": 332,
+        "x": 1511,
+        "y": 2913
+      },
+      "class": "swiper-slide-image",
+      "color": "#b9b9b9",
+      "depth": 11,
+      "font": "16px 400",
+      "src": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/notificacoes-elevatelp-hrty-Copia-2-Copia-Copia-Copia.png",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 67,
+        "w": 332,
+        "x": 1843,
+        "y": 2913
+      },
+      "class": "swiper-slide swiper-slide-duplicate",
+      "color": "#b9b9b9",
+      "depth": 9,
+      "font": "16px 400",
+      "role": "group",
+      "tag": "div"
+    },
+    {
+      "alt": "notificacoes-elevatelp hrty",
+      "box": {
+        "h": 61,
+        "w": 332,
+        "x": 1843,
+        "y": 2913
+      },
+      "class": "swiper-slide-image",
+      "color": "#b9b9b9",
+      "depth": 11,
+      "font": "16px 400",
+      "src": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/notificacoes-elevatelp-hrty.png",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 67,
+        "w": 332,
+        "x": 859,
+        "y": 2948
+      },
+      "class": "elementor-image-carousel-wrapper swiper swiper-initialized swiper-horizontal swiper-pointer-events swiper-backface-hidde",
+      "color": "#b9b9b9",
+      "depth": 7,
+      "font": "16px 400",
+      "role": "region",
+      "tag": "div"
+    },
+    {
+      "box": {
+        "h": 67,
+        "w": 332,
+        "x": -430,
+        "y": 2948
+      },
+      "class": "swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next",
+      "color": "#b9b9b9",
+      "depth": 9,
+      "font": "16px 400",
+      "role": "group",
+      "tag": "div"
+    },
+    {
+      "alt": "notificações kiwify - Copia (2) - Copia - Copia",
+      "box": {
+        "h": 61,
+        "w": 332,
+        "x": -430,
+        "y": 2948
+      },
+      "class": "swiper-slide-image",
+      "color": "#b9b9b9",
+      "depth": 11,
+      "font": "16px 400",
+      "src": "https://fluxoleadai.com.br/wp-content/uploads/2026/07/notificacoes-kiwify-Copia-2-Copia-Copia.png",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 67,
+        "w": 332,
+        "x": -98,
+        "y": 2948
+      },
+      "class": "swiper-slide",
+      "color": "#b9b9b9",
+      "depth": 9,
+      "font": "16px 400",
+      "role": "group",
+      "tag": "div"
+    },
+    {
+      "alt": "notificações kiwify",
+      "box": {
+        "h": 61,
+        "w": 332,
+        "x": -98,
+        "y": 2948
+      },
+      "class": "swiper-slide-image",
+      "color": "#b9b9b9",
+      "depth": 11,
+      "font": "16px 400",
+      "src": "https://fluxoleadai.com.br/wp-content/uploads/2026/07/notificacoes-kiwify.png",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 67,
+        "w": 332,
+        "x": 234,
+        "y": 2948
+      },
+      "class": "swiper-slide",
+      "color": "#b9b9b9",
+      "depth": 9,
+      "font": "16px 400",
+      "role": "group",
+      "tag": "div"
+    },
+    {
+      "alt": "notificações kiwify - Copia",
+      "box": {
+        "h": 61,
+        "w": 332,
+        "x": 234,
+        "y": 2948
+      },
+      "class": "swiper-slide-image",
+      "color": "#b9b9b9",
+      "depth": 11,
+      "font": "16px 400",
+      "src": "https://fluxoleadai.com.br/wp-content/uploads/2026/07/notificacoes-kiwify-Copia.png",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 67,
+        "w": 332,
+        "x": 566,
+        "y": 2948
+      },
+      "class": "swiper-slide swiper-slide-prev",
+      "color": "#b9b9b9",
+      "depth": 9,
+      "font": "16px 400",
+      "role": "group",
+      "tag": "div"
+    },
+    {
+      "alt": "notificações kiwify - Copia (2)",
+      "box": {
+        "h": 61,
+        "w": 332,
+        "x": 566,
+        "y": 2948
+      },
+      "class": "swiper-slide-image",
+      "color": "#b9b9b9",
+      "depth": 11,
+      "font": "16px 400",
+      "src": "https://fluxoleadai.com.br/wp-content/uploads/2026/07/notificacoes-kiwify-Copia-2.png",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 67,
+        "w": 332,
+        "x": 898,
+        "y": 2948
+      },
+      "class": "swiper-slide swiper-slide-active",
+      "color": "#b9b9b9",
+      "depth": 9,
+      "font": "16px 400",
+      "role": "group",
+      "tag": "div"
+    },
+    {
+      "alt": "notificações kiwify - Copia (2) - Copia",
+      "box": {
+        "h": 61,
+        "w": 332,
+        "x": 898,
+        "y": 2948
+      },
+      "class": "swiper-slide-image",
+      "color": "#b9b9b9",
+      "depth": 11,
+      "font": "16px 400",
+      "src": "https://fluxoleadai.com.br/wp-content/uploads/2026/07/notificacoes-kiwify-Copia-2-Copia.png",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 67,
+        "w": 332,
+        "x": 1230,
+        "y": 2948
+      },
+      "class": "swiper-slide swiper-slide-next",
+      "color": "#b9b9b9",
+      "depth": 9,
+      "font": "16px 400",
+      "role": "group",
+      "tag": "div"
+    },
+    {
+      "alt": "notificações kiwify - Copia (2) - Copia - Copia",
+      "box": {
+        "h": 61,
+        "w": 332,
+        "x": 1230,
+        "y": 2948
+      },
+      "class": "swiper-slide-image",
+      "color": "#b9b9b9",
+      "depth": 11,
+      "font": "16px 400",
+      "src": "https://fluxoleadai.com.br/wp-content/uploads/2026/07/notificacoes-kiwify-Copia-2-Copia-Copia.png",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 67,
+        "w": 332,
+        "x": 1562,
+        "y": 2948
+      },
+      "class": "swiper-slide swiper-slide-duplicate",
+      "color": "#b9b9b9",
+      "depth": 9,
+      "font": "16px 400",
+      "role": "group",
+      "tag": "div"
+    },
+    {
+      "alt": "notificações kiwify",
+      "box": {
+        "h": 61,
+        "w": 332,
+        "x": 1562,
+        "y": 2948
+      },
+      "class": "swiper-slide-image",
+      "color": "#b9b9b9",
+      "depth": 11,
+      "font": "16px 400",
+      "src": "https://fluxoleadai.com.br/wp-content/uploads/2026/07/notificacoes-kiwify.png",
+      "tag": "img"
+    },
+    {
+      "alt": "",
+      "box": {
+        "h": 386,
+        "w": 459,
+        "x": 0,
+        "y": 3277
+      },
+      "class": "attachment-full size-full wp-image-1685",
+      "color": "#b9b9b9",
+      "depth": 8,
+      "font": "16px 400",
+      "src": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/ChatGPT-Image-23-de-set.-de-2026-13_23_08-sdsad-asdsa.webp",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 27,
+        "w": 321,
+        "x": 58,
+        "y": 3628
+      },
+      "class": "elementor-heading-title elementor-size-default",
+      "color": "#ffffff",
+      "depth": 8,
+      "font": "24px 400",
+      "tag": "h2",
+      "text": "Ache o cliente rápido"
+    },
+    {
+      "box": {
+        "h": 84,
+        "w": 340,
+        "x": 60,
+        "y": 3679
+      },
+      "color": "#b9b9b9",
+      "depth": 9,
+      "font": "15px 400",
+      "tag": "p",
+      "text": "A Fluxo Lead acha empresas sem site na sua região e já entrega o contato pronto, com mensagem de abordagem no WhatsApp inclusa."
+    },
+    {
+      "alt": "",
+      "box": {
+        "h": 386,
+        "w": 459,
+        "x": 483,
+        "y": 3495
+      },
+      "class": "attachment-full size-full wp-image-1683",
+      "color": "#b9b9b9",
+      "depth": 8,
+      "font": "16px 400",
+      "src": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/ChatGPT-Image-23-de-set.-de-2026-13_20_46.webp",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 27,
+        "w": 321,
+        "x": 541,
+        "y": 3841
+      },
+      "class": "elementor-heading-title elementor-size-default",
+      "color": "#ffffff",
+      "depth": 8,
+      "font": "24px 400",
+      "tag": "h2",
+      "text": "Escale sem limite"
+    },
+    {
+      "box": {
+        "h": 63,
+        "w": 340,
+        "x": 543,
+        "y": 3892
+      },
+      "color": "#b9b9b9",
+      "depth": 9,
+      "font": "15px 400",
+      "tag": "p",
+      "text": "Cada modelo adaptado em minutos é um site a mais vendido. Não existe teto pra quanto você pode faturar revendendo com a Fluxo Lead."
+    },
+    {
+      "background": "#b2fe0200",
+      "box": {
+        "h": 28,
+        "w": 167,
+        "x": 629,
+        "y": 3616
+      },
+      "class": "elementor-button elementor-button-link elementor-size-sm",
+      "color": "#ffffff",
+      "depth": 6,
+      "font": "17px 300",
+      "href": "https://fluxoleadai.com.br/#valor",
+      "tag": "a",
+      "text": "Quero Vender Sites"
+    },
+    {
+      "background": "#000000",
+      "box": {
+        "h": 1128,
+        "w": 1425,
+        "x": 0,
+        "y": 3821
+      },
+      "class": "fxx fxx-port",
+      "color": "#b9b9b9",
+      "depth": 3,
+      "display": "block",
+      "font": "16px 400",
+      "id": "portfolio",
+      "tag": "section"
+    },
+    {
+      "box": {
+        "h": 139,
+        "w": 1425,
+        "x": 0,
+        "y": 3995
+      },
+      "class": "fxx-h",
+      "color": "#fafafa",
+      "depth": 4,
+      "font": "58px 400",
+      "id": "fxx-port-h",
+      "tag": "h2",
+      "text": "Sites de verdade, entregues para clientes de verdade"
+    },
+    {
+      "box": {
+        "h": 46,
+        "w": 560,
+        "x": 433,
+        "y": 4152
+      },
+      "class": "fxx-sub",
+      "color": "#b9b9b9",
+      "depth": 4,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Advocacia, telecom, eventos, esporte, infoprodutos. Cada página adaptada para o negócio de quem comprou."
+    },
+    {
+      "alt": "Site Agente Labs",
+      "box": {
+        "h": 340,
+        "w": 628,
+        "x": -1217,
+        "y": 4467
+      },
+      "color": "#b9b9b9",
+      "depth": 8,
+      "font": "16px 400",
+      "src": "https://fluxoleadai.com.br/landing-extra/img/site-1.webp",
+      "tag": "img"
+    },
+    {
+      "alt": "Site Megatelecom",
+      "box": {
+        "h": 325,
+        "w": 555,
+        "x": -530,
+        "y": 4394
+      },
+      "color": "#b9b9b9",
+      "depth": 8,
+      "font": "16px 400",
+      "src": "https://fluxoleadai.com.br/landing-extra/img/site-2.webp",
+      "tag": "img"
+    },
+    {
+      "alt": "Site VixHub",
+      "box": {
+        "h": 311,
+        "w": 521,
+        "x": 126,
+        "y": 4325
+      },
+      "color": "#b9b9b9",
+      "depth": 8,
+      "font": "16px 400",
+      "src": "https://fluxoleadai.com.br/landing-extra/img/site-3.webp",
+      "tag": "img"
+    },
+    {
+      "alt": "Site Casa Charme",
+      "box": {
+        "h": 298,
+        "w": 539,
+        "x": 713,
+        "y": 4258
+      },
+      "color": "#b9b9b9",
+      "depth": 8,
+      "font": "16px 400",
+      "src": "https://fluxoleadai.com.br/landing-extra/img/site-4.webp",
+      "tag": "img"
+    },
+    {
+      "alt": "Site CSAB basquete",
+      "box": {
+        "h": 286,
+        "w": 557,
+        "x": 1273,
+        "y": 4193
+      },
+      "color": "#b9b9b9",
+      "depth": 8,
+      "font": "16px 400",
+      "src": "https://fluxoleadai.com.br/landing-extra/img/site-5.webp",
+      "tag": "img"
+    },
+    {
+      "alt": "",
+      "box": {
+        "h": 275,
+        "w": 574,
+        "x": 1812,
+        "y": 4132
+      },
+      "color": "#b9b9b9",
+      "depth": 8,
+      "font": "16px 400",
+      "src": "https://fluxoleadai.com.br/landing-extra/img/site-1.webp",
+      "tag": "img"
+    },
+    {
+      "alt": "",
+      "box": {
+        "h": 264,
+        "w": 589,
+        "x": 2330,
+        "y": 4072
+      },
+      "color": "#b9b9b9",
+      "depth": 8,
+      "font": "16px 400",
+      "src": "https://fluxoleadai.com.br/landing-extra/img/site-2.webp",
+      "tag": "img"
+    },
+    {
+      "alt": "",
+      "box": {
+        "h": 254,
+        "w": 602,
+        "x": 2829,
+        "y": 4015
+      },
+      "color": "#b9b9b9",
+      "depth": 8,
+      "font": "16px 400",
+      "src": "https://fluxoleadai.com.br/landing-extra/img/site-3.webp",
+      "tag": "img"
+    },
+    {
+      "alt": "",
+      "box": {
+        "h": 244,
+        "w": 614,
+        "x": 3309,
+        "y": 3960
+      },
+      "color": "#b9b9b9",
+      "depth": 8,
+      "font": "16px 400",
+      "src": "https://fluxoleadai.com.br/landing-extra/img/site-4.webp",
+      "tag": "img"
+    },
+    {
+      "alt": "",
+      "box": {
+        "h": 235,
+        "w": 624,
+        "x": 3771,
+        "y": 3906
+      },
+      "color": "#b9b9b9",
+      "depth": 8,
+      "font": "16px 400",
+      "src": "https://fluxoleadai.com.br/landing-extra/img/site-5.webp",
+      "tag": "img"
+    },
+    {
+      "alt": "Site GFM",
+      "box": {
+        "h": 491,
+        "w": 1051,
+        "x": -4072,
+        "y": 5130
+      },
+      "color": "#b9b9b9",
+      "depth": 8,
+      "font": "16px 400",
+      "src": "https://fluxoleadai.com.br/landing-extra/img/site-6.webp",
+      "tag": "img"
+    },
+    {
+      "alt": "Site Dhyego Lemos Advocacia",
+      "box": {
+        "h": 466,
+        "w": 931,
+        "x": -3163,
+        "y": 5027
+      },
+      "color": "#b9b9b9",
+      "depth": 8,
+      "font": "16px 400",
+      "src": "https://fluxoleadai.com.br/landing-extra/img/site-7.webp",
+      "tag": "img"
+    },
+    {
+      "alt": "Site de canal do YouTube",
+      "box": {
+        "h": 442,
+        "w": 822,
+        "x": -2304,
+        "y": 4929
+      },
+      "color": "#b9b9b9",
+      "depth": 8,
+      "font": "16px 400",
+      "src": "https://fluxoleadai.com.br/landing-extra/img/site-8.webp",
+      "tag": "img"
+    },
+    {
+      "alt": "Site Doutor Reels",
+      "box": {
+        "h": 421,
+        "w": 722,
+        "x": -1490,
+        "y": 4836
+      },
+      "color": "#b9b9b9",
+      "depth": 8,
+      "font": "16px 400",
+      "src": "https://fluxoleadai.com.br/landing-extra/img/site-9.webp",
+      "tag": "img"
+    },
+    {
+      "alt": "Site Legado Masculino",
+      "box": {
+        "h": 400,
+        "w": 631,
+        "x": -717,
+        "y": 4747
+      },
+      "color": "#b9b9b9",
+      "depth": 8,
+      "font": "16px 400",
+      "src": "https://fluxoleadai.com.br/landing-extra/img/site-10.webp",
+      "tag": "img"
+    },
+    {
+      "alt": "",
+      "box": {
+        "h": 381,
+        "w": 580,
+        "x": 17,
+        "y": 4662
+      },
+      "color": "#b9b9b9",
+      "depth": 8,
+      "font": "16px 400",
+      "src": "https://fluxoleadai.com.br/landing-extra/img/site-6.webp",
+      "tag": "img"
+    },
+    {
+      "alt": "",
+      "box": {
+        "h": 364,
+        "w": 594,
+        "x": 674,
+        "y": 4581
+      },
+      "color": "#b9b9b9",
+      "depth": 8,
+      "font": "16px 400",
+      "src": "https://fluxoleadai.com.br/landing-extra/img/site-7.webp",
+      "tag": "img"
+    },
+    {
+      "alt": "",
+      "box": {
+        "h": 348,
+        "w": 617,
+        "x": 1291,
+        "y": 4504
+      },
+      "color": "#b9b9b9",
+      "depth": 8,
+      "font": "16px 400",
+      "src": "https://fluxoleadai.com.br/landing-extra/img/site-8.webp",
+      "tag": "img"
+    },
+    {
+      "alt": "",
+      "box": {
+        "h": 332,
+        "w": 637,
+        "x": 1881,
+        "y": 4430
+      },
+      "color": "#b9b9b9",
+      "depth": 8,
+      "font": "16px 400",
+      "src": "https://fluxoleadai.com.br/landing-extra/img/site-9.webp",
+      "tag": "img"
+    },
+    {
+      "alt": "",
+      "box": {
+        "h": 318,
+        "w": 654,
+        "x": 2447,
+        "y": 4358
+      },
+      "color": "#b9b9b9",
+      "depth": 8,
+      "font": "16px 400",
+      "src": "https://fluxoleadai.com.br/landing-extra/img/site-10.webp",
+      "tag": "img"
+    },
+    {
+      "background": "#000000",
+      "box": {
+        "h": 1160,
+        "w": 1425,
+        "x": 0,
+        "y": 4949
+      },
+      "class": "fxx fxx-dep",
+      "color": "#b9b9b9",
+      "depth": 3,
+      "display": "block",
+      "font": "16px 400",
+      "id": "depoimentos",
+      "tag": "section"
+    },
+    {
+      "box": {
+        "h": 139,
+        "w": 1425,
+        "x": 0,
+        "y": 5083
+      },
+      "class": "fxx-h",
+      "color": "#fafafa",
+      "depth": 4,
+      "font": "58px 400",
+      "id": "fxx-dep-h",
+      "tag": "h2",
+      "text": "O que os clientes falaram quando receberam o site"
+    },
+    {
+      "alt": "Conversa no WhatsApp: Ficou top irmão, atingiu as nossas expectativas!",
+      "box": {
+        "h": 463,
+        "w": 252,
+        "x": 305,
+        "y": 5400
+      },
+      "color": "#b9b9b9",
+      "depth": 7,
+      "font": "16px 400",
+      "src": "https://fluxoleadai.com.br/landing-extra/img/zap-1.webp",
+      "tag": "img"
+    },
+    {
+      "alt": "Conversa no WhatsApp: parabéns pelo trabalho, ficou muito top",
+      "box": {
+        "h": 454,
+        "w": 289,
+        "x": 379,
+        "y": 5404
+      },
+      "color": "#b9b9b9",
+      "depth": 7,
+      "font": "16px 400",
+      "src": "https://fluxoleadai.com.br/landing-extra/img/zap-2.webp",
+      "tag": "img"
+    },
+    {
+      "alt": "Conversa no WhatsApp: Eu amei, achei fantástico, bem profissional",
+      "box": {
+        "h": 433,
+        "w": 311,
+        "x": 460,
+        "y": 5415
+      },
+      "color": "#b9b9b9",
+      "depth": 7,
+      "font": "16px 400",
+      "src": "https://fluxoleadai.com.br/landing-extra/img/zap-3.webp",
+      "tag": "img"
+    },
+    {
+      "alt": "Conversa no WhatsApp: ficou muito bom",
+      "box": {
+        "h": 433,
+        "w": 311,
+        "x": 92,
+        "y": 5415
+      },
+      "color": "#b9b9b9",
+      "depth": 7,
+      "font": "16px 400",
+      "src": "https://fluxoleadai.com.br/landing-extra/img/zap-4.webp",
+      "tag": "img"
+    },
+    {
+      "alt": "Conversa no WhatsApp: Nossa, ficou muito bom! Amei",
+      "box": {
+        "h": 454,
+        "w": 289,
+        "x": 195,
+        "y": 5404
+      },
+      "color": "#b9b9b9",
+      "depth": 7,
+      "font": "16px 400",
+      "src": "https://fluxoleadai.com.br/landing-extra/img/zap-5.webp",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 600,
+        "w": 523,
+        "x": 760,
+        "y": 5292
+      },
+      "class": "fxx-lista",
+      "color": "#b9b9b9",
+      "depth": 6,
+      "display": "grid",
+      "font": "16px 400",
+      "grid": "522.5px",
+      "id": "fxx-lista",
+      "tag": "ul"
+    },
+    {
+      "box": {
+        "h": 25,
+        "w": 473,
+        "x": 787,
+        "y": 5313
+      },
+      "color": "#ffffff",
+      "depth": 8,
+      "font": "19px 400",
+      "tag": "p",
+      "text": "“Ficou top, irmão, atingiu as nossas expectativas!”"
+    },
+    {
+      "box": {
+        "h": 49,
+        "w": 473,
+        "x": 787,
+        "y": 5420
+      },
+      "color": "#777777",
+      "depth": 8,
+      "font": "19px 400",
+      "tag": "p",
+      "text": "“Parabéns pelo trabalho, ficou muito top. Dentro da expectativa que eu esperava mesmo.”"
+    },
+    {
+      "box": {
+        "h": 49,
+        "w": 473,
+        "x": 787,
+        "y": 5552
+      },
+      "color": "#777777",
+      "depth": 8,
+      "font": "19px 400",
+      "tag": "p",
+      "text": "“Eu amei, achei fantástico, bem profissional, estiloso. A logo ficou incrível, até melhor do que eu imaginava.”"
+    },
+    {
+      "box": {
+        "h": 25,
+        "w": 473,
+        "x": 787,
+        "y": 5684
+      },
+      "color": "#777777",
+      "depth": 8,
+      "font": "19px 400",
+      "tag": "p",
+      "text": "“Top, mano. Ficou muito bom.”"
+    },
+    {
+      "box": {
+        "h": 49,
+        "w": 473,
+        "x": 787,
+        "y": 5791
+      },
+      "color": "#777777",
+      "depth": 8,
+      "font": "19px 400",
+      "tag": "p",
+      "text": "“Nossa, ficou MUITO bom!! Amei. Eu queria algo mais interativo, assim mesmo, e ficou.”"
+    },
+    {
+      "box": {
+        "h": 45,
+        "w": 523,
+        "x": 760,
+        "y": 5908
+      },
+      "class": "fxx-nota",
+      "color": "#555555",
+      "depth": 6,
+      "font": "12px 400",
+      "tag": "p",
+      "text": "Prints reais de conversas no WhatsApp. Números e fotos ocultados para preservar a privacidade dos clientes."
+    },
+    {
+      "alt": "",
+      "box": {
+        "h": 26,
+        "w": 178,
+        "x": 88,
+        "y": 6550
+      },
+      "class": "attachment-full size-full wp-image-1566",
+      "color": "#b9b9b9",
+      "depth": 7,
+      "font": "16px 400",
+      "src": "https://fluxoleadai.com.br/landing-extra/brand/logo-fluxo-lead.webp",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 55,
+        "w": 179,
+        "x": 427,
+        "y": 6466
+      },
+      "class": "elementor-heading-title elementor-size-default",
+      "color": "#ffffff",
+      "depth": 9,
+      "font": "35px 400",
+      "tag": "h2",
+      "text": "Fluxo Lead Mensal"
+    },
+    {
+      "box": {
+        "h": 16,
+        "w": 101,
+        "x": 466,
+        "y": 6594
+      },
+      "class": "elementor-heading-title elementor-size-default",
+      "color": "#fafafa",
+      "depth": 9,
+      "font": "17px 300",
+      "tag": "h2",
+      "text": "ASSINATURA DE"
+    },
+    {
+      "box": {
+        "h": 28,
+        "w": 18,
+        "x": 463,
+        "y": 6638
+      },
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "26px 400",
+      "tag": "p",
+      "text": "R$"
+    },
+    {
+      "box": {
+        "h": 37,
+        "w": 82,
+        "x": 488,
+        "y": 6624
+      },
+      "class": "elementor-heading-title elementor-size-default",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "61px 500",
+      "tag": "h2",
+      "text": "197"
+    },
+    {
+      "box": {
+        "h": 19,
+        "w": 177,
+        "x": 428,
+        "y": 6676
+      },
+      "color": "#ffffff",
+      "depth": 9,
+      "font": "18px 300",
+      "tag": "p",
+      "text": "POR MÊS"
+    },
+    {
+      "background": "#b2fe0200",
+      "box": {
+        "h": 52,
+        "w": 242,
+        "x": 395,
+        "y": 6735
+      },
+      "class": "elementor-button elementor-button-link elementor-size-sm",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "20px 500",
+      "href": "https://fluxoleadai.com.br/assinar?plano=mensal",
+      "tag": "a",
+      "text": "Assinar Mensal"
+    },
+    {
+      "alt": "",
+      "box": {
+        "h": 13,
+        "w": 149,
+        "x": 442,
+        "y": 6811
+      },
+      "class": "attachment-full size-full wp-image-1747",
+      "color": "#b9b9b9",
+      "depth": 9,
+      "font": "16px 400",
+      "src": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/pagamentos.png",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 55,
+        "w": 179,
+        "x": 748,
+        "y": 6466
+      },
+      "class": "elementor-heading-title elementor-size-default",
+      "color": "#ffffff",
+      "depth": 9,
+      "font": "35px 400",
+      "tag": "h2",
+      "text": "Fluxo Lead Anual"
+    },
+    {
+      "box": {
+        "h": 16,
+        "w": 148,
+        "x": 764,
+        "y": 6594
+      },
+      "class": "elementor-heading-title elementor-size-default",
+      "color": "#fafafa",
+      "depth": 9,
+      "font": "17px 300",
+      "tag": "h2",
+      "text": "DE R$2.364 POR 12X DE"
+    },
+    {
+      "box": {
+        "h": 28,
+        "w": 18,
+        "x": 766,
+        "y": 6638
+      },
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "26px 400",
+      "tag": "p",
+      "text": "R$"
+    },
+    {
+      "box": {
+        "h": 37,
+        "w": 119,
+        "x": 791,
+        "y": 6624
+      },
+      "class": "elementor-heading-title elementor-size-default",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "61px 500",
+      "tag": "h2",
+      "text": "30,68"
+    },
+    {
+      "box": {
+        "h": 19,
+        "w": 177,
+        "x": 749,
+        "y": 6676
+      },
+      "color": "#ffffff",
+      "depth": 9,
+      "font": "18px 300",
+      "tag": "p",
+      "text": "OU R$297 À VISTA"
+    },
+    {
+      "background": "#b2fe0200",
+      "box": {
+        "h": 52,
+        "w": 242,
+        "x": 716,
+        "y": 6735
+      },
+      "class": "elementor-button elementor-button-link elementor-size-sm",
+      "color": "#ffffff",
+      "depth": 10,
+      "font": "20px 500",
+      "href": "https://fluxoleadai.com.br/assinar?plano=anual",
+      "tag": "a",
+      "text": "Garantir Anual"
+    },
+    {
+      "alt": "",
+      "box": {
+        "h": 13,
+        "w": 149,
+        "x": 763,
+        "y": 6811
+      },
+      "class": "attachment-full size-full wp-image-1747",
+      "color": "#b9b9b9",
+      "depth": 9,
+      "font": "16px 400",
+      "src": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/pagamentos.png",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 22,
+        "w": 137,
+        "x": 608,
+        "y": 6753
+      },
+      "class": "fl-entrar",
+      "color": "#a3a3a3",
+      "depth": 6,
+      "font": "16px 400",
+      "tag": "p",
+      "text": "Já é cliente? Entrar"
+    },
+    {
+      "box": {
+        "h": 17,
+        "w": 41,
+        "x": 704,
+        "y": 6755
+      },
+      "color": "#ff5a2a",
+      "depth": 7,
+      "font": "14px 600",
+      "href": "https://fluxoleadai.com.br/entrar",
+      "tag": "a",
+      "text": "Entrar"
+    },
+    {
+      "box": {
+        "h": 456,
+        "w": 320,
+        "x": 1033,
+        "y": 6384
+      },
+      "class": "elementor-icon-list-items",
+      "color": "#b9b9b9",
+      "depth": 7,
+      "display": "block",
+      "font": "16px 400",
+      "tag": "ul"
+    },
+    {
+      "box": {
+        "h": 17,
+        "w": 17,
+        "x": 1033,
+        "y": 6412
+      },
+      "color": "#b9b9b9",
+      "depth": 10,
+      "font": "16px 400",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 17,
+        "w": 17,
+        "x": 1033,
+        "y": 6514
+      },
+      "color": "#b9b9b9",
+      "depth": 10,
+      "font": "16px 400",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 17,
+        "w": 17,
+        "x": 1033,
+        "y": 6616
+      },
+      "color": "#b9b9b9",
+      "depth": 10,
+      "font": "16px 400",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 17,
+        "w": 17,
+        "x": 1033,
+        "y": 6706
+      },
+      "color": "#b9b9b9",
+      "depth": 10,
+      "font": "16px 400",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 17,
+        "w": 17,
+        "x": 1033,
+        "y": 6796
+      },
+      "color": "#b9b9b9",
+      "depth": 10,
+      "font": "16px 400",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 58,
+        "w": 606,
+        "x": 795,
+        "y": 7025
+      },
+      "class": "elementor-heading-title elementor-size-default",
+      "color": "#fafafa",
+      "depth": 8,
+      "font": "48px 400",
+      "tag": "h2",
+      "text": "Perguntas Frequentes"
+    },
+    {
+      "box": {
+        "h": 74,
+        "w": 675,
+        "x": 25,
+        "y": 7156
+      },
+      "class": "elementskit-card-header",
+      "color": "#b9b9b9",
+      "depth": 11,
+      "font": "16px 400",
+      "id": "primaryHeading-0-1caa2981",
+      "role": "heading",
+      "tag": "div",
+      "text": "Preciso saber programar ou entender de design?"
+    },
+    {
+      "background": "#02010100",
+      "box": {
+        "h": 74,
+        "w": 675,
+        "x": 25,
+        "y": 7156
+      },
+      "class": "ekit-accordion--toggler elementskit-btn-link collapsed",
+      "color": "#fafafa",
+      "depth": 12,
+      "font": "20px 400",
+      "href": "https://fluxoleadai.com.br/#collapse-84afa3c6ac00cb528da2",
+      "role": "button",
+      "tag": "a",
+      "text": "Preciso saber programar ou entender de design?"
+    },
+    {
+      "box": {
+        "h": 74,
+        "w": 675,
+        "x": 25,
+        "y": 7242
+      },
+      "class": "elementskit-card-header",
+      "color": "#b9b9b9",
+      "depth": 11,
+      "font": "16px 400",
+      "id": "primaryHeading-1-1caa2981",
+      "role": "heading",
+      "tag": "div",
+      "text": "Como a IA adapta o site pro meu cliente?"
+    },
+    {
+      "background": "#02010100",
+      "box": {
+        "h": 74,
+        "w": 675,
+        "x": 25,
+        "y": 7242
+      },
+      "class": "ekit-accordion--toggler elementskit-btn-link collapsed",
+      "color": "#fafafa",
+      "depth": 12,
+      "font": "20px 400",
+      "href": "https://fluxoleadai.com.br/#collapse-b5ae55c6ac00cb528da2",
+      "role": "button",
+      "tag": "a",
+      "text": "Como a IA adapta o site pro meu cliente?"
+    },
+    {
+      "box": {
+        "h": 100,
+        "w": 675,
+        "x": 25,
+        "y": 7328
+      },
+      "class": "elementskit-card-header",
+      "color": "#b9b9b9",
+      "depth": 11,
+      "font": "16px 400",
+      "id": "primaryHeading-2-1caa2981",
+      "role": "heading",
+      "tag": "div",
+      "text": "Posso publicar com o domínio do meu cliente, ou só com um link da Fluxo Lead?"
+    },
+    {
+      "background": "#02010100",
+      "box": {
+        "h": 100,
+        "w": 675,
+        "x": 25,
+        "y": 7328
+      },
+      "class": "ekit-accordion--toggler elementskit-btn-link collapsed",
+      "color": "#fafafa",
+      "depth": 12,
+      "font": "20px 400",
+      "href": "https://fluxoleadai.com.br/#collapse-cfa60bf6ac00cb528da2",
+      "role": "button",
+      "tag": "a",
+      "text": "Posso publicar com o domínio do meu cliente, ou só com um link da Fluxo Lead?"
+    },
+    {
+      "box": {
+        "h": 74,
+        "w": 675,
+        "x": 726,
+        "y": 7156
+      },
+      "class": "elementskit-card-header",
+      "color": "#b9b9b9",
+      "depth": 11,
+      "font": "16px 400",
+      "id": "primaryHeading-0-7869be15",
+      "role": "heading",
+      "tag": "div",
+      "text": "Como funciona o \"Achar Clientes\"?"
+    },
+    {
+      "background": "#02010100",
+      "box": {
+        "h": 74,
+        "w": 675,
+        "x": 726,
+        "y": 7156
+      },
+      "class": "ekit-accordion--toggler elementskit-btn-link collapsed",
+      "color": "#fafafa",
+      "depth": 12,
+      "font": "20px 400",
+      "href": "https://fluxoleadai.com.br/#collapse-84afa3c6ac00cb5296de",
+      "role": "button",
+      "tag": "a",
+      "text": "Como funciona o \"Achar Clientes\"?"
+    },
+    {
+      "box": {
+        "h": 74,
+        "w": 675,
+        "x": 726,
+        "y": 7242
+      },
+      "class": "elementskit-card-header",
+      "color": "#b9b9b9",
+      "depth": 11,
+      "font": "16px 400",
+      "id": "primaryHeading-1-7869be15",
+      "role": "heading",
+      "tag": "div",
+      "text": "Preciso pagar alguma mensalidade além do plano?"
+    },
+    {
+      "background": "#02010100",
+      "box": {
+        "h": 74,
+        "w": 675,
+        "x": 726,
+        "y": 7242
+      },
+      "class": "ekit-accordion--toggler elementskit-btn-link collapsed",
+      "color": "#fafafa",
+      "depth": 12,
+      "font": "20px 400",
+      "href": "https://fluxoleadai.com.br/#collapse-b5ae55c6ac00cb5296de",
+      "role": "button",
+      "tag": "a",
+      "text": "Preciso pagar alguma mensalidade além do plano?"
+    },
+    {
+      "box": {
+        "h": 74,
+        "w": 675,
+        "x": 726,
+        "y": 7328
+      },
+      "class": "elementskit-card-header",
+      "color": "#b9b9b9",
+      "depth": 11,
+      "font": "16px 400",
+      "id": "primaryHeading-2-7869be15",
+      "role": "heading",
+      "tag": "div",
+      "text": "Funciona pra qualquer tipo de negócio ou nicho?"
+    },
+    {
+      "background": "#02010100",
+      "box": {
+        "h": 74,
+        "w": 675,
+        "x": 726,
+        "y": 7328
+      },
+      "class": "ekit-accordion--toggler elementskit-btn-link collapsed",
+      "color": "#fafafa",
+      "depth": 12,
+      "font": "20px 400",
+      "href": "https://fluxoleadai.com.br/#collapse-cfa60bf6ac00cb5296de",
+      "role": "button",
+      "tag": "a",
+      "text": "Funciona pra qualquer tipo de negócio ou nicho?"
+    },
+    {
+      "alt": "",
+      "box": {
+        "h": 248,
+        "w": 1377,
+        "x": 24,
+        "y": 7152
+      },
+      "class": "attachment-full size-full wp-image-1581",
+      "color": "#b9b9b9",
+      "depth": 5,
+      "font": "16px 400",
+      "src": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/1-2312312312-1-g-1536x277.webp",
+      "tag": "img"
+    },
+    {
+      "alt": "",
+      "box": {
+        "h": 56,
+        "w": 55,
+        "x": 685,
+        "y": 7350
+      },
+      "class": "attachment-full size-full wp-image-1594",
+      "color": "#b9b9b9",
+      "depth": 5,
+      "font": "16px 400",
+      "src": "https://fluxoleadai.com.br/wp-content/uploads/2026/09/botao-1231-_1_-j.webp",
+      "tag": "img"
+    },
+    {
+      "alt": "",
+      "box": {
+        "h": 45,
+        "w": 308,
+        "x": 559,
+        "y": 7585
+      },
+      "class": "attachment-full size-full wp-image-1566",
+      "color": "#b9b9b9",
+      "depth": 6,
+      "font": "16px 400",
+      "src": "https://fluxoleadai.com.br/landing-extra/brand/logo-fluxo-lead.webp",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 42,
+        "w": 770,
+        "x": 328,
+        "y": 7654
+      },
+      "color": "#b9b9b9",
+      "depth": 6,
+      "font": "15px 400",
+      "tag": "p",
+      "text": "Fluxo Lead – o app que acha o cliente, monta o site com IA e publica em minutos. Tudo pra você vender páginas profissionais sem precisar programar, desenhar ou perder tempo."
+    },
+    {
+      "background": "#000000",
+      "box": {
+        "h": 148,
+        "w": 1425,
+        "x": 0,
+        "y": 7712
+      },
+      "class": "fl-rodape",
+      "color": "#b9b9b9",
+      "depth": 3,
+      "display": "block",
+      "font": "16px 400",
+      "tag": "footer"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 166,
+        "x": 73,
+        "y": 7747
+      },
+      "class": "fl-rodape-logo",
+      "color": "#bdbdbd",
+      "depth": 6,
+      "font": "15px 400",
+      "href": "https://fluxoleadai.com.br/",
+      "tag": "a"
+    },
+    {
+      "alt": "Fluxo Lead",
+      "box": {
+        "h": 24,
+        "w": 166,
+        "x": 73,
+        "y": 7747
+      },
+      "color": "#bdbdbd",
+      "depth": 7,
+      "font": "15px 400",
+      "src": "https://fluxoleadai.com.br/landing-extra/brand/logo-fluxo-lead.webp",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 20,
+        "w": 464,
+        "x": 889,
+        "y": 7749
+      },
+      "class": "fl-rodape-nav",
+      "color": "#b9b9b9",
+      "depth": 6,
+      "display": "flex",
+      "flex": "row",
+      "font": "16px 400",
+      "tag": "nav"
+    },
+    {
+      "box": {
+        "h": 20,
+        "w": 115,
+        "x": 889,
+        "y": 7749
+      },
+      "color": "#bdbdbd",
+      "depth": 7,
+      "font": "15px 400",
+      "href": "https://fluxoleadai.com.br/funcionalidades",
+      "tag": "a",
+      "text": "Funcionalidades"
+    },
+    {
+      "box": {
+        "h": 20,
+        "w": 47,
+        "x": 1026,
+        "y": 7749
+      },
+      "color": "#bdbdbd",
+      "depth": 7,
+      "font": "15px 400",
+      "href": "https://fluxoleadai.com.br/#valor",
+      "tag": "a",
+      "text": "Planos"
+    },
+    {
+      "box": {
+        "h": 20,
+        "w": 59,
+        "x": 1096,
+        "y": 7749
+      },
+      "color": "#bdbdbd",
+      "depth": 7,
+      "font": "15px 400",
+      "href": "https://fluxoleadai.com.br/portfolio",
+      "tag": "a",
+      "text": "Portfólio"
+    },
+    {
+      "box": {
+        "h": 20,
+        "w": 32,
+        "x": 1177,
+        "y": 7749
+      },
+      "color": "#bdbdbd",
+      "depth": 7,
+      "font": "15px 400",
+      "href": "https://fluxoleadai.com.br/blog",
+      "tag": "a",
+      "text": "Blog"
+    },
+    {
+      "box": {
+        "h": 20,
+        "w": 56,
+        "x": 1231,
+        "y": 7749
+      },
+      "color": "#bdbdbd",
+      "depth": 7,
+      "font": "15px 400",
+      "href": "https://fluxoleadai.com.br/contato",
+      "tag": "a",
+      "text": "Contato"
+    },
+    {
+      "box": {
+        "h": 20,
+        "w": 44,
+        "x": 1309,
+        "y": 7749
+      },
+      "class": "fl-rodape-entrar",
+      "color": "#ff5a2a",
+      "depth": 7,
+      "font": "15px 600",
+      "href": "https://fluxoleadai.com.br/entrar",
+      "tag": "a",
+      "text": "Entrar"
+    },
+    {
+      "box": {
+        "h": 22,
+        "w": 294,
+        "x": 73,
+        "y": 7812
+      },
+      "color": "#7a7a7a",
+      "depth": 6,
+      "font": "13px 400",
+      "tag": "p",
+      "text": "© 2026 Fluxo Lead. Todos os direitos reservados."
+    },
+    {
+      "box": {
+        "h": 17,
+        "w": 458,
+        "x": 894,
+        "y": 7814
+      },
+      "class": "fl-rodape-legal",
+      "color": "#b9b9b9",
+      "depth": 6,
+      "display": "flex",
+      "flex": "row",
+      "font": "16px 400",
+      "tag": "nav"
+    },
+    {
+      "box": {
+        "h": 17,
+        "w": 91,
+        "x": 894,
+        "y": 7814
+      },
+      "color": "#8a8a8a",
+      "depth": 7,
+      "font": "13px 400",
+      "href": "https://fluxoleadai.com.br/termos",
+      "tag": "a",
+      "text": "Termos de uso"
+    },
+    {
+      "box": {
+        "h": 17,
+        "w": 72,
+        "x": 1008,
+        "y": 7814
+      },
+      "color": "#8a8a8a",
+      "depth": 7,
+      "font": "13px 400",
+      "href": "https://fluxoleadai.com.br/privacidade",
+      "tag": "a",
+      "text": "Privacidade"
+    },
+    {
+      "box": {
+        "h": 17,
+        "w": 50,
+        "x": 1102,
+        "y": 7814
+      },
+      "color": "#8a8a8a",
+      "depth": 7,
+      "font": "13px 400",
+      "href": "https://fluxoleadai.com.br/politica-de-cookies",
+      "tag": "a",
+      "text": "Cookies"
+    },
+    {
+      "box": {
+        "h": 17,
+        "w": 89,
+        "x": 1174,
+        "y": 7814
+      },
+      "color": "#8a8a8a",
+      "depth": 7,
+      "font": "13px 400",
+      "href": "https://fluxoleadai.com.br/cancelamento",
+      "tag": "a",
+      "text": "Cancelamento"
+    },
+    {
+      "box": {
+        "h": 17,
+        "w": 68,
+        "x": 1284,
+        "y": 7814
+      },
+      "color": "#8a8a8a",
+      "depth": 7,
+      "font": "13px 400",
+      "href": "https://fluxoleadai.com.br/reembolso",
+      "tag": "a",
+      "text": "Reembolso"
+    },
+    {
+      "background": "#0e0e0ef7",
+      "box": {
+        "h": 193,
+        "w": 560,
+        "x": 849,
+        "y": 5889
+      },
+      "class": "flc",
+      "color": "#e9e9e9",
+      "depth": 2,
+      "display": "block",
+      "font": "14px 400",
+      "role": "dialog",
+      "tag": "section"
+    },
+    {
+      "box": {
+        "h": 24,
+        "w": 514,
+        "x": 872,
+        "y": 5910
+      },
+      "color": "#ffffff",
+      "depth": 5,
+      "font": "16px 600",
+      "id": "flc-t",
+      "tag": "h2",
+      "text": "Sua privacidade"
+    },
+    {
+      "box": {
+        "h": 63,
+        "w": 514,
+        "x": 872,
+        "y": 5940
+      },
+      "color": "#b9b9b9",
+      "depth": 5,
+      "font": "14px 400",
+      "id": "flc-d",
+      "tag": "p",
+      "text": "Usamos cookies necessários para o site funcionar. No momento não usamos cookies de medição nem de publicidade. Você pode mudar de ideia quando quiser. Política de Cookies"
+    },
+    {
+      "box": {
+        "h": 17,
+        "w": 126,
+        "x": 920,
+        "y": 5984
+      },
+      "color": "#ff6a3d",
+      "depth": 6,
+      "font": "14px 400",
+      "href": "https://fluxoleadai.com.br/politica-de-cookies",
+      "tag": "a",
+      "text": "Política de Cookies"
+    },
+    {
+      "background": "#f2f2f2",
+      "box": {
+        "h": 44,
+        "w": 166,
+        "x": 872,
+        "y": 6017
+      },
+      "class": "flc__pri",
+      "color": "#111111",
+      "depth": 5,
+      "font": "14px 600",
+      "tag": "button",
+      "text": "Rejeitar opcionais"
+    },
+    {
+      "background": "#1c1c1c",
+      "box": {
+        "h": 44,
+        "w": 166,
+        "x": 1046,
+        "y": 6017
+      },
+      "color": "#ffffff",
+      "depth": 5,
+      "font": "14px 600",
+      "tag": "button",
+      "text": "Personalizar"
+    },
+    {
+      "background": "#f2f2f2",
+      "box": {
+        "h": 44,
+        "w": 166,
+        "x": 1220,
+        "y": 6017
+      },
+      "class": "flc__pri",
+      "color": "#111111",
+      "depth": 5,
+      "font": "14px 600",
+      "tag": "button",
+      "text": "Aceitar todos"
+    }
+  ],
+  "page": {
+    "h": 7860,
+    "w": 1425
+  },
+  "text": "FLUXO LEAD A única ferramenta que você precisa para vender sites com IA Escolha um modelo, deixe a IA reescrever a copy e as cores pro seu cliente, e publique uma página pronta pra vender. Sem código, sem contratar designer. Entrar Quero Vender Sites Modelos Disponíveis + 100 Clientes ativos + 622 Prepare-se para conhecer o próximo nível Esquece Claude e Lovable, estamos em outro patamatar! FEITAS A MÃO, REALMENTE PREMIUM anos de mercado + de 0 Uma estrutura que realmente converte pode mudar seu jogo Com a ferramenta certa, você lucar todo dia com previsibilidade Ache o cliente rápido A Fluxo Lead acha empresas sem site na sua região e já entrega o contato pronto, com mensagem de abordagem no WhatsApp inclusa. Escale sem limite Cada modelo adaptado em minutos é um site a mais vendido. Não existe teto pra quanto você pode faturar revendendo com a Fluxo Lead. Quero Vender Sites PORTFÓLIO Sites de verdade, entregues para clientes de verdade Advocacia, telecom, eventos, esporte, infoprodutos. Cada página adaptada para o negócio de quem comprou. DEPOIMENTOS O que os clientes falaram quando receberam o site “Ficou top, irmão, atingiu as nossas expectativas!” Cliente · site institucional “Parabéns pelo trabalho, ficou muito top. Dentro da expectativa que eu esperava mesmo.” Cliente · página de vendas “Eu amei, achei fantástico, bem profissional, estiloso. A logo ficou incrível, até melhor do que eu imaginava.” Cliente · site pessoal “Top, mano. Ficou muito bom.” Cliente · landing page “Nossa, ficou MUITO bom!! Amei. Eu queria algo mais interativo, assim mesmo, e ficou.” Cliente · página de apresentação Prints reais de conversas no WhatsApp. Números e fotos ocultados para preservar a privacidade dos clientes. A única ferrametna que você precisa pra começar a faturar no digital vendendo sites. Fluxo Lead Mensal ACESSO COMPLETO ASSINATURA DE R$ 197 POR MÊS Assinar Mensal Fluxo Lead Anual MELHOR VALOR DE R$2.364 POR 12X DE R$ 30,68 OU R$297 À VISTA Garantir Anual Já é cliente? Entrar Entrega rápida: sua página fica pronta em minutos, não em dias, você mesmo adapta e publica na hora. Liberdade total: edite, adapte e republique quantas vezes quiser, sem custo extra. Personalização de verdade:a IA adapta texto e cor pra cada cliente, a mesma base, nunca a mesma cara. Performance: seu site carregando em menos de 3s, pronto para converter. Responsividade: experiência perfeita em qualquer dispositivo que seus clientes usarem. FAQS Perguntas Frequentes Preciso saber programar ou entender de design? Como a IA adapta o site pro meu cliente? Posso publicar com o domínio do meu cliente, ou só com um link da Fluxo Lead? Como funciona o \"Achar Clientes\"? Preciso pagar alguma mensalidade além do plano? Funciona pra qualquer tipo de negócio ou nicho? Fluxo Lead – o app que acha o cliente, monta o site com IA e publica em minutos. Tudo pra você vender páginas profissionais sem precisar programar, desenhar ou perder tempo. Funcionalidades Planos Portfólio Blog Contato Entrar © 2026 Fluxo Lead. Todos os direitos reservados. Termos de uso Privacidade Cookies Cancelamento Reembolso Sua privacidade Usamos cookies necessários para o site funcionar. No momento não usamos cookies de medição nem de publicidade. Você pode mudar de ideia quando quiser. Política de Cookies Rejeitar opcionais Personalizar Aceitar todos",
+  "title": "Fluxo Lead — prospecção de empresas, CRM e sites prontos para vender",
+  "unreadable_stylesheets": 0,
+  "url": "https://fluxoleadai.com.br/",
+  "viewport": {
+    "h": 900,
+    "w": 1440
+  }
+}

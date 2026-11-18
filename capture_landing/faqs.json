@@ -1,0 +1,26 @@
+[
+  {
+    "q": "Preciso saber programar ou entender de design?",
+    "a": "Não. Você escolhe um modelo pronto, a IA adapta o texto e as cores pro negócio do seu cliente, e você ajusta o que quiser no editor visual — clicando, sem escrever uma linha de código."
+  },
+  {
+    "q": "Como a IA adapta o site pro meu cliente?",
+    "a": "Você preenche algumas informações sobre a empresa (nome, o que ela faz, tom de voz) e a IA reescreve todos os textos do modelo pra combinar com esse negócio — título, descrição, botões, tudo. As cores também se ajustam à marca do cliente."
+  },
+  {
+    "q": "Posso publicar com o domínio do meu cliente, ou só com um link da Fluxo Lead?",
+    "a": "As duas opções. Dá pra publicar com um link próprio da Fluxo Lead (rápido, pra mostrar pro cliente na hora) ou baixar o site completo e subir na hospedagem/domínio do próprio cliente — aí o site nem depende mais da Fluxo Lead."
+  },
+  {
+    "q": "Como funciona o \"Achar Clientes\"?",
+    "a": "Você digita uma região e um nicho (ex.: \"dentista em Florianópolis\"), e o app busca empresas reais que ainda não têm site, já com telefone, endereço e um botão que abre o WhatsApp com uma mensagem de abordagem pronta pra mandar."
+  },
+  {
+    "q": "Preciso pagar alguma mensalidade além do plano?",
+    "a": "Não. Você paga só o plano escolhido (mensal ou anual), com valor fixo e sem taxa extra por site publicado."
+  },
+  {
+    "q": "Funciona pra qualquer tipo de negócio ou nicho?",
+    "a": "Sim. Tem modelos pra tecnologia, saúde, advocacia, educação, imobiliária, fitness e outros — e a IA adapta qualquer um deles pro nicho específico do seu cliente."
+  }
+]
